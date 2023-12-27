@@ -3,6 +3,15 @@
 <h1>Replit</h1>
 <p>假如 Replit 關閉原先的 repl.co, 讓 cmsimde 啟動編輯之後, 只能在 Webview 頁面中運行, 儘管無法透過 Deployment 執行網際協同, 但仍可讓各學員用來編輯管理其從 Github 的倉儲與網站.</p>
 <p>尤其若能讓各用戶利用 Replit 管理其取自 Github Classroom 的倉儲, 將更能提升 Github 與 Replit 在課程教學上的使用效能.</p>
+<p>讓各學員取自 Github Classroom 的倉儲, 可以推向具有 Admin 權限的 Github 倉儲中:</p>
+<p>ssh-keygen 建立 .ssh/id_rsa 與 id_rsa.pub, 將 id_rsa.pub 放入 Github SSH 對應設定區</p>
+<p>建立 .ssh/config 如下:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">Host github.com
+# git clone 時的 URL 為 git@github.com:帳號/倉儲.git
+User git
+Hostname github.com
+# 因為 Replit 與 github.com  都支援 IPv4 網路協定因此無需代理主機設定
+# ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</pre>
 <p></p><h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
