@@ -1,7 +1,44 @@
 <h1>About</h1>
 <p>靜態網頁: <a href="https://mde.tw/wcm2024">https://mde.tw/wcm2024</a> and <a href="https://s.cycu.org/~pj2022/wcm2024">https://s.cycu.org/~pj2022/wcm2024</a></p>
 <p>倉儲: <a href="https://github.com/mdecycu/wcm2024">https://github.com/mdecycu/wcm2024</a></p>
-<h1>Replit</h1>
+<h1>Python</h1>
+<h4>cmsimde</h4>
+<p><a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a></p>
+<p>gen_portable_python312.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import urllib.request
+import os
+ 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# basic files for Python installation
+# before 3.12.0
+#py_list = ["core", "dev", "exe", "lib", "tcltk", "tools"]
+# 3.12.1 no tools.msi
+py_list = ["core", "dev", "exe", "lib", "tcltk"]
+# Python version
+version = "3.12.1"
+# Python msi download URL
+ftp = "https://www.python.org/ftp/python/" + version + "/amd64/"
+# location for Portable Python
+path = "y:\\tmp\\Python312"
+# create directory
+try:
+    os.mkdir(path)
+except:
+    # path exists
+    pass
+# get Python installation msi files and extract into target dir
+for i in py_list:
+    filename = i + ".msi"
+    url = ftp + filename
+    # download basic python msi file
+    urllib.request.urlretrieve(url, filename)
+    os.system("msiexec.exe /a " + i + ".msi targetdir=" + path)
+    # delete msi file
+    os.remove(path + "\\" + i + ".msi")</pre>
+<p><a href="https://github.com/pypa/get-pip">get-pip.py</a></p>
+<p>cmsimde 啟動需要下列模組:</p>
+<p style="padding-left: 30px;">pip install flask flask_<span class="tipue_search_content_bold">cors</span> bs4 lxml pelican markdown leo pyopenssl</p>
+<p></p><h1>Replit</h1>
 <p>假如 Replit 關閉原先的 repl.co, 讓 cmsimde 啟動編輯之後, 只能在 Webview 頁面中運行, 儘管無法透過 Deployment 執行網際協同, 但仍可讓各學員用來編輯管理其從 Github 的倉儲與網站.</p>
 <p>尤其若能讓各用戶利用 Replit 管理其取自 Github Classroom 的倉儲, 將更能提升 Github 與 Replit 在課程教學上的使用效能.</p>
 <p>讓各學員取自 Github Classroom 的倉儲, 可以推向具有 Admin 權限的 Github 倉儲中:</p>
@@ -14,8 +51,7 @@ Hostname github.com
 # 因為 Replit 與 github.com  都支援 IPv4 網路協定因此無需代理主機設定
 # ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</pre>
 <p>References:</p>
-<p style="padding-left: 30px;"><a href="https://intuitiveexplanations.com/tech/replit/">https://intuitiveexplanations.com/tech/replit/</a></p>
-<h2>Games</h2>
+<p style="padding-left: 30px;"><a href="https://intuitiveexplanations.com/tech/replit/">https://intuitiveexplanations.com/tech/replit/</a></p><h2>Games</h2>
 <p><a href="https://github.com/replit/kaboom">https://github.com/replit/kaboom</a></p>
 <p><a href="https://github.com/replit/kaboomsite">https://github.com/replit/kaboomsite</a></p>
 <p><a href="https://github.com/replit/replit-py">https://github.com/replit/replit-py</a></p>

@@ -142,13 +142,44 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython<br /><h1>Servers</h1>
-<p>stud and stud2 servers are on 229, setup is on usr/portable_python3.10.6 directory.</p>
-<p>stud: 32GB Ram and 800GB HD</p>
-<p>stud2: 32GB Ram and 2TB HD</p>
-<p></p>
-<p></p>
-<br />Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit<br /><h1>Python</h1>
+<h4>cmsimde</h4>
+<p><a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a></p>
+<p>gen_portable_python312.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import urllib.request
+import os
+ 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# basic files for Python installation
+# before 3.12.0
+#py_list = ["core", "dev", "exe", "lib", "tcltk", "tools"]
+# 3.12.1 no tools.msi
+py_list = ["core", "dev", "exe", "lib", "tcltk"]
+# Python version
+version = "3.12.1"
+# Python msi download URL
+ftp = "https://www.python.org/ftp/python/" + version + "/amd64/"
+# location for Portable Python
+path = "y:\\tmp\\Python312"
+# create directory
+try:
+    os.mkdir(path)
+except:
+    # path exists
+    pass
+# get Python installation msi files and extract into target dir
+for i in py_list:
+    filename = i + ".msi"
+    url = ftp + filename
+    # download basic python msi file
+    urllib.request.urlretrieve(url, filename)
+    os.system("msiexec.exe /a " + i + ".msi targetdir=" + path)
+    # delete msi file
+    os.remove(path + "\\" + i + ".msi")</pre>
+<p><a href="https://github.com/pypa/get-pip">get-pip.py</a></p>
+<p>cmsimde 啟動需要下列模組:</p>
+<p style="padding-left: 30px;">pip install flask flask_<span class="tipue_search_content_bold">cors</span> bs4 lxml pelican markdown leo pyopenssl</p>
+<p></p><br />About << <a href='About.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit</div>
         
     <!-- footer -->
       <div class="container">
