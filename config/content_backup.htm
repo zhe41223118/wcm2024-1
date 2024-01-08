@@ -1,5 +1,7 @@
 <h1>About</h1>
-<p><a href="https://mde.tw/wcm2024">https://mde.tw/wcm2024</a></p><h1>Programming</h1>
+<p>靜態網頁: <a href="https://mde.tw/wcm2024">https://mde.tw/wcm2024</a> and <a href="https://s.cycu.org/~pj2022/wcm2024">https://s.cycu.org/~pj2022/wcm2024</a></p>
+<p>倉儲: <a href="https://github.com/mdecycu/wcm2024">https://github.com/mdecycu/wcm2024</a></p>
+<h1>Programming</h1>
 <p>cp2023 上課時所建立的檔案 (使用系上 DNS 設定):<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/ER4EWo4ulCRJhdNs0l9d1tsBek7ejh2UQbroue_ue0NnHg?e=yvGgge">cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案 (註: 使用中華電信 IPv6 DNS 設定, w10 星期四之後無法在校網使用 hinet IPv6 DNS server 設定).<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/ESCcmplVTVxJnJYZ2pJWh-oBFWsDJxxSYzVh_5LD5Oa5Gg?e=1EysLk">w10_2b_cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案.<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EV5P-1cv-y1Ih5zFT9LyTy0B6vGwNfDVlXYescPWAcMliw?e=LTUnq7">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EYLeiM_NMzFHiKnUWpcO9pwBHxwDNjNDC-4F3h_d761wMQ?e=NMdPpv">python3114_git_putty.7z</a> (需要下載密碼) - 將近端 cmsimde 啟動並改版後推向 Github 所需的檔案.</p>
 <hr/>
 <h4>python</h4>
@@ -10,18 +12,18 @@
 <p>使用舊版 Python 建立新版的可攜程式系統:</p>
 <p>Python 3.12.0 沒有 tools.msi</p>
 <p><a href="https://www.bing.com/ck/a?!&amp;&amp;p=91ef2cbcb9cc640eJmltdHM9MTY5NzY3MzYwMCZpZ3VpZD0zYTQ3ZGJlMS1lOGQ4LTZkNDktMjYyNy1jODk3ZTk0YzZjMDcmaW5zaWQ9NTIyMA&amp;ptn=3&amp;hsh=3&amp;fclid=3a47dbe1-e8d8-6d49-2627-c897e94c6c07&amp;psq=get+pip&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL3B5cGEvZ2V0LXBpcA&amp;ntb=1">get-pip.py</a></p>
-<p>generate_portable_python.py</p>
-<pre class="brush:py;toolbar:false" contenteditable="false">import urllib.request
+<p>gen_portable_python312.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import urllib.request
 import os
-
+ 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 # basic files for Python installation
 # before 3.12.0
 #py_list = ["core", "dev", "exe", "lib", "tcltk", "tools"]
-# 3.12.0 no tools.msi
+# 3.12.1 no tools.msi
 py_list = ["core", "dev", "exe", "lib", "tcltk"]
 # Python version
-version = "3.12.0"
+version = "3.12.1"
 # Python msi download URL
 ftp = "https://www.python.org/ftp/python/" + version + "/amd64/"
 # location for Portable Python
@@ -42,8 +44,60 @@ for i in py_list:
     # delete msi file
     os.remove(dir_path + "\\" + i + ".msi")
 </pre>
+<p>cmsimde:</p>
+<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a></p>
+<p>cmsimde 啟動需要下列模組:</p>
+<p style="padding-left: 30px;">pip install flask flask_<span class="tipue_search_content_bold">cors</span> bs4 lxml pelican markdown leo pyopenssl</p>
 <hr/>
-<p></p><h1>Replit</h1>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EVAUoMJEeLhNgkyzcuPn-ioBsQyDn-tkZ7PqchPE1a5Jlw?e=THBxiC">tcc with gd, raylib and sdl2.7z</a> (需要下載密碼)</p>
+<p style="padding-left: 30px;">解開壓縮後<span style="background-color: #ffff99;">取代原有 tinyc 可攜環境中的 tcc 目錄</span>, 並將 <span style="background-color: #ffff99;">cpp.properties</span> 檔案取代原有 wscite 目錄中的檔案後, 即可直接利用 wscite 編輯器中的 Tools - Go 利用 Tiny C Compiler 執行 C + gd, C + raylib, C + gnuplot 與 C + SDL2 等位於 tcc\c_ex 目錄中的靜態與動態繪圖範例程式.</p>
+<p style="padding-left: 30px;"><a href="https://libgd.github.io/manuals/2.2.3/">https://libgd.github.io/manuals/2.2.3/</a></p>
+<p style="padding-left: 30px;"><a href="https://www.raylib.com/">https://www.raylib.com/</a></p>
+<p style="padding-left: 30px;"><a href="https://github.com/libsdl-org/SDL">https://github.com/libsdl-org/SDL</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/simple2d/simple2d">https://github.com/simple2d/simple2d</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/ryanpcmcquen/basque">https://github.com/ryanpcmcquen/basque</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/actsl/kiss_sdl">https://github.com/actsl/kiss_sdl</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/johnpayne-dev/MinecraftC">https://github.com/johnpayne-dev/MinecraftC</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/mdecycu/F1-Race">https://github.com/mdecycu/F1-Race</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/mdecycu/Run-Away">https://github.com/mdecycu/Run-Away</a> (<a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EbZdnqiBShRDsnXzGLD65hMBrEooFlSPux2szDYs9AZ9Pw?e=NM4JG9">下載 tcc 編譯連結後的可執行檔案</a>, 需要下載密碼)</p>
+<p style="padding-left: 60px;"><a href="https://github.com/rapiz1/DungeonRush">https://github.com/rapiz1/DungeonRush</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/pygame/pygame">https://github.com/pygame/pygame</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/pygame-community/pygame-ce">https://github.com/pygame-community/pygame-ce</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/cxong/cdogs-sdl">https://github.com/cxong/cdogs-sdl</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/fabiangreffrath/crispy-doom">https://github.com/fabiangreffrath/crispy-doom</a> </p>
+<p style="padding-left: 60px;"><a href="https://github.com/agavrel/42_CheatSheet">https://github.com/agavrel/42_CheatSheet</a> </p>
+<p style="padding-left: 90px;"><a href="https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/</a></p>
+<p style="padding-left: 90px;"><a href="https://lazyfoo.net/tutorials/SDL/">https://lazyfoo.net/tutorials/SDL/</a> </p>
+<p style="padding-left: 90px;"><a href="https://hackmd.io/@seanyih/SDL2-tutorial/">https://hackmd.io/@seanyih/SDL2-tutorial/</a></p>
+<p>C 程式的 gd 與 gnupot 繪圖 -&gt; Brython Frontend + Python Backend (<a href="https://github.com/mdecycu/cmsimde">cmsimde</a>)</p>
+<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde">cmsimde</a> <a href="https://pyslvs.github.io/content/Solid%20Edge.html">linked</a> with <a href="https://resources.sw.siemens.com/en-US/download-solid-edge-community-edition">Solid Edge Community edition</a></p>
+<p style="padding-left: 30px;"><a href="https://www.codementor.io/@dewetvanthomas/tutorial-arduino-programming-in-c-12b7cztyui">Arduino Programming in C</a></p>
+<p>C 程式的動態繪圖 (Game or Simulation):</p>
+<p style="padding-left: 30px;">C + <a href="https://github.com/libsdl-org/SDL">SDL</a> 2D Game: 登入 Replit 後, 點擊 <a href="https://replit.com/github/mdecycu/basque">Basque</a>, 將原始碼匯入 Repl 後, 按下 Run 執行</p>
+<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/tinyc.games">https://github.com/mdecycu/tinyc.games</a></p>
+<p>C 程式版次管理與資料庫系統:</p>
+<p style="padding-left: 30px;"><a href="https://www.fossil-scm.org">https://www.fossil-scm.org</a></p>
+<p style="padding-left: 30px;"><a href="https://www.sqlite.org">https://www.sqlite.org</a></p>
+<p>Python 的動態繪圖 (PyQt and Pysdl2):</p>
+<p style="padding-left: 30px;"><a href="https://pyslvs.github.io">https://pyslvs.github.io</a></p>
+<p style="padding-left: 30px;"><a href="https://github.com/py-sdl/py-sdl2">https://github.com/py-sdl/py-sdl2</a></p>
+<p>然後呢?</p>
+<p style="padding-left: 30px;">C/C++ and/or Qt:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/OpenModelica/OpenModelica">https://github.com/OpenModelica/OpenModelica</a></p>
+<p style="padding-left: 90px;"><a href="https://github.com/modelica/VehicleInterfaces">https://github.com/modelica/VehicleInterfaces</a></p>
+<p style="padding-left: 90px;"><a href="https://people.inf.ethz.ch/fcellier/Pubs/BG/">https://people.inf.ethz.ch/fcellier/Pubs/BG/</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/CoppeliaRobotics">https://github.com/CoppeliaRobotics</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/cyberbotics/webots">https://github.com/cyberbotics/webots</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/Range-Software/range3">https://github.com/Range-Software/range3</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/bulletphysics/bullet3">https://github.com/bulletphysics/bullet3</a></p>
+<p style="padding-left: 30px;">Rust:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/KmolYuan/efd-rs">https://github.com/KmolYuan/efd-rs</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/KmolYuan/four-bar-rs">https://github.com/KmolYuan/four-bar-rs</a></p>
+<p style="padding-left: 30px;">Typescript:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/PMKS-Web/PMKSWeb">https://github.com/PMKS-Web/PMKSWeb</a></p>
+<p style="padding-left: 30px;">Mojo:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/modularml/mojo">https://github.com/modularml/mojo</a></p>
+<h1>Replit</h1>
 <p>針對 Replit 關閉原先 repl.co 開發流程中的部署網站後, 使用 Edge 啟動 cmsite 編輯網站時出現 "This site has been reported as unsafe Hosted by 編碼代號.picard.replit.dev", 目前除了透過 Edge 錯誤釣魚網站回報系統外, 就是暫停使用 Edge 瀏覽器登入 Replit, 改用 Firefox 或 Chrome.</p>
 <hr/>
 <p>假如 Replit 關閉原先的 repl.co, 讓 cmsimde 啟動編輯之後, 只能在 Webview 頁面中運行, 儘管無法透過 Deployment 執行網際協同, 但仍可讓各學員用來編輯管理其從 Github 的倉儲與網站.</p>
@@ -58,12 +112,14 @@ Hostname github.com
 # 因為 Replit 與 github.com  都支援 IPv4 網路協定因此無需代理主機設定
 # ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</pre>
 <p>References:</p>
-<p style="padding-left: 30px;"><a href="https://intuitiveexplanations.com/tech/replit/">https://intuitiveexplanations.com/tech/replit/</a></p><h2>Games</h2>
+<p style="padding-left: 30px;"><a href="https://intuitiveexplanations.com/tech/replit/">https://intuitiveexplanations.com/tech/replit/</a></p>
+<h2>Games</h2>
 <p><a href="https://github.com/replit/kaboom">https://github.com/replit/kaboom</a></p>
-<p><a href="https://github.com/replit/kaboomsite">https://github.com/replit/kaboomsite</a> </p>
-<p><a href="https://github.com/replit/replit-py">https://github.com/replit/replit-py</a> </p>
-<p><a href="https://github.com/replit/replit-ai-python">https://github.com/replit/replit-ai-python</a> </p>
-<p><a href="https://github.com/replit/replit-ai-modelfarm-typescript">https://github.com/replit/replit-ai-modelfarm-typescript</a> </p><h1>Typescript</h1>
+<p><a href="https://github.com/replit/kaboomsite">https://github.com/replit/kaboomsite</a></p>
+<p><a href="https://github.com/replit/replit-py">https://github.com/replit/replit-py</a></p>
+<p><a href="https://github.com/replit/replit-ai-python">https://github.com/replit/replit-ai-python</a></p>
+<p><a href="https://github.com/replit/replit-ai-modelfarm-typescript">https://github.com/replit/replit-ai-modelfarm-typescript</a></p>
+<h1>Typescript</h1>
 <p><a href="https://github.com/DesignEngrLab/PMKS">PMKS 原始碼</a> (採 <a href="https://link.springer.com/book/10.1007/978-1-4302-3480-7">Silverlight</a>)</p>
 <p><a href="https://github.com/PMKS-Web/PMKSWeb">PMKS + 原始碼</a> (採 <a href="https://link.springer.com/book/10.1007/978-1-4842-9523-6">Typescript</a>)</p>
 <p><a href="https://app.pmksplus.com/?0P.kG.K,W.101.MA,A,02xq,1Z,0.GB,B,03Gi,YJ,0.GC,C,M4,2Ox,0.KD,D,06A,X,0.GE,E,02La,2Ch,0..YRAB,AB,Fe,Fe,036G,Hx,c5cae9,A,B,,.YRBCE,BCE,Fe,Fe,01m4,1jJ,303e9f,B,C,E,,.YRCD,CD,Fe,Fe,7z,1Ck,0d125a,C,D,,...JBF">pmks+ 平面機構設計範例1</a>, <a href="https://app.pmksplus.com/?0P.rS.K,4S.101.MA,A,036g,1vM,0.GB,B,04cF,2mG,0.GC,C,03O7,2mG,0.KD,D,02jn,0k7,0..YRAB,AB,Fe,Fe,03sT,2Kp,c5cae9,A,B,,.YRBC,BC,Fe,Fe,03-B,2mG,303e9f,B,C,,.YRCD,CD,Fe,Fe,032y,114,c5cae9,C,D,,...N_6">機構合成範例1</a>, </p>
@@ -79,8 +135,7 @@ Hostname github.com
 <p>stud and stud2 servers are on 229, setup is on usr/portable_python3.10.6 directory.</p>
 <p>stud: 32GB Ram and 800GB HD</p>
 <p>stud2: 32GB Ram and 2TB HD</p>
-<p></p>
-<p></p><h1>Brython</h1>
+<h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
