@@ -2,7 +2,7 @@
         <head>
         <title>網際內容管理</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,55 +142,13 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython<br /><h1>Servers</h1>
-<p>stud and stud2 servers are on 229, setup is on usr/portable_python3.10.6 directory.</p>
-<p>stud: 32GB Ram and 800GB HD</p>
-<p>stud2: 32GB Ram and 2TB HD</p>
-<p>Windows:</p>
-<p>Powershell</p>
-<p>Check if OpenSSH installed: <span class="hljs-built_in">Get-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> | </span><span class="hljs-built_in">Where-Object</span><span> Name </span><span class="hljs-operator">-like</span><span> </span><span class="hljs-string">'OpenSSH*'</span></p>
-<p>Install OpenSSH client: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Client~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
-<p>Install OpenSSH server: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Server~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
-<p><span class="hljs-number">Startup the sshd service:</span></p>
-<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false"># start sshd service
-Start-Service sshd
-
-# automatic starup sshd service
-Set-Service -Name sshd -StartupType 'Automatic'
-
-# double check if port 22 is allowed for firewall
-if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyContinue | Select-Object Name, Enabled)) {
-    Write-Output "Firewall Rule 'OpenSSH-Server-In-TCP' does not exist, creating it..."
-    New-NetFirewallRule -Name 'OpenSSH-Server-In-TCP' -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
-} else {
-    Write-Output "Firewall rule 'OpenSSH-Server-In-TCP' has been created and exists."
-}</pre>
-<p>add user: net user username /add</p>
-<p>change user password: net user username password</p>
-<p><span>empty trash: Clear-RecycleBin</span></p>
-<p>nginx.conf to add authentication for file downloading:</p>
-<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">    server {
-        # allow IPv4 and IPv6 to downloa files with specified URL
-        listen       80;
-        listen [::]:80;
-        server_name  your.server.domain.name;
-        root C:\\Users\\username\\files\\2024_spring;
-        
-        auth_basic "Restricted Content";
-        auth_basic_user_file C:\\Users\\username\\files\\nginx-1.24.0\\conf\\.htpasswd;
-
-        #charset koi8-r;
-
-        #access_log  logs/host.access.log  main;
-
-        location / {
-            # if set the root to html, only the index file type can be accessed
-            #root   html;
-            index  index.html index.htm;
-        }</pre>
-<p>powershell ise: integrated scripting environment</p>
-<p style="padding-left: 30px;"><a href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell</a> </p>
-<p></p><br />Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+    <div id="tipue_search_content">Programming << <a href='Programming.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit<br /><h1>Webots</h1>
+<p><a href="https://mde.tw/content/Webots%20Doc.html">https://mde.tw/content/Webots%20Doc.html</a> </p>
+<p>Control System Design and Simulation (Control):</p>
+<p><a href="http://229.cycu.org/CoppeliaSimEdu_4.5.1_rev4_for_cd2023.7z">CoppeliaSim 4.5.1 rev1 for IPv6.7z</a><span> </span>(169MB, password required to download)</p>
+<p><a href="http://229.cycu.org/webots_cd2024.7z">Webots_cd2024.7z</a><span> </span>(338 MB, password required to download)</p>
+<p style="padding-left: 30px;"><a href="https://cyberbotics.com/doc/reference/index">https://cyberbotics.com/doc/reference/index</a> </p>
+<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-3-030-69835-5">Making Images with Mathematics</a></p><br />Programming << <a href='Programming.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit</div>
         
     <!-- footer -->
       <div class="container">
