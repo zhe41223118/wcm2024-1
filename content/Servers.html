@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='cadlab.html'>cadlab</a></li></ul><li><a href='Programming.html'>Programming</a><li class='has-children'><a href='Replit.html'>Replit</a><ul class='dropdown'><li><a href='Games.html'>Games</a></li></ul><li><a href='Typescript.html'>Typescript</a><li><a href='Servers.html'>Servers</a><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='cadlab.html'>cadlab</a><li><a href='tcexam.html'>tcexam</a><li><a href='Teams.html'>Teams</a></li></ul><li><a href='Programming.html'>Programming</a><li class='has-children'><a href='Replit.html'>Replit</a><ul class='dropdown'><li><a href='Games.html'>Games</a></li></ul><li><a href='Typescript.html'>Typescript</a><li><a href='Servers.html'>Servers</a><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -146,7 +146,28 @@ img.add_border {
 <p>stud and stud2 servers are on 229, setup is on usr/portable_python3.10.6 directory.</p>
 <p>stud: 32GB Ram and 800GB HD</p>
 <p>stud2: 32GB Ram and 2TB HD</p>
-<br />Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+<p>Windows:</p>
+<p>Powershell</p>
+<p>Check: <span class="hljs-built_in">Get-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> | </span><span class="hljs-built_in">Where-Object</span><span> Name </span><span class="hljs-operator">-like</span><span> </span><span class="hljs-string">'OpenSSH*'</span></p>
+<p>Install OpenSSH client: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Client~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
+<p>Install OpenSSH server: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Server~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
+<p><span class="hljs-number">Startup:</span></p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false"># start sshd service
+Start-Service sshd
+
+# automatic starup sshd service
+Set-Service -Name sshd -StartupType 'Automatic'
+
+# double check if port 22 is allowed for firewall
+if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyContinue | Select-Object Name, Enabled)) {
+    Write-Output "Firewall Rule 'OpenSSH-Server-In-TCP' does not exist, creating it..."
+    New-NetFirewallRule -Name 'OpenSSH-Server-In-TCP' -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+} else {
+    Write-Output "Firewall rule 'OpenSSH-Server-In-TCP' has been created and exists."
+}</pre>
+<p>add user: net user username /add</p>
+<p><span>empty trash: Clear-RecycleBin</span></p>
+<p></p><br />Typescript << <a href='Typescript.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
         
     <!-- footer -->
       <div class="container">

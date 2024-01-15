@@ -13,6 +13,30 @@ PowerShell -Command "Get-Package -Name 'YourPackageName' | Uninstall-Package -Fo
 <p>Batch command to kill certain process:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">@echo off
 taskkill /F /IM "your_process_name.exe"</pre>
+<p>Kill unused processes:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">REM kill unused exe
+taskkill /F /IM node.exe
+taskkill /F /IM OfficeClickToRun.exe
+taskkill /F /IM sqlservr.exe
+taskkill /F /IM SWVisualize.Queue.Server.exe
+taskkill /F /IM sqlceip.exe
+taskkill /F /IM AdskAccessServiceHost.exe
+taskkill /F /IM AdskLicensingService.exe
+taskkill /F /IM McNeelUpdateService.exe
+taskkill /F /IM sqlwriter.exe
+taskkill /F /IM sshd.exe
+taskkill /F /IM sqlbrowser.exe
+taskkill /F /IM EwServer.exe
+taskkill /F /IM prunsrv.exe
+taskkill /F /IM ServerOSS.exe
+taskkill /F /IM HRMonTray.exe
+taskkill /F /IM MDXMonitorService2023.exe</pre>
+<p></p><h2>tcexam</h2>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated | LINE: 333 | FILE: C:\tcexam\tcexam\shared\code\tce_functions_test_stats.php</pre>
+<h2>Teams</h2>
+<p>目前 2024.01 MS OneDrive 已終止給教育單位免費 5TB 的雲端空間, 目前每一個帳號只能存至多 100GB, 因此只能存之後的 Teams 影片與當學期課程相關檔案.</p>
+<p>而 scrum1 on GDrive 則擁有 30GB 儲存空間, 若希望針對下載設定擷取密碼, 可以參考<a href="https://www.multcloud.com/tutorials/google-drive-share-file-with-password.html">這裡</a>的說明. 基本原理是取得自由從 GDrive 下載檔案的連結後, 與 Google Form 的表單中提供需要密碼的檔案連結進行綁定即可.</p>
+<p></p>
 <p></p><h1>Programming</h1>
 <h4>C Programming:</h4>
 <p><a href="https://www.google.com/search?q=%22tiny+c+compiler%22">Tiny C compiler 相關搜尋</a>.</p>
@@ -25,7 +49,7 @@ taskkill /F /IM "your_process_name.exe"</pre>
 <p style="padding-left: 30px;"><a href="https://en.wikipedia.org/wiki/C++">C++</a></p>
 <p style="padding-left: 60px;"><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a></p>
 <hr/>
-<p>cp2023 上課時所建立的檔案 (使用系上 DNS 設定):<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/ER4EWo4ulCRJhdNs0l9d1tsBek7ejh2UQbroue_ue0NnHg?e=yvGgge">cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案 (註: 使用中華電信 IPv6 DNS 設定, w10 星期四之後無法在校網使用 hinet IPv6 DNS server 設定).<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/ESCcmplVTVxJnJYZ2pJWh-oBFWsDJxxSYzVh_5LD5Oa5Gg?e=1EysLk">w10_2b_cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案.<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EV5P-1cv-y1Ih5zFT9LyTy0B6vGwNfDVlXYescPWAcMliw?e=LTUnq7">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.<br/><br/><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EYLeiM_NMzFHiKnUWpcO9pwBHxwDNjNDC-4F3h_d761wMQ?e=NMdPpv">python3114_git_putty.7z</a> (需要下載密碼) - 將近端 cmsimde 啟動並改版後推向 Github 所需的檔案.</p>
+<p>cp2023 上課時所建立的檔案 (使用系上 DNS 設定):<br/><br/><a href="http://229.cycu.org/cadlab_network_setting.7z">cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案 (註: 使用中華電信 IPv6 DNS 設定, w10 星期四之後無法在校網使用 hinet IPv6 DNS server 設定).<br/><br/><a href="http://229.cycu.org/w10_2b_cadlab_network_setting.7z">w10_2b_cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案.<br/><br/><a href="http://229.cycu.org/tinyc.7z">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.<br/><br/><a href="http://229.cycu.org/python3114_git_putty.7z">python3114_git_putty.7z</a> (需要下載密碼) - 將近端 cmsimde 啟動並改版後推向 Github 所需的檔案.</p>
 <hr/>
 <h4>python Programming:</h4>
 <p>單機程式轉為全球資訊網服務：</p>
@@ -124,7 +148,7 @@ for i in py_list:
 <p style="padding-left: 60px;"><a href="https://github.com/PMKS-Web/PMKSWeb">https://github.com/PMKS-Web/PMKSWeb</a></p>
 <p style="padding-left: 30px;">Mojo:</p>
 <p style="padding-left: 60px;"><a href="https://github.com/modularml/mojo">https://github.com/modularml/mojo</a></p><h1>Replit</h1>
-<p>當 Edge 瀏覽器中判定 Replit 啟動 cmsite 編輯網站為不安全的釣魚網站時:</p>
+<p>當 Edge 瀏覽器針對 Replit 啟動 cmsite 編輯網站, 判定為不安全內容時, 可以暫時關閉 Defender:</p>
 <p style="padding-left: 30px;">Settings - Privacy, search and services - Security - <span>Microsoft Defender SmartScreen 選擇關閉</span></p>
 <hr/>
 <p>假如 Replit 關閉原先的 repl.co, 讓 cmsimde 啟動編輯之後, 只能在 Webview 頁面中運行, 儘管無法透過 Deployment 執行網際協同, 但仍可讓各學員用來編輯管理其從 Github 的倉儲與網站.</p>
@@ -161,7 +185,28 @@ Hostname github.com
 <p>stud and stud2 servers are on 229, setup is on usr/portable_python3.10.6 directory.</p>
 <p>stud: 32GB Ram and 800GB HD</p>
 <p>stud2: 32GB Ram and 2TB HD</p>
-<h1>Brython</h1>
+<p>Windows:</p>
+<p>Powershell</p>
+<p>Check: <span class="hljs-built_in">Get-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> | </span><span class="hljs-built_in">Where-Object</span><span> Name </span><span class="hljs-operator">-like</span><span> </span><span class="hljs-string">'OpenSSH*'</span></p>
+<p>Install OpenSSH client: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Client~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
+<p>Install OpenSSH server: <span class="hljs-built_in">Add-WindowsCapability</span><span> </span><span class="hljs-literal">-Online</span><span> </span><span class="hljs-literal">-Name</span><span> OpenSSH.Server~~~~</span><span class="hljs-number">0.0</span><span>.</span><span class="hljs-number">1.0</span></p>
+<p><span class="hljs-number">Startup:</span></p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false"># start sshd service
+Start-Service sshd
+
+# automatic starup sshd service
+Set-Service -Name sshd -StartupType 'Automatic'
+
+# double check if port 22 is allowed for firewall
+if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyContinue | Select-Object Name, Enabled)) {
+    Write-Output "Firewall Rule 'OpenSSH-Server-In-TCP' does not exist, creating it..."
+    New-NetFirewallRule -Name 'OpenSSH-Server-In-TCP' -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+} else {
+    Write-Output "Firewall rule 'OpenSSH-Server-In-TCP' has been created and exists."
+}</pre>
+<p>add user: net user username /add</p>
+<p><span>empty trash: Clear-RecycleBin</span></p>
+<p></p><h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
