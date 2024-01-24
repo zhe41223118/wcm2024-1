@@ -12,9 +12,13 @@
 <ol>
 <li>讓學員了解 Windows 與 Ubuntu 操作系統, 作為 Client 與 Server 在網際內容管理中的應用, 其中包括網路環境設定與 OpenSSH 應用.</li>
 <li>讓學員了解如何利用 <a href="https://www.python.org/">Python</a> 與 <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a> 建立網際內容管理系統, 亦即 <a href="https://github.com/mdecycu/cmsite">cmsite</a> 與 <a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a> 的應用.</li>
-<li>讓學員了解如何在 <a href="https://classroom.github.com/">Github Classroom</a> 架構下, 利用 <a href="https://replit.com/">Replit</a> 導入倉儲並維護網站內容 (git、github 與 ssh-keygen 應用).</li>
+<li>讓學員了解如何在 <a href="https://classroom.github.com/">Github Classroom</a> 架構下, 利用 localhost、自建主機與 <a href="https://replit.com/">Replit</a> 維護網站內容.</li>
 </ol>
-<p>課程評分:</p>
+<p>課程議題:</p>
+<p style="padding-left: 30px;">針對對電腦軟硬體, 我們應當有那些認識？</p>
+<p style="padding-left: 30px;">針對電腦網路環境, 我們應當有那些認識？</p>
+<p style="padding-left: 30px;">針對全球資訊網, 我們應當有那些認識？</p>
+<p><br/>課程評分:</p>
 <p style="padding-left: 30px;">線上考試佔 60%, 倉儲與網站內容(作業與專案)佔 40%</p>
 <hr/>
 <p>先前課程網站:</p>
@@ -77,7 +81,7 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 30px;"><a href="https://en.wikipedia.org/wiki/C++">C++</a></p>
 <p style="padding-left: 60px;"><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a></p>
 <hr/>
-<p>cp2023 上課時所建立的檔案 (使用系上 DNS 設定):<br/><br/><a href="http://229.cycu.org/cadlab_network_setting.7z">cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案 (註: 使用中華電信 IPv6 DNS 設定, w10 星期四之後無法在校網使用 hinet IPv6 DNS server 設定).<br/><br/><a href="http://229.cycu.org/w10_2b_cadlab_network_setting.7z">w10_2b_cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案.<br/><br/><a href="http://229.cycu.org/tinyc.7z">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.<br/><br/><a href="http://229.cycu.org/python3114_git_putty.7z">python3114_git_putty.7z</a> (需要下載密碼) - 將近端 cmsimde 啟動並改版後推向 Github 所需的檔案.</p>
+<p>cp2023 上課時所建立的檔案 (使用系上 DNS 設定):<br/><br/><a href="http://229.cycu.org/cadlab_network_setting.7z">cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案 (註: 使用中華電信 IPv6 DNS 設定, w10 星期四之後無法在校網使用 hinet IPv6 DNS server 設定).<br/><br><a href="http://229.cycu.org/w10_2b_cadlab_network_setting.7z">w10_2b_cadlab_network_setting.7z</a> (需要下載密碼) - 電腦輔助設計室網路設定批次與 Powershell 檔案.<br/><br/><a href="http://229.cycu.org/tinyc.7z">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.<br/><br/><a href="http://229.cycu.org/python3114_git_putty.7z">python3114_git_putty.7z</a> (需要下載密碼) - 將近端 cmsimde 啟動並改版後推向 Github 所需的檔案.</br></p>
 <hr/>
 <h4>python Programming:</h4>
 <p>單機程式轉為全球資訊網服務：</p>
@@ -264,7 +268,9 @@ if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyCon
         }</pre>
 <p>powershell ise: integrated scripting environment</p>
 <p style="padding-left: 30px;"><a href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell</a> </p>
-<p></p><h1>Brython</h1>
+<h2>Virtualbox</h2>
+<p>修改 cdwin.vdi 的 uuid:</p>
+<p>"C:\Program Files\Oracle\VirtualBox\vboxmanage" internalcommands sethduuid cdwin.vdi</p><h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
