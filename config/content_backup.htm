@@ -98,6 +98,11 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 30px;">Replit: <a href="https://replit.com">https://replit.com</a>, 其他類似工具 <a href="https://github.com/features/codespaces">codespaces</a> and <a href="https://www.gitpod.io">gitpod</a></p>
 <p style="padding-left: 60px;">replit 成立於 2016, codespaces 與 gitpod 從 2020 開始提供服務, 其中 gitpod 採 Go 編寫, 為開源套件: <a href="https://github.com/gitpod-io/gitpod">https://github.com/gitpod-io/gitpod</a>, 這三個類似的雲端 IDE 套件彼此競爭尚未塵埃落定前, 應該會持續提供有限資源的免付費帳號服務.</p>
 <p style="padding-left: 60px;">目前已知 cmsite 在 <span style="background-color: #ffff00;">codespaces 環境中的單頁編輯會出現 bug</span>, 必須手動進入單頁編輯模式.</p>
+<p style="padding-left: 60px;">必須將 cmsimde 中的 def correct_url() 中的 url 改為:</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 根據 https://stackoverflow.com/questions/15093593/request-path-and-url-for-dont-match-up-in-flask-under-mod-wsgi 中的說明修改
+# 原先的 url = request.url 在 replit 與 gitpod 可行
+# 但是在 codespaces 無法取得 wsgi 伺服器中正確的隨機網址
+url = request.script_root + request.path</pre>
 <p style="padding-left: 60px;">gitpod 環境中採 Visual Studio Code 操作, 必須利用帳號下的 Access Control 給定 github 對應帳號權限後才能 push, 編輯過程與 Replit 相同, 因為編輯網站採用編碼網址, 因此若單人使用, 可以沿用 localhost 中的 admin 密碼登入編輯模式.</p>
 <p>為了能在無網路連線的環境中維護網站內容:</p>
 <p style="padding-left: 30px;">您需要一個 USB 3.0/32GB 規格以上的隨身碟</p>
@@ -108,7 +113,7 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 30px;">基本的 Python 3.11.4 解譯系統: <a href="http://229.cycu.org/basic_portable_python.7z">http://229.cycu.org/basic_portable_python.7z</a> (需要下載密碼)</p>
 <p style="padding-left: 30px;">自製可攜程式系統:</p>
 <p style="padding-left: 60px;"><a href="/downloads/gen_portable_python.py">gen_portable_python.py</a></p>
-<p style="padding-left: 60px;">以 可攜 python.exe 執行 <a href="https://bootstrap.pypa.io/pip/">https://bootstrap.pypa.io/pip/</a>, 以便安裝 pip </p>
+<p style="padding-left: 60px;">以 可攜 python.exe 執行 <a href="https://bootstrap.pypa.io/pip/">https://bootstrap.pypa.io/pip/</a>, 以便安裝 pip</p>
 <p style="padding-left: 60px;">pip install flask flask_cors bs4 lxml pelican markdown leo pyopenssl 安裝 <a href="https://mde.tw/cmstemplate/content/CMSiMDE.html">cmsimde 所需模組</a></p>
 <p style="padding-left: 90px;">Python3.12.1 安裝 pip 與 cmsimde 所需模組後容量約 630MB</p>
 <p style="padding-left: 60px;">配置 portablegit: <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
@@ -125,10 +130,19 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 30px;">教育版帳號 microsoftonline 登入點: <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> </p>
 <p style="padding-left: 30px;">github 帳號 、github pages、github classroom</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsite">https://github.com/mdecycu/cmsite</a> (將 <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> 作為子模組)</p>
-<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a> (將 cmsimde 作為目錄)</p><h2>Wagtail</h2>
-<p><a href="https://github.com/wagtail/wagtail">https://github.com/wagtail/wagtail</a> </p>
-<p><a href="https://guide.wagtail.org/en-latest/">https://guide.wagtail.org/en-latest/</a> </p>
-<p><a href="https://wagtail.org/blog/wagtail-at-berkeley/">https://wagtail.org/blog/wagtail-at-berkeley/</a> </p>
+<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a> (將 cmsimde 作為目錄)</p><h2>IDE</h2>
+<p>Replit, Codespaces, Gitpod 與 localhost 啟動與編輯網頁過程比較:</p>
+<p>Replit, Codespaces 與 Gitpod 都需要連網才能使用, localhost 可以在無網路時編輯已經 clone 到近端的倉儲內容, 等有網路連線時再 push 到 Github.</p>
+<p>Codespaces 直接與 Github 相連, 免費帳號給定的雲端資源較 Replit 與 Gitpod 多, 因此運行速度較快</p>
+<p>Replit 可以在手機上使用, Codespaces 與 Gitpod 尚無類似手機 App</p>
+<p>Replit 在網頁上提供的 Tools 較為直覺, 且同一 Tool 可以在多個 Tab 中開啟使用</p>
+<p>採用 Visual Studio Code 開源套件的 Codespaces 與 Gitpod 則後續延伸性較強</p>
+<p>Gitpod 為開源套件, 使用者可以自行安裝在伺服器上運作, 獨立性與永續性較強</p>
+<p>localhost 採可攜程式套件執行, 可在任何 64 位元的 Windows 環境中運行, 適用於無網路情況下使用</p>
+<p></p><h2>Wagtail</h2>
+<p><a href="https://github.com/wagtail/wagtail">https://github.com/wagtail/wagtail</a></p>
+<p><a href="https://guide.wagtail.org/en-latest/">https://guide.wagtail.org/en-latest/</a></p>
+<p><a href="https://wagtail.org/blog/wagtail-at-berkeley/">https://wagtail.org/blog/wagtail-at-berkeley/</a></p>
 <p><a href="https://link.springer.com/book/10.1007/978-1-4842-2787-9">Beginning Django</a> (ebook)</p>
 <p>能夠在 Replit 與 <a href="https://www.gitpod.io/">https://www.gitpod.io/</a> 上安裝 wagtail 嗎?</p>
 <p>在近端可攜 Python 環境安裝 wagtail:</p>
