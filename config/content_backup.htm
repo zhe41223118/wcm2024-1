@@ -97,9 +97,10 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 60px;">假如您有與手機連線的手錶: <a href="https://authy.com/">https://authy.com/</a></p>
 <p style="padding-left: 30px;">Replit: <a href="https://replit.com">https://replit.com</a>, 其他類似工具 <a href="https://github.com/features/codespaces">codespaces</a> and <a href="https://www.gitpod.io">gitpod</a></p>
 <p style="padding-left: 60px;">replit 成立於 2016, codespaces 與 gitpod 從 2020 開始提供服務, 其中 gitpod 採 Go 編寫, 為開源套件: <a href="https://github.com/gitpod-io/gitpod">https://github.com/gitpod-io/gitpod</a>, 這三個類似的雲端 IDE 套件彼此競爭尚未塵埃落定前, 應該會持續提供有限資源的免付費帳號服務.</p>
-<p style="padding-left: 60px;">目前已知 cmsite 在 codespaces 環境中的單頁編輯會出現 bug, 必須手動進入單頁編輯模式.</p>
+<p style="padding-left: 60px;">目前已知 cmsite 在 <span style="background-color: #ffff00;">codespaces 環境中的單頁編輯會出現 bug</span>, 必須手動進入單頁編輯模式.</p>
+<p style="padding-left: 60px;">gitpod 環境中採 Visual Studio Code 操作, 必須利用帳號下的 Access Control 給定 github 對應帳號權限後才能 push, 編輯過程與 Replit 相同, 因為編輯網站採用編碼網址, 因此若單人使用, 可以沿用 localhost 中的 admin 密碼登入編輯模式.</p>
 <p>為了能在無網路連線的環境中維護網站內容:</p>
-<p style="padding-left: 30px;">您需要一個穩定且資料存取快速的隨身碟 (大家可以確認一下<a href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=6018444">這裡的評論</a>是否可信?)</p>
+<p style="padding-left: 30px;">您需要一個 USB 3.0/32GB 規格以上的隨身碟</p>
 <hr/>
 <p>電腦操作系統: 常見的 OS (Operating System) - <a href="https://zh.wikipedia.org/zh-tw/Microsoft_Windows">Microsoft Windows</a>、<a href="https://zh.wikipedia.org/zh-tw/Linux">Linux</a> (將介紹 <a href="https://zh.wikipedia.org/zh-tw/Ubuntu">Ubuntu</a>)、<a href="https://zh.wikipedia.org/zh-tw/MacOS">macOS</a></p>
 <p>電腦硬體: 主機板 (Motherboard)、<a href="https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8">CPU</a> (Central Processing Unit)、<a href="https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%AD%98%E5%8F%96%E5%AD%98%E5%82%A8%E5%99%A8">隨機記憶體</a> (RAM)、Power supply (電源供應器)、<a href="https://zh.wikipedia.org/zh-tw/%E6%98%BE%E7%A4%BA%E5%8D%A1">顯示卡</a></p>
@@ -107,14 +108,19 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p style="padding-left: 30px;">基本的 Python 3.11.4 解譯系統: <a href="http://229.cycu.org/basic_portable_python.7z">http://229.cycu.org/basic_portable_python.7z</a> (需要下載密碼)</p>
 <p style="padding-left: 30px;">自製可攜程式系統:</p>
 <p style="padding-left: 60px;"><a href="/downloads/gen_portable_python.py">gen_portable_python.py</a></p>
-<p style="padding-left: 60px;">portablegit: <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
-<p style="padding-left: 60px;"><a href="http://229.cycu.org/tinyc.7z">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.</p>
-<p style="padding-left: 90px;"><a href="http://229.cycu.org/tcc_w_gd_raylib_SDL2.7z">tcc_w_gd_raylib_SDL2.7z</a> (需要下載密碼)</p>
+<p style="padding-left: 60px;">以 可攜 python.exe 執行 <a href="https://bootstrap.pypa.io/pip/">https://bootstrap.pypa.io/pip/</a>, 以便安裝 pip </p>
+<p style="padding-left: 60px;">pip install flask flask_cors bs4 lxml pelican markdown leo pyopenssl 安裝 <a href="https://mde.tw/cmstemplate/content/CMSiMDE.html">cmsimde 所需模組</a></p>
+<p style="padding-left: 90px;">Python3.12.1 安裝 pip 與 cmsimde 所需模組後容量約 630MB</p>
+<p style="padding-left: 60px;">配置 portablegit: <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<p style="padding-left: 90px;">portablegit 容量約 380MB</p>
+<p style="padding-left: 60px;">配置 C 編譯器 <a href="http://229.cycu.org/tinyc.7z">tinyc.7z</a> (需要下載密碼) - 使用 Tiny C Compiler 編譯 C 程式, 包含 gd 與 gnuplot.</p>
+<p style="padding-left: 90px;"><a href="http://229.cycu.org/tcc_w_gd_raylib_SDL2.7z">tcc_w_gd_raylib_SDL2.7z</a> (需要下載密碼, 解開後容量約 22MB)</p>
 <p style="padding-left: 120px;">解開壓縮後<span style="background-color: #ffff99;">取代原有 tinyc 可攜環境中的 tcc 目錄</span>, 並將 <span style="background-color: #ffff99;">cpp.properties</span> 檔案取代原有 wscite 目錄中的檔案後, 即可直接利用 wscite 編輯器中的 Tools - Go 利用 Tiny C Compiler 執行 C + gd, C + raylib, C + gnuplot 與 C + SDL2 等位於 tcc\c_ex 目錄中的靜態與動態繪圖範例程式.</p>
-<p style="padding-left: 60px;">putty: <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">https://www.chiark.greenend.org.uk/~sgtatham/putty/</a></p>
-<p style="padding-left: 60px;">wink: <a href="https://www.debugmode.com/wink.html">https://www.debugmode.com/wink.html</a></p>
-<p style="padding-left: 60px;">sharex: <a href="https://github.com/ShareX/ShareX/releases">https://github.com/ShareX/ShareX/releases</a></p>
-<p style="padding-left: 60px;">process explorer: <a href="https://learn.microsoft.com/zh-tw/sysinternals/downloads/process-explorer">https://learn.microsoft.com/zh-tw/sysinternals/downloads/process-explorer</a></p>
+<p style="padding-left: 60px;">配置 putty: <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">https://www.chiark.greenend.org.uk/~sgtatham/putty/</a></p>
+<p style="padding-left: 60px;">配置 wink: <a href="https://www.debugmode.com/wink.html">https://www.debugmode.com/wink.html</a></p>
+<p style="padding-left: 60px;">配置 sharex: <a href="https://github.com/ShareX/ShareX/releases">https://github.com/ShareX/ShareX/releases</a></p>
+<p style="padding-left: 60px;">配置 process explorer: <a href="https://learn.microsoft.com/zh-tw/sysinternals/downloads/process-explorer">https://learn.microsoft.com/zh-tw/sysinternals/downloads/process-explorer</a></p>
+<p style="padding-left: 60px;">配置 <a href="https://flatassembler.net/">https://flatassembler.net/</a> 容量約 2.8MB</p>
 <p style="padding-left: 30px;">教育版帳號 microsoftonline 登入點: <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> </p>
 <p style="padding-left: 30px;">github 帳號 、github pages、github classroom</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsite">https://github.com/mdecycu/cmsite</a> (將 <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> 作為子模組)</p>
