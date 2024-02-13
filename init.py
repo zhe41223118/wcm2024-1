@@ -14,7 +14,7 @@ class Init(object):
   site_title = "網際內容管理"
   ip = "127.0.0.1"
   dynamic_port = 9445
-  static_port = 8445
+  static_port = 80
 
   def __init__(self):
     # hope to create downloads and images directories

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-13T14:45:45+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-13T14:45:45+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.
+　</summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.
+　&lt;/p&gt;
+&lt;h2&gt;Replit&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://replit.com/signup"&gt;https://replit.com/signup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;若希望在 Replit 平台上啟動 static site, 只需要將 init.py 中的 static_port 改為 80.&lt;/p&gt;
+&lt;p&gt;因為 Replit 雲端平台中的免費帳號僅允許使用 port 80 與 443, 且對外連線的 port 80 會自動跳轉到 443, 也就是使用 https 協定進行連線, 若使用者在動態網站中點擊 SStatic, 亦即 Start Static Site, 則可以在動態對應 URL 中檢視靜態網站內容. (只是隨即必須重新啟動 dynamic site, 也就是關閉 Run 後重新執行動態網站)&lt;/p&gt;
+&lt;p&gt;另外可以利用 gen_blog 指令檔案將 markdown 中的 .md 檔案轉為 blog 目錄中的網誌超文件. 轉換檔案之前可以刪除 markdown/images 目錄中的 index.html 檔案.&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+#!/bin/bash
+# generate blog html files
+pelican markdown -o blog -s local_publishconf.py
+&lt;/pre&gt;</content><category term="Misc"></category><category term="2024Springwcm"></category></entry></feed>
