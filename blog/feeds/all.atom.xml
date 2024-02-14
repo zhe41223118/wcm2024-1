@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-14T08:59:16+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-14T08:59:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.
-　</summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.
-　&lt;/p&gt;
-&lt;h2&gt;Replit&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="https://mde.tw/wcm2024/blog/" rel="alternate"></link><link href="https://mde.tw/wcm2024/blog/feeds/all.atom.xml" rel="self"></link><id>https://mde.tw/wcm2024/blog/</id><updated>2024-02-14T13:05:51+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="https://mde.tw/wcm2024/blog/2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-14T13:05:51+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-13:/wcm2024/blog/2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+
+
+&lt;h1&gt;Replit&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://replit.com/signup"&gt;https://replit.com/signup&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;若希望在 Replit 平台上啟動 static site, 需要將 init.py 中的 static_port 改為 80.&lt;/p&gt;
 &lt;p&gt;因為 Replit 雲端平台中的免費帳號僅允許使用 port 80 與 443, 且對外連線的 port 80 會自動跳轉到 443, 也就是使用 https 協定進行連線, 若使用者在動態網站中點擊 SStatic, 亦即 Start Static Site, 則可以在動態對應 URL 中檢視靜態網站內容.&lt;/p&gt;
 &lt;p&gt;之後若要重新啟用動態編輯網頁, 則必須先在 Shell 以 ps -aux 找到上一個 python3 執行的 PID, 並且利用 kill PID 將此 Process ID 刪除之後, 才能再使用 Run 啟用動態網站. 由於執行 SStatic 之後使用 init.py 中 static_port = 80 將主動跳轉到 https, 與動態網站 proxy 後同一埠號, 因此在 Replit 中啟用靜態網站檢視後, 僅能用於查看最新 content, blog 與 reveal 等網站內容.&lt;/p&gt;
-&lt;p&gt;另外可以利用 gen_blog 指令檔案將 markdown 中的 .md 檔案轉為 blog 目錄中的網誌超文件. 轉換檔案之前可以刪除 markdown/images 目錄中的 index.html 檔案.&lt;/p&gt;
-&lt;pre class="brush: python"&gt;
+&lt;h3&gt;Undo 與 Redo&lt;/h3&gt;
+&lt;p&gt;Replit 編輯器的 Undo - Ctrl + z, Redo - Ctrl + y&lt;/p&gt;
+&lt;h3&gt;手機照片引用&lt;/h3&gt;
+&lt;p&gt;使用手機上的 Replit App 登入後 Run 動態編輯網頁後, 選擇以瀏覽器開啟編輯模式後, 可以利用 IUpload 功能上傳手機所拍攝的圖片至 images 目錄後引用.&lt;/p&gt;
+&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsite&lt;/a&gt; 中的網誌系統為 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt;, 可使用 Markdown 格式編寫網誌內容, 然後再轉檔為 html 超文件.&lt;/p&gt;
+&lt;h3&gt;網誌轉檔&lt;/h3&gt;
+&lt;p&gt;安裝 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; 之後, 可以利用 gen_blog 指令檔案將 markdown 中的 .md 檔案轉為 blog 目錄中的網誌超文件. 轉換檔案之前可以刪除 markdown/images 目錄中的 index.html 檔案.&lt;/p&gt;
+&lt;p&gt;在倉儲中建立下列 gen_blog 指令檔案後, 必須利用 chmod u+x gen_blog 讓該檔案可以執行, 且必須以 ./gen_blog 執行網誌轉檔.&lt;/p&gt;
+&lt;pre class="brush: bash"&gt;
 #!/bin/bash
 # generate blog html files
 pelican markdown -o blog -s local_publishconf.py
 &lt;/pre&gt;
 
-&lt;h2&gt;Blog&lt;/h2&gt;
+&lt;h3&gt;類別與標籤&lt;/h3&gt;
 &lt;p&gt;類別與標籤, 亦即 Category and Tags, 因為網誌列在課程倉儲中, 因此所謂的類別應該用在不同班級的教學內容, 而標籤則是該網誌的內容對應關鍵字, 可以是內容的大標題或者是該週上課的主題.&lt;/p&gt;
-&lt;p&gt;因為網際內容管理課程開在五專一以及四技一, 因此可以將 Category 設定為"五專w1"、"四技w1"以及"MISC". 至於 Tags 則可以使用 Python, Javascript, Replit, Codespaces 或 Gitpod 等特定技術說明的主要關鍵字. &lt;/p&gt;
-&lt;p&gt;另外, 因為 Blog 還支援 Search, 因此使用者可以使用自選的關鍵字查詢所需要的內容.&lt;/p&gt;
-&lt;h2&gt;整理的內容&lt;/h2&gt;
+&lt;p&gt;因為網際內容管理課程開在五專一以及四技一, 因此可以將 Category 設定為"五專w1"、"四技w1" 分別代表兩班各週次的上課內容註記, 另一個類別則是"Misc", 代表雜項內容. 至於 Tags 則可以使用 Python, Javascript, Replit, Codespaces 或 Gitpod 等特定技術說明的主要關鍵字. &lt;/p&gt;
+&lt;p&gt;另外, 因為 Blog 還支援全文 Search, 使用者可以使用自選的關鍵字查詢所需要的內容.&lt;/p&gt;
+&lt;h1&gt;整理的內容&lt;/h1&gt;
 &lt;p&gt;五專一先前上過"計算機概論", 而四技一在"計算機程式"則上過簡單的 ANSI C 以及 "C++", 因此"網際內容管理"可以讓學員各自整理先前上過的電腦課程內容, 或其他自選內容.&lt;/p&gt;
-&lt;p&gt;目前網頁上的內容包括一般中英文, 超文件連結, 圖片, 影片, 程式碼引用, 以及置入 Javascript 或 Brython 等動態程式.&lt;/p&gt;</content><category term="Misc"></category><category term="2024Springwcm"></category></entry></feed>
+&lt;p&gt;計算機概論的內容包含&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;與&lt;a href="[大學計概1], [大學計概2]"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;大一計算機程式課程:&lt;/p&gt;
+&lt;p&gt;2023 Fall 相關課程: 計算機程式 &lt;a href="http://wcm.cycu.org:88/github/cpnote"&gt;cpnote&lt;/a&gt; (只有系上 IPv6 網段連線可以擷取)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=大學+計算機程式"&gt;其他大學計算機程式&lt;/a&gt; 課程&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/scrum-1/scrum_pyqt5_calculator/issues/1"&gt;2017 Fall 計算機程式期末驗收&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前網頁上的內容包括一般中英文, 超文件連結, 圖片, 影片, 程式碼引用, 以及置入 Javascript 或 Brython 等動態程式.&lt;/p&gt;
+&lt;h1&gt;Disqus&lt;/h1&gt;
+&lt;p&gt;在網誌文章加入 &lt;a href="https://disqus.com/"&gt;https://disqus.com/&lt;/a&gt;, 可先設法建立自己的 DISQUS_SITENAME 後, 放入 publishconf.py 設定檔案中, 並建立 gen_dblog 指令檔案如下:&lt;/p&gt;
+&lt;pre class="brush: bash"&gt;
+#!/bin/bash
+# generate blog html files
+pelican markdown -o blog -s publishconf.py
+&lt;/pre&gt;
+
+&lt;p&gt;接著使用 chmod u+x gen_dblog 讓此檔案可以允許使用者執行, 並利用 ./gen_dblog 進行帶有 Disqus 留言功能的網誌轉檔.&lt;/p&gt;
+&lt;p&gt;必須特別注意的是, 使用免費的 Basic Disqus 留言系統, 網誌文章將會被置入商業廣告. 而且因為採用 Disqus 之後, 網誌的所有超文件連結都必須採用網誌外部的符號名稱進行綁定, 因此轉檔後的內容無法在 Replit 靜態網站模式中檢視, 所以比較好的流程為, 在編輯檢視網誌過程, 先採用 gen_blog 轉檔, 一旦內容確定後, 再使用 gen_dblog 轉檔後發布.&lt;/p&gt;
+&lt;p&gt;當然, 假如之後不希望網誌中帶有 Disqus 留言資料, 只要使用 ./gen_blog 重新對網誌轉檔即可.&lt;/p&gt;</content><category term="Misc"></category><category term="2024Springwcm"></category></entry></feed>
