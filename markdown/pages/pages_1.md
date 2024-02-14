@@ -1,6 +1,6 @@
 Title: About
 
-## CMSimfly 內容管理網誌
+## 2024 WCM 網誌
 
 課程倉儲: <a href="https://github.com/mdecycu/wcm2024">https://github.com/mdecycu/wcm2024</a>
 內容管理: <a href="https://mde.tw/wcm2024/">https://mde.tw/wcm2024/</a>
