@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/</loc>
-<lastmod>2024-02-15T02:05:47-00:00</lastmod>
+<loc>./</loc>
+<lastmod>2024-02-15T02:14:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/archives.html</loc>
-<lastmod>2024-02-15T02:05:47-00:00</lastmod>
+<loc>./archives.html</loc>
+<lastmod>2024-02-15T02:14:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/tags.html</loc>
-<lastmod>2024-02-15T02:05:47-00:00</lastmod>
+<loc>./tags.html</loc>
+<lastmod>2024-02-15T02:14:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/categories.html</loc>
-<lastmod>2024-02-15T02:05:47-00:00</lastmod>
+<loc>./categories.html</loc>
+<lastmod>2024-02-15T02:14:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/pages/about/</loc>
+<loc>./pages/about/</loc>
 <lastmod>2024-02-14T02:05:03+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/2024-Spring-Web-based-Content-Management.html</loc>
+<loc>./2024-Spring-Web-based-Content-Management.html</loc>
 <lastmod>2024-02-15T02:03:13+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/category/misc.html</loc>
+<loc>./category/misc.html</loc>
 <lastmod>2024-02-15T02:03:13+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/tag/2024springwcm.html</loc>
+<loc>./tag/2024springwcm.html</loc>
 <lastmod>2024-02-15T02:03:13+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mde.tw/wcm2024/blog/author/kmol.html</loc>
+<loc>./author/kmol.html</loc>
 <lastmod>2024-02-15T02:03:13+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
