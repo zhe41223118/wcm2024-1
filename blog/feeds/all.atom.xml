@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-19T11:00:00+08:00</updated><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-18T08:31:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>開始 WCM 四技課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-18T12:27:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+
+
+&lt;h1&gt;登入 MS Online&lt;/h1&gt;
+&lt;p&gt;網際內容管理課程學員上課時必須登入 &lt;a href="https://login.microsoftonline.com/"&gt;MS Online&lt;/a&gt;, 主要目的是能在 MS Teams 中上課, 一邊觀看教學示範, 一邊自行操作.&lt;/p&gt;
+&lt;p&gt;網際內容管理課程的 MS 團隊代碼: ry8vdyo&lt;/p&gt;
+&lt;h1&gt;Github 帳號&lt;/h1&gt;
+&lt;p&gt;還未擁有 Github 帳號者, 必須自行建立 Github 帳號, 主要用來建立並維護個人的課程倉儲與網站.&lt;/p&gt;
+&lt;h1&gt;建立個人課程網站&lt;/h1&gt;
+&lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
+&lt;h1&gt;Q and A&lt;/h1&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-18T12:16:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
@@ -18,7 +30,8 @@
 &lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
-&lt;h1&gt;Q and A&lt;/h1&gt;</content><category term="五專w1"></category><category term="Github"></category><category term="MS_online"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T01:08:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+&lt;h1&gt;Q and A&lt;/h1&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:26:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
@@ -44,13 +57,15 @@ pelican markdown -o blog -s local_publishconf.py
 
 &lt;h3&gt;類別與標籤&lt;/h3&gt;
 &lt;p&gt;類別與標籤, 亦即 Category and Tags, 因為網誌列在課程倉儲中, 因此所謂的類別應該用在不同班級的教學內容, 而標籤則是該網誌的內容對應關鍵字, 可以是內容的大標題或者是該週上課的主題.&lt;/p&gt;
-&lt;p&gt;因為網際內容管理課程開在五專一以及四技一, 因此可以將 Category 設定為"五專w1"、"四技w1" 分別代表兩班各週次的上課內容註記, 另一個類別則是"Misc", 代表雜項內容. 至於 Tags 則可以使用 Python, Javascript, Replit, Codespaces 或 Gitpod 等特定技術說明的主要關鍵字. &lt;/p&gt;
+&lt;p&gt;因為網際內容管理課程開在五專一以及四技一, 因此可以將 Category 設定為"五專"、"四技" 分別代表兩班的上課類別, 另一個類別則是"Misc", 代表雜項內容. 至於 Tags 則可以使用 週次, 或 Python, Javascript, Replit, Codespaces 或 Gitpod 等特定技術說明的主要關鍵字. &lt;/p&gt;
 &lt;p&gt;另外, 因為 Blog 還支援全文 Search, 使用者可以使用自選的關鍵字查詢所需要的內容.&lt;/p&gt;
 &lt;h1&gt;整理的內容&lt;/h1&gt;
 &lt;p&gt;五專一先前上過"計算機概論", 而四技一在"計算機程式"則上過簡單的 ANSI C 以及 "C++", 因此"網際內容管理"可以讓學員各自整理先前上過的電腦課程內容, 或其他自選內容.&lt;/p&gt;
 &lt;p&gt;計算機概論的內容包含&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;與&lt;a href="[大學計概1], [大學計概2]"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;大一計算機程式課程:&lt;/p&gt;
 &lt;p&gt;2023 Fall 相關課程: 計算機程式 &lt;a href="http://wcm.cycu.org:88/github/cpnote"&gt;cpnote&lt;/a&gt; (只有系上 IPv6 網段連線可以擷取)&lt;/p&gt;
+&lt;p&gt;機械設計工程師學習 C/C++ 的目的之一是利用&lt;a href="https://www.sciencedirect.com/science/article/pii/S2214785315004642"&gt;數值分析程式的運算&lt;/a&gt;, 設法計算出在產品開發過程中的最佳參數, 並能用圖表或近似實體的 3D 系統模擬呈現最佳設計結果.&lt;/p&gt;
+&lt;p&gt;而且參與產品設計的相關人員, 還必須關注產品設計過程或結果該如何有效呈現?&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.google.com/search?q=大學+計算機程式"&gt;其他大學計算機程式&lt;/a&gt; 課程&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/scrum-1/scrum_pyqt5_calculator/issues/1"&gt;2017 Fall 計算機程式期末驗收&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;目前網頁上的內容包括一般中英文, 超文件連結, 圖片, 影片, 程式碼引用, 以及置入 Javascript 或 Brython 等動態程式.&lt;/p&gt;
