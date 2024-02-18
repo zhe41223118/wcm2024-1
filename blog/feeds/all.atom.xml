@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-15T02:35:01+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-15T02:35:01+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-19T11:00:00+08:00</updated><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-18T08:31:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+
+
+&lt;h1&gt;登入 MS Online&lt;/h1&gt;
+&lt;p&gt;教育版帳號 microsoftonline 登入點: &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;利用 "學號@nfu.edu.tw" 作為帳號登入, 若無法登入, 則利用 "Can't access your account" 連結, 設法重建登入密碼.&lt;/p&gt;
+&lt;h1&gt;申請 Github 帳號&lt;/h1&gt;
+&lt;p&gt;先登入學校電子郵箱: &lt;a href="https://mail.nfu.edu.tw"&gt;https://mail.nfu.edu.tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再連結到 &lt;a href="https://github.com/signup"&gt;https://github.com/signup&lt;/a&gt; 建立 Github 帳號, 帳號名稱以學號優先, 若已經被佔用, 則可以學號加上英文姓名縮寫三個字母作為 Github 帳號.&lt;/p&gt;
+&lt;p&gt;Github 帳號登入依照規定需要兩段式認證(2FA, &lt;a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa"&gt;two-factor Authentication&lt;/a&gt;), 設定過程必須在手機安裝 Github Mobile, 若手機可連結至智慧手錶, 則可以將認證碼利用 &lt;a href="https://authy.com/"&gt;authy&lt;/a&gt; App 將兩段式登入驗證碼傳至手錶.&lt;/p&gt;
+&lt;h2&gt;Github 導引&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github"&gt;https://www.google.com/search?q=github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github+教學"&gt;https://www.google.com/search?q=github+教學&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;計算機概論摘要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
+&lt;h1&gt;Q and A&lt;/h1&gt;</content><category term="五專w1"></category><category term="Github"></category><category term="MS_online"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T01:08:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
@@ -7,7 +26,7 @@
 &lt;p&gt;&lt;a href="https://replit.com/signup"&gt;https://replit.com/signup&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;若希望在 Replit 平台上啟動 static site, 需要將 init.py 中的 static_port 改為 80.&lt;/p&gt;
 &lt;p&gt;因為 Replit 雲端平台中的免費帳號僅允許使用 port 80 與 443, 且對外連線的 port 80 會自動跳轉到 443, 也就是使用 https 協定進行連線, 若使用者在動態網站中點擊 SStatic, 亦即 Start Static Site, 則可以在動態對應 URL 中檢視靜態網站內容.&lt;/p&gt;
-&lt;p&gt;之後若要重新啟用動態編輯網頁, 則必須先在 Shell 以 ps -aux 找到上一個 python3 執行的 PID, 並且利用 kill PID 將此 Process ID 刪除之後, 才能再使用 Run 啟用動態網站. 由於執行 SStatic 之後使用 init.py 中 static_port = 80 將主動跳轉到 https, 與動態網站 proxy 後同一埠號, 因此在 Replit 中啟用靜態網站檢視後, 僅能用於查看最新 content, blog 與 reveal 等網站內容.&lt;/p&gt;
+&lt;p&gt;使用 Stop 關閉動態編輯網頁後, 若重新啟動 Webview 連結到 content/index.html, 則可將 URL 改為 /login 則可回到動態編輯網站的登入畫面.&lt;/p&gt;
 &lt;h3&gt;Undo 與 Redo&lt;/h3&gt;
 &lt;p&gt;Replit 編輯器的 Undo - Ctrl + z, Redo - Ctrl + y&lt;/p&gt;
 &lt;h3&gt;手機照片引用&lt;/h3&gt;

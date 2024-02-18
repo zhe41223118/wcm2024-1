@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專w1</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan-w1.atom.xml" rel="self"></link><id>./</id><updated>2024-02-19T11:00:00+08:00</updated><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-18T08:31:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+
+
+&lt;h1&gt;登入 MS Online&lt;/h1&gt;
+&lt;p&gt;教育版帳號 microsoftonline 登入點: &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;利用 "學號@nfu.edu.tw" 作為帳號登入, 若無法登入, 則利用 "Can't access your account" 連結, 設法重建登入密碼.&lt;/p&gt;
+&lt;h1&gt;申請 Github 帳號&lt;/h1&gt;
+&lt;p&gt;先登入學校電子郵箱: &lt;a href="https://mail.nfu.edu.tw"&gt;https://mail.nfu.edu.tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再連結到 &lt;a href="https://github.com/signup"&gt;https://github.com/signup&lt;/a&gt; 建立 Github 帳號, 帳號名稱以學號優先, 若已經被佔用, 則可以學號加上英文姓名縮寫三個字母作為 Github 帳號.&lt;/p&gt;
+&lt;p&gt;Github 帳號登入依照規定需要兩段式認證(2FA, &lt;a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa"&gt;two-factor Authentication&lt;/a&gt;), 設定過程必須在手機安裝 Github Mobile, 若手機可連結至智慧手錶, 則可以將認證碼利用 &lt;a href="https://authy.com/"&gt;authy&lt;/a&gt; App 將兩段式登入驗證碼傳至手錶.&lt;/p&gt;
+&lt;h2&gt;Github 導引&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github"&gt;https://www.google.com/search?q=github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github+教學"&gt;https://www.google.com/search?q=github+教學&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;計算機概論摘要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
+&lt;h1&gt;Q and A&lt;/h1&gt;</content><category term="五專w1"></category><category term="Github"></category><category term="MS_online"></category></entry></feed>
