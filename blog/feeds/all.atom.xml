@@ -11,7 +11,7 @@
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="https://mde.tw/wcm2024/blog/Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T08:11:46+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-19:/wcm2024/blog/Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="https://mde.tw/wcm2024/blog/Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T08:58:21+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-19:/wcm2024/blog/Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
@@ -23,7 +23,13 @@
 &lt;p&gt;確認所有學員都已經申請 Github 帳號後, 隨即可以建立個人的課程網站, 也就是在各學員的 Github 帳號中建立 wcm2024 倉儲, 
 但必須在登入 Github 帳號後, 連結到 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt; 以此倉儲作為 Template, 建立名稱為 wcm2024 全部使用英文小寫字母的 public repository (公開倉儲)&lt;/p&gt;
 &lt;p&gt;一旦在個人 Github 帳號下建立 wcm2024 倉儲後, 可以進入倉儲 Settings 中的 Pages, 將 Branch 分支的 main 分支設為網頁的 root (根目錄), 就可以將 wcm2024 轉為該倉儲的網站, 而其網站的連結為 https://帳號.github.io/wcm2024&lt;/p&gt;
+&lt;p&gt;下週請準備一個 USB 3.0 以上的隨身碟 32GB 或 64GB 都可以&lt;/p&gt;
+&lt;h2&gt;giscus&lt;/h2&gt;
+&lt;p&gt;因為目前 Disqus 並無法利用 Github 登入留言, 接下來希望試試看可否利用&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/"&gt;https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以 Github 倉儲的 discussion 取代 Disqus, 讓各學員可以採用 Github 帳號登入留言.&lt;/p&gt;
 &lt;h1&gt;以下為原先預定操作過程&lt;/h1&gt;
+&lt;h6&gt;&lt;/h6&gt;
 &lt;h1&gt;登入 MS Online&lt;/h1&gt;
 &lt;p&gt;教育版帳號 microsoftonline 登入點: &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;利用 "學號@nfu.edu.tw" 作為帳號登入, 若無法登入, 則利用 "Can't access your account" 連結, 設法重建登入密碼.&lt;/p&gt;
