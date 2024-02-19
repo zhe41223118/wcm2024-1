@@ -11,10 +11,17 @@
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-18T12:16:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T07:49:42+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
+&lt;h1&gt;五專 WCM 第一週課程內容&lt;/h1&gt;
+&lt;p&gt;設法登入 MS Ondrive 大多數學員無法成功&lt;/p&gt;
+&lt;p&gt;申請 Github 帳號&lt;/p&gt;
+&lt;p&gt;申請 Replit 帳號 - 建立使用可以收信的 Email 帳號作為 account, 自選密碼後登入 Replit&lt;/p&gt;
+&lt;p&gt;確認所有學員都已經申請 Github 帳號後, 隨即可以建立個人的課程網站, 也就是在各學員的 Github 帳號中建立 wcm2024 倉儲, 
+但必須在登入 Github 帳號後, 連結到 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt; 以此倉儲作為 Template, 建立名稱為 wcm2024 全部使用英文小寫字母的 public repository (公開倉儲)&lt;/p&gt;
+&lt;h1&gt;以下為原先預定操作過程&lt;/h1&gt;
 &lt;h1&gt;登入 MS Online&lt;/h1&gt;
 &lt;p&gt;教育版帳號 microsoftonline 登入點: &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;利用 "學號@nfu.edu.tw" 作為帳號登入, 若無法登入, 則利用 "Can't access your account" 連結, 設法重建登入密碼.&lt;/p&gt;
@@ -31,7 +38,7 @@
 &lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:26:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:30:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
@@ -64,7 +71,7 @@ pelican markdown -o blog -s local_publishconf.py
 &lt;p&gt;計算機概論的內容包含&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;與&lt;a href="[大學計概1], [大學計概2]"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;大一計算機程式課程:&lt;/p&gt;
 &lt;p&gt;2023 Fall 相關課程: 計算機程式 &lt;a href="http://wcm.cycu.org:88/github/cpnote"&gt;cpnote&lt;/a&gt; (只有系上 IPv6 網段連線可以擷取)&lt;/p&gt;
-&lt;p&gt;機械設計工程師學習 C/C++ 的目的之一是利用&lt;a href="https://www.sciencedirect.com/science/article/pii/S2214785315004642"&gt;數值分析程式的運算&lt;/a&gt;, 設法計算出在產品開發過程中的最佳參數, 並能用圖表或近似實體的 3D 系統模擬呈現最佳設計結果.&lt;/p&gt;
+&lt;p&gt;機械設計工程師學習 C/C++ 的目的之一是利用&lt;a href="https://www.sciencedirect.com/science/article/pii/S2214785315004642"&gt;數值分析程式的運算&lt;/a&gt; (&lt;a href="https://dergipark.org.tr/tr/download/article-file/192942"&gt;其他&lt;/a&gt;), 設法計算出在產品開發過程中的最佳參數, 並能用圖表或近似實體的 3D 系統模擬呈現最佳設計結果.&lt;/p&gt;
 &lt;p&gt;而且參與產品設計的相關人員, 還必須關注產品設計過程或結果該如何有效呈現?&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.google.com/search?q=大學+計算機程式"&gt;其他大學計算機程式&lt;/a&gt; 課程&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/scrum-1/scrum_pyqt5_calculator/issues/1"&gt;2017 Fall 計算機程式期末驗收&lt;/a&gt;&lt;/p&gt;

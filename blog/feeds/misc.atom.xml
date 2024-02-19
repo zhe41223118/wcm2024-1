@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2024-02-18T12:26:16+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:26:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2024-02-18T12:30:09+08:00</updated><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:30:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
@@ -32,7 +32,7 @@ pelican markdown -o blog -s local_publishconf.py
 &lt;p&gt;計算機概論的內容包含&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;與&lt;a href="[大學計概1], [大學計概2]"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;大一計算機程式課程:&lt;/p&gt;
 &lt;p&gt;2023 Fall 相關課程: 計算機程式 &lt;a href="http://wcm.cycu.org:88/github/cpnote"&gt;cpnote&lt;/a&gt; (只有系上 IPv6 網段連線可以擷取)&lt;/p&gt;
-&lt;p&gt;機械設計工程師學習 C/C++ 的目的之一是利用&lt;a href="https://www.sciencedirect.com/science/article/pii/S2214785315004642"&gt;數值分析程式的運算&lt;/a&gt;, 設法計算出在產品開發過程中的最佳參數, 並能用圖表或近似實體的 3D 系統模擬呈現最佳設計結果.&lt;/p&gt;
+&lt;p&gt;機械設計工程師學習 C/C++ 的目的之一是利用&lt;a href="https://www.sciencedirect.com/science/article/pii/S2214785315004642"&gt;數值分析程式的運算&lt;/a&gt; (&lt;a href="https://dergipark.org.tr/tr/download/article-file/192942"&gt;其他&lt;/a&gt;), 設法計算出在產品開發過程中的最佳參數, 並能用圖表或近似實體的 3D 系統模擬呈現最佳設計結果.&lt;/p&gt;
 &lt;p&gt;而且參與產品設計的相關人員, 還必須關注產品設計過程或結果該如何有效呈現?&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.google.com/search?q=大學+計算機程式"&gt;其他大學計算機程式&lt;/a&gt; 課程&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/scrum-1/scrum_pyqt5_calculator/issues/1"&gt;2017 Fall 計算機程式期末驗收&lt;/a&gt;&lt;/p&gt;
