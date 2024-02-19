@@ -11,7 +11,7 @@
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="https://mde.tw/wcm2024/blog/Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T08:58:21+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-19:/wcm2024/blog/Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="https://mde.tw/wcm2024/blog/Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T10:15:41+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-19:/wcm2024/blog/Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
@@ -28,6 +28,9 @@
 &lt;p&gt;因為目前 Disqus 並無法利用 Github 登入留言, 接下來希望試試看可否利用&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/"&gt;https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以 Github 倉儲的 discussion 取代 Disqus, 讓各學員可以採用 Github 帳號登入留言.&lt;/p&gt;
+&lt;p&gt;另外希望可以整理以下訪談影片的內容:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8Pm2xEViNIo?si=BWumsWMYs7dwR0qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;h1&gt;以下為原先預定操作過程&lt;/h1&gt;
 &lt;h6&gt;&lt;/h6&gt;
 &lt;h1&gt;登入 MS Online&lt;/h1&gt;
