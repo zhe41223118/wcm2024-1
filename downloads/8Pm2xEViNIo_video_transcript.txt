@@ -1,0 +1,581 @@
+# tactiq.io free youtube transcript
+# A Conversation with the Founder of NVIDIA: Who Will Shape the Future of AI?
+# https://www.youtube.com/watch/8Pm2xEViNIo
+
+00:00:00.440 it's my pleasure and privilege to be
+00:00:02.480 sitting in front of all of you here
+00:00:03.600 today to moderate a Pioneer not just in
+00:00:07.200 the technology space but in the
+00:00:08.400 artificial space as well artificial
+00:00:09.880 intelligence space Jensen who um is
+00:00:13.160 leading probably the company that's at
+00:00:15.719 the center of the eye of the storm when
+00:00:19.080 it comes to artificial intelligence the
+00:00:20.960 hype the possibilities and what this
+00:00:23.720 technology with mean Jens it's a
+00:00:25.599 pleasure being with you on stage here
+00:00:27.640 thank you it's great to be here when I'm
+00:00:30.000 amazing
+00:00:30.880 conference I um just want to say that we
+00:00:33.760 really appreciate you taking the time
+00:00:35.079 especially since you have GTC in 6 weeks
+00:00:37.719 in six weeks I'm going to tell everybody
+00:00:39.719 about a whole bunch of new things we've
+00:00:41.039 been working on the next generation of
+00:00:43.280 AI every single year they just push the
+00:00:46.039 envelope when it comes to artificial
+00:00:47.399 intelligence and GTC so um we're hoping
+00:00:49.960 to get a few Snippets out of this okay
+00:00:52.879 so I'd like to start with a um question
+00:00:56.600 that was going on in my mind how many
+00:00:58.519 gpus can we buy for 7
+00:01:02.000 trillion well apparently all the
+00:01:04.920 gpus I I I think this is one thing I'm
+00:01:07.799 I'm waiting to ask Sam about because
+00:01:09.880 it's it's a really big number talk about
+00:01:11.600 ambition we have a lot of ambition here
+00:01:13.600 in the UA we don't lack ambition but is
+00:01:17.520 there a view that you can give the
+00:01:19.960 government leaders today with regards to
+00:01:21.600 compute capabilities and artificial
+00:01:23.159 intelligence how can they plan well
+00:01:25.880 where do you think the deployment is
+00:01:27.600 going to make sense and what advice you
+00:01:32.159 have uh well first of all these are
+00:01:34.600 amazing times these are amazing times
+00:01:37.159 because we're at the beginning of a new
+00:01:39.200 Industrial
+00:01:40.360 Revolution production of energy through
+00:01:44.079 Steam production of
+00:01:47.920 electricity it and information
+00:01:50.159 revolution with PC and internet then now
+00:01:53.880 artificial
+00:01:54.880 intelligence uh we are experiencing two
+00:01:58.840 simultaneous uh Transitions and this has
+00:02:01.920 never happened before the first
+00:02:03.280 transition is the end of general purpose
+00:02:05.600 Computing and the beginning of
+00:02:06.719 accelerated Computing it's like
+00:02:08.679 specialized Computing using CPUs for
+00:02:12.920 computation as the foundation of
+00:02:14.680 everything we do is no longer possible
+00:02:17.319 and the reason for that is because it's
+00:02:19.319 been 60 years we invented central
+00:02:22.000 processing units in 1964 the
+00:02:24.239 announcement of the IBM Sy uh system 360
+00:02:27.800 we've been writing that wave for
+00:02:30.440 literally UH 60 years now and this is
+00:02:34.239 now the beginning of accelerated
+00:02:35.440 Computing if you want sustainable
+00:02:38.280 Computing energy efficient Computing
+00:02:40.159 high performance Computing cost effect
+00:02:42.080 cost Effective computing you can no
+00:02:44.120 longer do it with general purpose
+00:02:45.519 Computing you need specialized domain
+00:02:48.280 specific acceleration and that's what
+00:02:50.599 driving at the foundation our growth
+00:02:53.040 accelerated Computing it's the most
+00:02:54.800 sustainable way of doing uh Computing
+00:02:56.879 going forward it's the most energy
+00:02:58.480 efficient um it is so energy efficient
+00:03:01.000 it's so coste effective it's so
+00:03:02.640 performance so performant that it
+00:03:04.959 enabled a new type of application called
+00:03:09.440 AI the question is what's the cart and
+00:03:12.440 and the horse you know first is
+00:03:14.680 accelerated Computing and enabled a new
+00:03:16.959 uh new application there's a whole bunch
+00:03:18.959 of applications that are accelerated
+00:03:20.480 today and so now we're in the beginning
+00:03:23.239 of this new uh New Era uh and what's
+00:03:25.920 going to happen is there's a about a
+00:03:28.959 trillion dollar worth of installed base
+00:03:30.640 of data centers around the world and
+00:03:32.519 over the course of the next four or five
+00:03:34.120 years we'll have $2 trillion do worth of
+00:03:36.680 data centers um that will be uh uh
+00:03:40.120 powering software around the world and
+00:03:42.080 all of it is going to be
+00:03:43.519 accelerated and and this architecture
+00:03:46.360 for Accelerated Computing is ideal for
+00:03:49.080 this next generation of software called
+00:03:51.280 generative Ai and so that's really at
+00:03:54.040 the core of what is happening uh while
+00:03:58.239 we're repl placing the install base of
+00:04:02.040 general purpose Computing remember that
+00:04:05.000 the performance of the architecture is
+00:04:08.159 going to be improving at the same time
+00:04:10.680 so you can't assume just that you will
+00:04:14.280 buy more computers you have to also
+00:04:16.238 assume that the computers are going to
+00:04:17.560 become faster and therefore the total
+00:04:20.839 amount that you need is not going to be
+00:04:22.639 as much otherwise the mathematics if you
+00:04:25.320 just assume you know that that computers
+00:04:28.120 never get any faster you might come to
+00:04:29.840 the con conclusion we need 14 different
+00:04:33.120 planets and three different galaxies and
+00:04:35.880 you know four four more Suns and um to
+00:04:39.080 to fuel all this but but obviously uh
+00:04:41.400 computer architecture continues to
+00:04:43.199 advance in the last 10 years one of the
+00:04:45.840 greatest contributions and I really
+00:04:47.160 appreciate you mentioning that um the
+00:04:49.560 rate of innovation one of the greatest
+00:04:51.039 contributions we made was advancing
+00:04:53.360 Computing and advancing AI by 1 million
+00:04:58.560 times in the last 10 years and so
+00:05:01.840 whatever demand that you think is going
+00:05:05.240 to power the the world you have to
+00:05:08.400 consider the fact that it is also going
+00:05:10.400 to do it one million times larger faster
+00:05:13.960 you know more
+00:05:15.680 efficiently don't you think that creates
+00:05:18.039 a risk of having a world of halves and
+00:05:21.440 Have Nots since we need to constantly
+00:05:24.199 invest to ensure that we have The
+00:05:26.039 Cutting Edge and to ensure that we are
+00:05:27.960 able to create the applications that are
+00:05:30.039 going to reshape the world and
+00:05:31.199 governments as we know them do you think
+00:05:33.479 that there's going to be an issue of
+00:05:34.960 countries that can afford uh these gpus
+00:05:37.600 and countries that can't and if not
+00:05:40.840 because you know it' be surprising if
+00:05:42.240 you said the answer is no if not what
+00:05:44.560 are going to be the drivers of equity
+00:05:46.560 excellent question um first of all when
+00:05:49.400 something improves by a million times
+00:05:52.560 and the cost or the space or the energy
+00:05:55.840 that it consumed did not grow up by a
+00:05:58.000 million times in fact you've
+00:05:59.880 democratized the technology um
+00:06:02.759 researchers all over the world would
+00:06:04.120 tell you that Nvidia singlehandedly
+00:06:06.360 democratized high performance Computing
+00:06:08.319 we put it in the hands of every
+00:06:09.720 researcher it is the reason why uh AI
+00:06:12.720 researchers uh Jeff Hinton in University
+00:06:15.560 of Toronto Yan Lun I think Yan's going
+00:06:17.680 to be here uh University of uh New York
+00:06:21.599 um Andrew Ang uh in uh Stanford
+00:06:24.680 simultaneously discovered us they didn't
+00:06:27.080 discover us because of supercomputers
+00:06:28.639 they discovered us because of gaming
+00:06:31.000 gpus that they used for deep learning we
+00:06:34.800 put accelerated Computing or high
+00:06:37.120 performance Computing in the hands of
+00:06:38.400 every single researcher in the world and
+00:06:40.360 so when we accelerate the rate of
+00:06:43.240 innovation we're democratizing the
+00:06:45.440 technology the cost of building
+00:06:49.240 purchasing a supercomputer today is
+00:06:51.800 really negligible and the reason for
+00:06:54.039 that is because we're making it faster
+00:06:55.520 and faster and faster whatever
+00:06:56.759 performance you need costs a lot less
+00:06:58.639 today than used to it is absolutely true
+00:07:01.759 we have to democratize this technology
+00:07:03.319 and the reason the reason why is very
+00:07:05.160 clear there's an Awakening of every
+00:07:08.360 single country in probably the last six
+00:07:12.400 months that artificial
+00:07:15.120 intelligence is a technology you can't
+00:07:17.599 be mystified by you cannot be terrified
+00:07:20.800 by it you have to find a way to activate
+00:07:23.199 yourself to take advantage of it and the
+00:07:24.599 reason for that is because this is the
+00:07:27.280 beginning of a new Industrial Revolution
+00:07:29.520 this Industrial Revolution is about the
+00:07:31.440 production not of energy not of food but
+00:07:35.280 the production of intelligence and every
+00:07:37.840 country needs to own the production of
+00:07:40.039 their own intelligence which is the
+00:07:41.960 reason why there's this idea called
+00:07:43.879 Sovereign AI you own your own data
+00:07:46.960 nobody owns it your country owns the
+00:07:49.199 data your cult it it it codifies your
+00:07:52.080 culture your society's intelligence your
+00:07:56.240 common sense your history you own your
+00:07:59.159 own own data you therefore must take
+00:08:02.400 that data refine that data and own your
+00:08:05.240 own National Intelligence you can't
+00:08:07.280 cannot allow that to be done by other
+00:08:09.800 people and that is a real realization
+00:08:13.039 now that we've democratized the
+00:08:15.879 computation of AI the infrastructure of
+00:08:19.120 AI the rest of it is really up to you to
+00:08:22.680 take initiative activate your uh your uh
+00:08:27.440 industry uh build the infrastructure as
+00:08:30.680 fast as you can so that the researchers
+00:08:33.640 the companies your governments can take
+00:08:36.159 advantage of this infrastructure to go
+00:08:38.240 and create your own
+00:08:39.958 AI I I think we completely subscribe to
+00:08:42.839 that Vision um that's why the UAE is
+00:08:45.640 moving aggressively on creating large
+00:08:47.399 language models IM mobilizing compute
+00:08:50.120 and maybe work with other partners of
+00:08:51.519 this let's try to flip the Paradigm a
+00:08:54.279 little bit let's today assume that
+00:08:56.560 Jensen hang is the president of of a
+00:08:59.720 developing nation that has a relatively
+00:09:03.560 small GDP and you can focus on one AI
+00:09:06.839 application what would it be let's call
+00:09:08.959 it a hypothetical nation and say that
+00:09:11.959 you know you have so many problems that
+00:09:13.320 you need to deal with what is the first
+00:09:14.680 thing that you're going to approach if
+00:09:15.800 you're going to mobilize artificial
+00:09:17.079 intelligence in that scenario the first
+00:09:19.240 thing you have to do is you have to
+00:09:21.079 build infrastructure if you want to if
+00:09:23.440 you want to mobilize the production of
+00:09:25.279 food you have to build farms if you want
+00:09:26.959 to mobilize the production of energy you
+00:09:28.680 have to build
+00:09:30.079 AC generators if you want to if you want
+00:09:32.720 to operationalize information digital if
+00:09:35.760 you want to digitalize your economy you
+00:09:38.800 have to build the internet um if you
+00:09:40.959 want to automate the creation of
+00:09:42.839 artificial intelligence you have to
+00:09:44.120 build the infrastructure it is not that
+00:09:46.320 cost it's not that it's not that costly
+00:09:49.320 it is also not that hard um companies
+00:09:51.959 all around the world of course wants to
+00:09:54.839 mystify terrify glorify you know all of
+00:09:58.800 those uh those those ideas but the fact
+00:10:01.160 of the matter is they're computers you
+00:10:02.240 can buy them off the shelf uh you can
+00:10:04.240 install it uh every country needs
+00:10:06.680 already has the expertise to do this uh
+00:10:09.279 and you you have to you surely need to
+00:10:11.399 have the imperative To Go activate that
+00:10:14.040 um the first thing that I would do of
+00:10:15.240 course is I would codify the uh language
+00:10:19.160 the the data of your culture into your
+00:10:21.600 own large language model and you're
+00:10:23.399 doing that here uh core 42 um Saudi
+00:10:28.040 ramco
+00:10:29.560 uh uh uh uh
+00:10:35.279 uh s sad um really doing uh important
+00:10:39.880 work to uh codify the Arabic language
+00:10:43.680 and creating your own large language
+00:10:45.360 model um but simultaneously remember
+00:10:48.040 that AI is not just about language AI
+00:10:50.399 we're seeing several AI revolutions
+00:10:52.120 happening at the same time AI for
+00:10:54.839 language AI for biology learning the
+00:10:58.320 language of protein Mach and and
+00:11:00.120 chemicals uh AI for physical sciences
+00:11:03.639 learning the AI of climate materials
+00:11:06.839 energy Discovery AI of iot the language
+00:11:10.680 of keeping places safe computer vision
+00:11:13.240 and such um AI for iot AI for Robotics
+00:11:16.639 and autonomous systems manufacturing and
+00:11:19.120 such there's AI revolutions happening AI
+00:11:22.480 great breakthroughs happening in all of
+00:11:24.560 these different domains and if you build
+00:11:27.600 the infrastructure you will activate the
+00:11:29.800 researchers in every one of these
+00:11:32.040 domains without the internet how can you
+00:11:34.360 be
+00:11:35.279 digital without Farms how can you
+00:11:37.600 produce food without an AI
+00:11:40.240 infrastructure how can you activate all
+00:11:43.240 of the researchers that are in your
+00:11:44.760 region to go and create the AI
+00:11:48.519 models you touched upon um the
+00:11:53.560 issue of I would say authentic ignorance
+00:11:57.079 the fear mongering AI taking over the
+00:12:00.200 world and um I I think there is a
+00:12:03.720 requirement for us to clarify where the
+00:12:06.000 hype is real and where artificial
+00:12:08.279 intelligence really has the power to
+00:12:10.360 create a lot of disruption and to harm
+00:12:11.880 us and where AI is going to be good what
+00:12:14.040 do you think is the biggest issue when
+00:12:15.680 it comes to artificial intelligence
+00:12:17.040 right now because I think the the the
+00:12:19.320 problem of regulating AI is like trying
+00:12:21.240 to say we want to regulate a field of
+00:12:23.320 computer science or regulate electricity
+00:12:25.040 you don't regulate electricity as a
+00:12:28.440 invention or as a discovery you regulate
+00:12:30.760 a specific use case what is one use case
+00:12:33.600 that you think we need to regulate
+00:12:34.800 against and that government should
+00:12:36.279 mobilize towards e excellent question um
+00:12:40.160 first of all whatever new incredible
+00:12:42.560 technology is being created uh you go
+00:12:44.920 back to the earliest of times uh it is
+00:12:48.040 absolutely true we have to develop the
+00:12:51.079 technology safely we have to apply the
+00:12:53.880 technology safely and we have to help
+00:12:56.120 people use the technology safely and so
+00:12:59.800 uh whether it's um uh the plane that I
+00:13:02.079 came in uh cars uh Manufacturing Systems
+00:13:05.199 medicine all of these different
+00:13:07.320 Industries are heavily regulated today
+00:13:11.199 those regulations have to be extended
+00:13:13.680 augmented to consider artificial
+00:13:16.880 intelligence artificial intelligence
+00:13:18.800 will come to us through products and
+00:13:21.040 services it is the automation of
+00:13:23.160 intelligence and it will be augmented on
+00:13:25.720 top of all of these various Industries
+00:13:28.360 now it is the case that that there are
+00:13:31.079 some interests
+00:13:33.680 to scare people about this uh new
+00:13:38.440 technology to mystify this technology to
+00:13:43.240 encourage other people to not do
+00:13:44.959 anything about that technology and rely
+00:13:47.440 on them to do it and I think that that's
+00:13:49.360 a mistake we want to democratize this
+00:13:52.240 technology let's face it the single most
+00:13:54.399 important thing that has happened last
+00:13:56.000 year if you were to ask me the one
+00:13:58.320 single most important event last year
+00:14:01.000 and how it has
+00:14:03.360 activated AI researchers here in this
+00:14:05.920 region it's actually llama 2 it's an
+00:14:08.759 open- Source model or falcon or Falcon
+00:14:12.920 another excellent model very true uh M
+00:14:15.519 trell excellent model uh a I just I just
+00:14:19.399 saw another one uh a smog um there's so
+00:14:22.320 many open source models Innovations on
+00:14:24.880 safety
+00:14:26.440 alignment um uh uh
+00:14:29.519 Guard railing uh reinforcement learning
+00:14:33.000 so many different reasoning so many
+00:14:35.160 different innovations that are happening
+00:14:36.839 on top of transparencies explainability
+00:14:40.320 all of this technology that has to be
+00:14:41.880 built all were possible because of some
+00:14:44.639 of these open source languages and so I
+00:14:47.320 think that
+00:14:48.680 democratizing activating every region
+00:14:51.839 activating every country to join the AI
+00:14:56.240 Advance is probably one of the most
+00:14:58.360 important thing rather than ex
+00:15:00.720 convincing everybody it's too
+00:15:02.399 complicated it's too dangerous it's too
+00:15:04.839 my mystical and only two or three people
+00:15:07.639 in the world should be able to do that
+00:15:09.639 that I think is a huge
+00:15:11.680 mistake uh the the uh Focus I think that
+00:15:15.199 we have done in the UAE is to focus on
+00:15:17.040 open source systems because we do
+00:15:18.680 believe that anything that we develop
+00:15:20.120 here should be given as um a opportunity
+00:15:24.120 for others that can't develop
+00:15:25.839 it most of this is developed using gpus
+00:15:29.279 so graphic processing units that you
+00:15:31.160 guys um are are supplying the world what
+00:15:34.639 do you think the next era is going to
+00:15:36.160 depend on is it going to continuously be
+00:15:38.040 built on gpus is there something else as
+00:15:41.040 a breakthrough that we're going to see
+00:15:42.319 in the future you think actually uh you
+00:15:45.800 know that that in just about all of the
+00:15:47.639 large companies in the world uh there
+00:15:49.720 are internal developments uh at Google
+00:15:52.360 there's tpus at um AWS there's tranium
+00:15:55.720 at Microsoft there's Maya uh uh has um
+00:15:59.680 uh chips that they're building uh in
+00:16:01.920 China just about every single CSP has
+00:16:04.079 chips that they're building the reason
+00:16:05.759 why you mention inidia gpus is NVIDIA
+00:16:07.839 GPU is the only platform that's
+00:16:10.600 available to everybody on any platform
+00:16:14.240 that's actually the observation it's not
+00:16:16.800 that we're the only platform that's
+00:16:18.839 being used we're simply the only
+00:16:20.560 platform that's used that democratizes
+00:16:24.000 AI for everybody's platform we're in
+00:16:26.519 every single Cloud we're in every single
+00:16:29.199 data center were available in the cloud
+00:16:33.600 uh in your private data centers all the
+00:16:35.319 way out to the edge all the way out to
+00:16:37.319 autonomous systems Robotics and
+00:16:38.800 self-driving Cars one single
+00:16:40.880 architecture spans all of that that's
+00:16:43.759 what makes Nvidia unique that we can uh
+00:16:46.680 in the beginning when cnns were popular
+00:16:49.040 we were the right architecture because
+00:16:50.440 we were programmable Aruda architecture
+00:16:53.279 has the ability to adapt to any
+00:16:54.880 architecture that comes along so when
+00:16:56.720 CNN came along RNN came along Along
+00:16:58.720 lstms came along and then eventually
+00:17:00.959 Transformers came along and now Vision
+00:17:03.199 Transformers bir eye view Transformers
+00:17:05.919 um all kinds of different Transformers
+00:17:07.439 are being uh created a Next Generation
+00:17:10.160 State space uh models uh uh which is a
+00:17:14.319 uh probably the next generation of
+00:17:16.240 Transformers all of these different
+00:17:18.079 architectures can live and breathe and
+00:17:21.119 be created on invidious flexible
+00:17:23.359 architecture and because it's available
+00:17:25.599 literally everywhere any researcher can
+00:17:28.880 get access to Nvidia gpus and invent the
+00:17:31.480 Next Generation so so for those of you
+00:17:34.039 who are non-technical and heard you know
+00:17:36.720 a foreign language there with cnns and
+00:17:39.039 and some of the other uh acronyms that
+00:17:40.720 are being used the the thing about
+00:17:43.000 artificial intelligence is it's going
+00:17:44.559 through a lot of Evolutions over a very
+00:17:47.799 short period of time so whatever the
+00:17:49.640 infrastructure that was used probably 5
+00:17:51.400 years ago is very different to the
+00:17:53.200 infrastructure that's being used today
+00:17:55.159 but what Jensen's point was I think it's
+00:17:56.960 a very important point is NVIDIA has
+00:17:58.600 always been relevant historically we see
+00:18:01.039 companies that are relevant at one phase
+00:18:03.400 of development and then as the
+00:18:04.640 infrastructure changes they become
+00:18:06.360 irrelevant but you guys were able to
+00:18:08.280 innovate and and push through let's move
+00:18:11.200 to a non- air related topic for a second
+00:18:14.919 I want to talk about education so today
+00:18:18.080 knowing what you know seeing what you
+00:18:19.960 see and being at The Cutting Edge of the
+00:18:22.120 technology what should people focus on
+00:18:24.480 when it comes to education what should
+00:18:26.000 they learn how should they educate their
+00:18:28.480 kids and their societies wow excellent
+00:18:31.720 question I'm going to say something and
+00:18:33.799 it it's it's going to sound completely
+00:18:36.679 opposite um of what people feel uh you
+00:18:40.760 you you probably recall uh over the
+00:18:43.720 course of the last 10 years 15 years um
+00:18:46.159 almost everybody who sits on a stage
+00:18:48.720 like this would tell you it is vital
+00:18:51.159 that your children learn computer
+00:18:53.840 science um everybody should learn how to
+00:18:56.520 program and in fact it's it's almost
+00:18:58.640 exactly the opposite it is our job to
+00:19:01.640 create Computing technology such that
+00:19:04.400 nobody has to
+00:19:06.159 program and that the programming
+00:19:08.159 language is
+00:19:10.120 human everybody in the world is now a
+00:19:13.320 programmer this is the miracle this is
+00:19:16.000 the miracle of artificial intelligence
+00:19:17.880 for the very first time we have closed
+00:19:20.360 the Gap the technology divide has been
+00:19:23.960 completely closed and this the reason
+00:19:26.280 why so many people can engage artificial
+00:19:28.280 elligence it is the reason why every
+00:19:30.400 single government every single
+00:19:32.760 industrial conference every single
+00:19:34.600 company is talking about artificial
+00:19:36.280 intelligence today because for the very
+00:19:38.159 first time you can imagine everybody in
+00:19:41.559 your company being a
+00:19:44.520 technologist and so this is a tremendous
+00:19:48.280 time for uh all of you to realize that
+00:19:52.320 the technology divide has been closed or
+00:19:55.039 another way to say
+00:19:56.799 it the tech technology leadership of
+00:19:59.480 other country has now been
+00:20:02.799 reset the countries the people that
+00:20:05.480 understand how to solve a domain problem
+00:20:08.640 in digital biology or in education of
+00:20:12.600 young people or in manufacturing or in
+00:20:15.280 farming those people who understand
+00:20:17.679 domain
+00:20:19.120 expertise now can utilize technology
+00:20:23.240 that is readily available to you you now
+00:20:25.720 have a computer that will do what you
+00:20:27.320 tell it to do to help automate your work
+00:20:30.080 to amplify your productivity to make you
+00:20:32.960 more efficient and so I think that this
+00:20:35.159 is just a tremendous time um the impact
+00:20:38.280 of course uh is is great and your
+00:20:41.400 imperative to activate and take
+00:20:43.440 advantage of the technology is
+00:20:45.600 absolutely immediate um and also to
+00:20:48.440 realize
+00:20:49.960 that to engage AI is a lot easier now
+00:20:54.200 than at any time in the history of
+00:20:56.039 computing it is vital that we we upskill
+00:20:58.799 everyone and the upskilling process I I
+00:21:01.880 believe will be delightful surprising um
+00:21:05.400 to realize that this computer can
+00:21:07.280 perform all these things that you're
+00:21:08.640 instructing it to do and doing it so
+00:21:10.360 easily so if I was going to choose a uh
+00:21:13.480 major and University as a degree that
+00:21:15.960 I'm going to pursue what would you give
+00:21:18.279 me as an advice for something to
+00:21:20.279 pursue if I were starting all over again
+00:21:23.480 um I would realize uh one thing that one
+00:21:27.440 of the most
+00:21:28.960 complex fields of science is the
+00:21:32.200 understanding of biology human biology
+00:21:34.799 not only is it complicated because it's
+00:21:36.520 so diverse so complicated so hard to
+00:21:38.960 understand living and breathing it is
+00:21:42.080 also incredibly impactful complicated
+00:21:45.120 technology complicated science
+00:21:47.120 incredibly impactful for the very first
+00:21:49.039 time and and remember we call this field
+00:21:51.720 life
+00:21:52.840 sciences and we call drug Discovery
+00:21:55.799 Discovery as if you wander around the
+00:21:57.720 universe and all of a sudden hey look
+00:21:59.120 what I discovered nobody in computer
+00:22:02.039 science nobody in computers and nobody
+00:22:04.360 in the traditional industries that are
+00:22:06.840 very large today nobody says car
+00:22:10.000 Discovery we don't say computer
+00:22:12.600 Discovery we don't say software
+00:22:14.760 Discovery we don't go home and say hey
+00:22:16.679 honey look what I found
+00:22:18.400 today this piece of software we call it
+00:22:21.200 engineering and every single year our
+00:22:24.799 science our computer science our
+00:22:27.000 software becomes better and better than
+00:22:28.600 the than the year before every single
+00:22:30.559 year our chips get better every single
+00:22:32.320 year our infrastructure gets
+00:22:34.360 better however Life Sciences is
+00:22:38.480 sporadic if I were to do it over again
+00:22:41.120 right now I would realize that the
+00:22:42.640 technology to turn life engineering life
+00:22:46.559 science to life engineering is upon us
+00:22:49.080 and that digital biology will be a field
+00:22:51.120 of
+00:22:52.080 engineering not a field of science it
+00:22:55.640 will continue to have science of course
+00:22:57.600 but not a field just of Science in the
+00:23:00.360 future and so I I hope that that this is
+00:23:03.080 going to start a whole generation of
+00:23:06.039 people who enjoy working with proteins
+00:23:07.960 and chemicals and and enzymes and um
+00:23:11.320 materials and and they're engineering
+00:23:13.039 these amazing things that are more
+00:23:14.400 energy efficient that are lighter weight
+00:23:17.240 that are stronger that are more
+00:23:18.960 sustainable all of these inventions in
+00:23:22.320 the future are going to be part of
+00:23:24.000 engineering not scientific discovery so
+00:23:28.039 I think we can end with a very positive
+00:23:29.960 note hopefully we're going to enter an
+00:23:31.400 era of Discovery an era of proliferating
+00:23:35.000 a lot of the things that unfortunately
+00:23:37.159 today are challenges to us whether it's
+00:23:38.720 disease whether it's limitations and
+00:23:40.840 resources thank you so much Jess for
+00:23:42.799 taking the time and being with us and I
+00:23:44.799 know that we could have continued for
+00:23:45.960 another hour but um thank you for taking
+00:23:48.400 the stage and thank you for your Insight
+00:23:49.640 thank you thank you
+00:23:51.300 [Music]
+00:23:56.840 everyone

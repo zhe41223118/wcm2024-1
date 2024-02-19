@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="https://mde.tw/wcm2024/blog/" rel="alternate"></link><link href="https://mde.tw/wcm2024/blog/feeds/all.atom.xml" rel="self"></link><id>https://mde.tw/wcm2024/blog/</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>開始 WCM 四技課程</title><link href="https://mde.tw/wcm2024/blog/Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-18T12:27:26+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-22:/wcm2024/blog/Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>開始 WCM 四技課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-19T13:39:38+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 
 
@@ -11,7 +11,7 @@
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="https://mde.tw/wcm2024/blog/Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T10:15:41+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-19:/wcm2024/blog/Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T15:14:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
@@ -31,8 +31,30 @@
 &lt;p&gt;另外希望可以整理以下訪談影片的內容:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8Pm2xEViNIo?si=BWumsWMYs7dwR0qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
 
+&lt;p&gt;以下是上列影片的部分訪談內容:&lt;/p&gt;
+&lt;p&gt;I'm going to say something and it's going to sound completely opposite of what people feel.&lt;/p&gt;
+&lt;p&gt;You probably recall over the course of the last 10 years 15 years almost everybody who sits on a stage like this would tell you it is vital that your children learn computer science.&lt;/p&gt;
+&lt;p&gt;Everybody should learn how to program and in fact it's almost exactly the opposite.&lt;/p&gt;
+&lt;p&gt;It is our job to create Computing technology such that nobody has to program and that the programming language is human.&lt;/p&gt;
+&lt;p&gt;Everybody in the world is now a programmer.  This is the miracle this is the miracle of artificial intelligence.&lt;/p&gt;
+&lt;p&gt;For the very first time we have closed the Gap the technology divide has been completely closed and this the reason why so many people can engage artificial intelligence.&lt;/p&gt;
+&lt;p&gt;It is the reason why every single government every single industrial conference every single company is talking about artificial intelligence today&lt;/p&gt;
+&lt;p&gt;Because for the very first time you can imagine everybody in your company being a technologist and so this is a tremendous time for all of you to realize that the technology divide has been closed.&lt;/p&gt;
+&lt;p&gt;Or another way to say it the technology leadership of other country has now been reset the countries the people that understand how to solve a domain problem in digital biology or in education of young people or in manufacturing or in farming.&lt;/p&gt;
+&lt;p&gt;Those people who understand domain expertise now can utilize technology that is readily available to you you now have a computer that will do what you tell it to do to help automate your work to amplify your productivity.&lt;/p&gt;
+&lt;p&gt;To make you more efficient and so I think that this is just a tremendous time the impact of course is great and your imperative to activate and take advantage of the technology is absolutely immediate.&lt;/p&gt;
+&lt;p&gt;And also to realize that to engage AI is a lot easier now than at any time in the history of computing.&lt;/p&gt;
+&lt;p&gt;It is vital that we we upskill everyone and the upskilling process I believe will be delightful surprising to realize that this computer can perform all these things that you're instructing it to do and doing it so easily.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;有關 MS Office 365 帳號&lt;/h2&gt;
+&lt;p&gt;若校方已經幫新生建立帳號, 試著從 &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt; 以"學號@nfu.edu.tw"作為帳號, 密碼使用當初啟用"學號@nfu.edu.tw"電子郵箱的預設密碼登入.&lt;/p&gt;
+&lt;p&gt;若上述方法無法登入, 也無法重設密碼, 則試著連到 &lt;a href="https://www.microsoft.com/zh-tw/education/products/office"&gt;https://www.microsoft.com/zh-tw/education/products/office&lt;/a&gt;, 輸入自己的"學號@nfu.edu.tw"作為帳號, 並依序完成 MS Office 365 教育版帳號的申請.&lt;/p&gt;
+&lt;h2&gt;必須自行練習的技能&lt;/h2&gt;
+&lt;p&gt;鍵盤中文與英文打字&lt;/p&gt;
+&lt;p&gt;看到電腦螢幕上的英文, 要試著用手機查詢字意, 再看看整個句子, 試著了解其含義. 另外也可以逐一將句子段落或單字複製到 &lt;a href="https://translate.google.com.tw/?hl=zh-TW&amp;amp;sl=en"&gt;Googl 英翻中網頁&lt;/a&gt;, 嘗試了解各英文單字與整個文章或電腦回應的意思.&lt;/p&gt;
+&lt;p&gt;每週上課後, 至少騰出一個小時, 回頭觀看課程網誌, 並針對上課主題, 自行練習與 &lt;a href="https://chat.openai.com/auth/login"&gt;ChatGPT&lt;/a&gt; 對話, 進一步瞭解各階段的上課內容.&lt;/p&gt;
 &lt;h1&gt;以下為原先預定操作過程&lt;/h1&gt;
-&lt;h6&gt;&lt;/h6&gt;
 &lt;h1&gt;登入 MS Online&lt;/h1&gt;
 &lt;p&gt;教育版帳號 microsoftonline 登入點: &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;利用 "學號@nfu.edu.tw" 作為帳號登入, 若無法登入, 則利用 "Can't access your account" 連結, 設法重建登入密碼.&lt;/p&gt;
@@ -49,7 +71,7 @@
 &lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="https://mde.tw/wcm2024/blog/2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:30:09+08:00</updated><author><name>kmol</name></author><id>tag:mde.tw,2024-02-13:/wcm2024/blog/2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:30:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
