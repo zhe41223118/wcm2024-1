@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='cadlab.html'>cadlab</a><li><a href='tcexam.html'>tcexam</a><li><a href='Teams.html'>Teams</a></li></ul><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='wcm.html'>wcm</a><li class='has-children'><a href='IDE.html'>IDE</a><ul class='dropdown'><li><a href='Replit.html'>Replit</a></li></ul><li><a href='Wagtail.html'>Wagtail</a></li></ul><li><a href='Video.html'>Video</a><li class='has-children'><a href='Programming.html'>Programming</a><ul class='dropdown'><li><a href='Typescript.html'>Typescript</a><li><a href='Webots.html'>Webots</a></li></ul><li class='has-children'><a href='Servers.html'>Servers</a><ul class='dropdown'><li><a href='Virtualbox.html'>Virtualbox</a><li><a href='wsgi.html'>wsgi</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='cadlab.html'>cadlab</a><li><a href='Teams.html'>Teams</a></li></ul><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='wcm.html'>wcm</a><li class='has-children'><a href='IDE.html'>IDE</a><ul class='dropdown'><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li><a href='Programming.html'>Programming</a><li class='has-children'><a href='Servers.html'>Servers</a><ul class='dropdown'><li><a href='Virtualbox.html'>Virtualbox</a><li><a href='wsgi.html'>wsgi</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -165,24 +165,19 @@ img.add_border {
 <p style="padding-left: 60px;">還有嗎?</p>
 <hr/>
 <p>為了建立網站, 我們需要在下列系統登記帳號:</p>
-<p style="padding-left: 30px;">如何利用 <a href="https://www.python.org/">Python</a> 與 <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a> 建立網際內容管理系統, 亦即 <a href="https://github.com/mdecycu/cmsite">cmsite</a> 與 <a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a> 的應用(兩者有何差別?為何要使用 <a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">submodule</a>? 為何許多原文為英文的網站內容, 沒有繁體中文翻譯?).</p>
+<p style="padding-left: 30px;">如何利用 <a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a> 建立網站</p>
 <p style="padding-left: 30px;">Github: <a href="https://github.com">https://github.com</a></p>
-<p style="padding-left: 60px;"><a href="https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication">設定雙重身分認證</a></p>
+<p style="padding-left: 60px;"><a href="https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication">設定</a> Two-factor Authentication</p>
 <p style="padding-left: 60px;">假如您有與手機連線的手錶: <a href="https://authy.com/">https://authy.com/</a></p>
-<p style="padding-left: 30px;">Replit: <a href="https://replit.com">https://replit.com</a>, 其他類似工具 <a href="https://github.com/features/codespaces">codespaces</a> and <a href="https://www.gitpod.io">gitpod</a> (該如何利用以上這三項雲端免費帳號維護 Github Pages 網站內容? 還有, 該如何在自己的電腦上維護 Github Pages 網站內容? 還有, 在 Github 中建立的倉儲與 <a href="https://www.google.com/search?q=github+classroom">Github Classroom</a> 取得的課程作業倉儲有何差別?)</p>
-<p style="padding-left: 60px;">replit 成立於 2016, codespaces 與 gitpod 從 2020 開始提供服務, 其中 gitpod 採 Go 編寫, 為開源套件: <a href="https://github.com/gitpod-io/gitpod">https://github.com/gitpod-io/gitpod</a>, 這三個類似的雲端 IDE 套件彼此競爭尚未塵埃落定前, 應該會持續提供有限資源的免付費帳號服務.</p>
+<p style="padding-left: 30px;">Replit: <a href="https://replit.com">https://replit.com</a>, 其他類似工具 <a href="https://github.com/features/codespaces">codespaces</a>. 還有, 該如何在自己的電腦上維護 Github Pages 網站內容?</p>
 <p style="padding-left: 60px;">目前已知 cmsite 在 <span style="background-color: #ffff00;">codespaces 環境中的單頁編輯會出現 bug</span>, 必須手動進入單頁編輯模式.</p>
 <p style="padding-left: 60px;">必須將 cmsimde 中的 def correct_url() 中的 url 改為:</p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 根據 https://stackoverflow.com/questions/15093593/request-path-and-url-for-dont-match-up-in-flask-under-mod-wsgi 中的說明修改
 # 原先的 url = request.url 在 replit 與 gitpod 可行
 # 但是在 codespaces 無法取得 wsgi 伺服器中正確的隨機網址
 url = request.script_root + request.path</pre>
-<p style="padding-left: 60px;">gitpod 環境中採 Visual Studio Code 操作, 必須利用帳號下的 Access Control 給定 github 對應帳號權限後才能 push, 編輯過程與 Replit 相同, 因為編輯網站採用編碼網址, 因此若單人使用, 可以沿用 localhost 中的 admin 密碼登入編輯模式.</p>
-<p>為了能在無網路連線的環境中維護網站內容:</p>
 <p style="padding-left: 30px;">您需要一個 USB 3.0/32GB 規格以上的隨身碟</p>
 <hr/>
-<p>電腦操作系統: 常見的 OS (Operating System) - <a href="https://zh.wikipedia.org/zh-tw/Microsoft_Windows">Microsoft Windows</a>、<a href="https://zh.wikipedia.org/zh-tw/Linux">Linux</a> (將介紹 <a href="https://zh.wikipedia.org/zh-tw/Ubuntu">Ubuntu</a>)、<a href="https://zh.wikipedia.org/zh-tw/MacOS">macOS</a></p>
-<p>電腦硬體: 主機板 (Motherboard)、<a href="https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8">CPU</a> (Central Processing Unit)、<a href="https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%AD%98%E5%8F%96%E5%AD%98%E5%82%A8%E5%99%A8">隨機記憶體</a> (RAM)、Power supply (電源供應器)、<a href="https://zh.wikipedia.org/zh-tw/%E6%98%BE%E7%A4%BA%E5%8D%A1">顯示卡</a></p>
 <p>USB 隨身碟中的程式開發系統:</p>
 <p style="padding-left: 30px;">自行製作:</p>
 <p style="padding-left: 60px;">基本的 Python 3.11.4 解譯系統: <a href="http://229.cycu.org/basic_portable_python.7z">http://229.cycu.org/basic_portable_python.7z</a> (需要下載密碼)</p>
@@ -205,14 +200,8 @@ url = request.script_root + request.path</pre>
 <p style="padding-left: 30px;">直接下載:</p>
 <p style="padding-left: 60px;">下載可攜程式環境: <a href="http://229.cycu.org/portable_2024.7z">portable_2024.7z</a> (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)</p>
 <p>教育版帳號 microsoftonline 登入點: <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> </p>
-<p>github 帳號 、github pages、github classroom</p>
-<p><a href="https://github.com/mdecycu/cmsite">https://github.com/mdecycu/cmsite</a> (將 <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> 作為子模組)</p>
+<p>github 帳號 、github pages</p>
 <p><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a> (將 cmsimde 作為目錄)</p>
-<p>承接網際內容管理課程之後, 該如何利用 Web-based 前後端程式協助機械工程人員進行機電系統模擬與設計?</p>
-<p style="padding-left: 30px;">電腦輔助設計與實習:</p>
-<p style="padding-left: 60px;"><a href="http://wcm.cycu.org:88/github/cad2023/">http://wcm.cycu.org:88/github/cad2023/</a> (電腦輔助設計與實習, 僅能從系上 IPv6 網段擷取<span>, 因 OneDrive 教育版容量限縮, 部分資料已經無法下載</span>)</p>
-<p style="padding-left: 60px;"><a href="http://wcm.cycu.org:88/github/cadnote/">http://wcm.cycu.org:88/github/cadnote/ </a>(電腦輔助設計與實習筆記, <span>僅能從系上 IPv6 網段擷取, 因 OneDrive 教育版容量限縮, 部分資料已經無法下載)</span></p>
-<p style="padding-left: 30px;">產品協同設計實習: <a href="http://mde.tw/cd2024">http://mde.tw/cd2024</a></p>
 <br />Topics << <a href='Topics.html'>Previous</a> <a href='IDE.html'>Next</a> >> IDE</div>
         
     <!-- footer -->
