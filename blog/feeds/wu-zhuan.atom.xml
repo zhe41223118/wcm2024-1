@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-02-19T15:14:37+08:00</updated><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-19T15:14:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-02-24T03:04:04+08:00</updated><entry><title>開始 WCM 五專課程</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-24T03:04:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號.&lt;/p&gt;
 
 
@@ -59,4 +59,4 @@
 &lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
 &lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry></feed>
+&lt;p&gt;每週問題與解答, 請轉到 &lt;a href="https://mde.tw/wcm2024/content/Q&amp;amp;A.html"&gt;https://mde.tw/wcm2024/content/Q&amp;amp;A.html&lt;/a&gt; 發問或討論.&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry></feed>

@@ -117,4 +117,4 @@ Github 帳號登入依照規定需要兩段式認證(2FA, [two-factor Authentica
 [OBS download]: https://obsproject.com/download
 
 # Q and A
-每週問題與解答
+每週問題與解答, 請轉到 <https://mde.tw/wcm2024/content/Q&A.html> 發問或討論.
