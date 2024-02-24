@@ -25,4 +25,4 @@ Author: kmol
 網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 [Github](https://github.com) 後, 連接至 <https://github.com/mdecycu/cmsimde_site>, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 [Github Pages](https://pages.github.com/) 後, 檢查是否已經可以連線到個人的課程網頁.
 
 # Q and A
-每週問題與解答
+每週問題與解答, 請轉到 <https://mde.tw/wcm2024/content/Q&A.html> 發問或討論.
