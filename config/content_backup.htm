@@ -67,7 +67,7 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p>各學員對於課程任何內容有問題者, 可以利用本頁面的 Disqus 留言系統發問及討論.</p>
 <div id="disqus_thread"></div>
 <script>
-    /**
+/**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
@@ -152,15 +152,38 @@ url = request.script_root + request.path</pre>
 <p>教育版帳號 microsoftonline 登入點: <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> </p>
 <p>github 帳號 、github pages</p>
 <p><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a> (將 cmsimde 作為目錄)</p>
-<h2>IDE</h2>
+<h2>Disqus</h2>
+<p>如何在網頁中加入 Disqus 留言系統:</p>
+<p>要將 <a href="https://blog.disqus.com/">https://blog.disqus.com/</a> 放入個人課程網頁中的任何一頁, 必須先透過一個 Gmail 郵箱申請 disqus 論壇之後, 再決定要在那一個頁面加入留言系統.</p>
+<h4>Disqus</h4>
+<p>免費帳號只能使用 Basic 方案: <a href="https://blog.disqus.com/">https://blog.disqus.com/</a></p>
+<p>設置流程很簡單:</p>
+<ol>
+<li>申請一個 Gmail 帳號.</li>
+<li>登入 Gmail 帳號後, 連線至 <a href="https://blog.disqus.com/">https://blog.disqus.com/</a> 選擇透過 Gmail 登記 Basic 方案.</li>
+<li>選擇要在個人的 Github Page 網址上納入 Disqus (即 <a href="https://Github帳號.github.io/wcm2024">https://Github帳號.github.io/wcm2024</a>), 採客製化方式插入 Javascript 的方式引入 disqus.</li>
+<li>取得網站對應的 disqus Javascript 程式碼.</li>
+<li>將 html 與 Javascript 程式設定碼放入特定的網頁超文件中.</li>
+</ol>
+<p>以下為 html 範例:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://申請帳號取得的代號.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();&gt;
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</pre>
+<p></p><h2>IDE</h2>
 <p>Replit 與 localhost 啟動與編輯網頁過程比較:</p>
 <p style="padding-left: 30px;">Replit 需要連網才能使用, localhost 可以在無網路時編輯已經 clone 到近端的倉儲內容, 並進行多次提交, 待有網路連線時再 push 到 Github.</p>
 <p style="padding-left: 30px;">Replit 可以在手機上使用.</p>
 <p style="padding-left: 30px;">Replit 在網頁上提供的 Tools 較為直覺, 且同一 Tool 可以在多個 Tab 中開啟使用</p>
 <p>費用:</p>
 <p style="padding-left: 30px;">Replit: <a href="https://replit.com/pricing">https://replit.com/pricing</a>: Basic workspace</p>
-<p style="padding-left: 30px;">localhost: 自有實體或虛擬主機: 電費約 5000 NTD/yr</p>
-<h3>Replit</h3>
+<p style="padding-left: 30px;">localhost: 自有實體或虛擬主機: 電費約 5000 NTD/yr</p><h3>Replit</h3>
 <p>當 Edge 瀏覽器針對 Replit 啟動 cmsite 編輯網站, 判定為不安全內容時, 可以暫時關閉 Defender:</p>
 <p style="padding-left: 30px;">Settings - Privacy, search and services - Security - <span>Microsoft Defender SmartScreen 選擇關閉</span></p>
 <hr/>
