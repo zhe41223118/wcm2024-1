@@ -74,7 +74,7 @@ It is vital that we we upskill everyone and the upskilling process I believe wil
 ## chatgpt 使用
 簡單[說明]如何利用 Gmail 帳號登入 [chatgpt], 並進行問題.
 
-[說明]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcyTXKU183VDmhHpnLbd8DEBG1KYmIeYWSLTOlEOqUEPuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gjH1Aq
+[說明]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQgJcYlnkwJHgDlwwlGQ46YBp8v8l3GSyur9ylIompMArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WLHbf6
 [chatgpt]: https://chat.openai.com/auth/login
 
 #申請 Github 帳號
