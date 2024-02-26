@@ -70,6 +70,13 @@ It is vital that we we upskill everyone and the upskilling process I believe wil
 每週上課後, 至少騰出一個小時, 回頭觀看課程網誌, 並針對上課主題, 自行練習與 [ChatGPT](https://chat.openai.com/auth/login) 對話, 進一步瞭解各階段的上課內容.
 
 # 五專 WCM 第二週課程內容
+
+## chatgpt 使用
+簡單[說明]如何利用 Gmail 帳號登入 [chatgpt], 並進行問題.
+
+[說明]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcyTXKU183VDmhHpnLbd8DEBG1KYmIeYWSLTOlEOqUEPuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gjH1Aq
+[chatgpt: https://chat.openai.com/auth/login
+
 #申請 Github 帳號
 先登入學校電子郵箱: <https://mail.nfu.edu.tw>
 

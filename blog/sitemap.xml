@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-02-25T23:53:56-00:00</lastmod>
+<lastmod>2024-02-26T07:06:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-02-25T23:53:56-00:00</lastmod>
+<lastmod>2024-02-26T07:06:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-02-25T23:53:56-00:00</lastmod>
+<lastmod>2024-02-26T07:06:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-02-25T23:53:56-00:00</lastmod>
+<lastmod>2024-02-26T07:06:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,7 +47,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./Starting-5J-WCM-course.html</loc>
-<lastmod>2024-02-25T23:53:44+08:00</lastmod>
+<lastmod>2024-02-26T07:05:38+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,28 +75,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/wu-zhuan.html</loc>
-<lastmod>2024-02-25T23:53:44+08:06</lastmod>
+<lastmod>2024-02-26T07:05:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/github.html</loc>
-<lastmod>2024-02-25T23:53:44+08:06</lastmod>
+<lastmod>2024-02-26T07:05:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/ms_online.html</loc>
-<lastmod>2024-02-25T23:53:44+08:06</lastmod>
+<lastmod>2024-02-26T07:05:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w1.html</loc>
-<lastmod>2024-02-25T23:53:44+08:06</lastmod>
+<lastmod>2024-02-26T07:05:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -110,7 +110,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-02-25T23:53:44+08:06</lastmod>
+<lastmod>2024-02-26T07:05:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
