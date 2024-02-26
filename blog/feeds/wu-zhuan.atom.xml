@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-02-26T07:05:38+08:00</updated><entry><title>WCM 五專課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-26T07:05:38+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;網際內容管理課程目標, 第一是讓學員了解如何利用 cmsimde_site 建立網站. 第二則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-02-26T07:10:17+08:00</updated><entry><title>WCM 五專課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-26T07:10:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;網際內容管理課程目標, 第一是讓學員了解如何利用 cmsimde_site 建立網站. 第二則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程目標, 第一是讓學員了解如何利用 cmsimde_site 建立網站. 第二則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
 
 
@@ -37,8 +37,7 @@
 &lt;p&gt;每週上課後, 至少騰出一個小時, 回頭觀看課程網誌, 並針對上課主題, 自行練習與 &lt;a href="https://chat.openai.com/auth/login"&gt;ChatGPT&lt;/a&gt; 對話, 進一步瞭解各階段的上課內容.&lt;/p&gt;
 &lt;h1&gt;五專 WCM 第二週課程內容&lt;/h1&gt;
 &lt;h2&gt;chatgpt 使用&lt;/h2&gt;
-&lt;p&gt;簡單&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcyTXKU183VDmhHpnLbd8DEBG1KYmIeYWSLTOlEOqUEPuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=gjH1Aq"&gt;說明&lt;/a&gt;如何利用 Gmail 帳號登入 [chatgpt], 並進行問題.&lt;/p&gt;
-&lt;p&gt;[chatgpt: https://chat.openai.com/auth/login&lt;/p&gt;
+&lt;p&gt;簡單&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcyTXKU183VDmhHpnLbd8DEBG1KYmIeYWSLTOlEOqUEPuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=gjH1Aq"&gt;說明&lt;/a&gt;如何利用 Gmail 帳號登入 &lt;a href="https://chat.openai.com/auth/login"&gt;chatgpt&lt;/a&gt;, 並進行問題.&lt;/p&gt;
 &lt;h1&gt;申請 Github 帳號&lt;/h1&gt;
 &lt;p&gt;先登入學校電子郵箱: &lt;a href="https://mail.nfu.edu.tw"&gt;https://mail.nfu.edu.tw&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;再連結到 &lt;a href="https://github.com/signup"&gt;https://github.com/signup&lt;/a&gt; 建立 Github 帳號, 帳號名稱以學號優先, 若已經被佔用, 則可以學號加上英文姓名縮寫三個字母作為 Github 帳號.&lt;/p&gt;

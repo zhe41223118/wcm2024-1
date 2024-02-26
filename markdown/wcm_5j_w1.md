@@ -75,7 +75,7 @@ It is vital that we we upskill everyone and the upskilling process I believe wil
 簡單[說明]如何利用 Gmail 帳號登入 [chatgpt], 並進行問題.
 
 [說明]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcyTXKU183VDmhHpnLbd8DEBG1KYmIeYWSLTOlEOqUEPuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gjH1Aq
-[chatgpt: https://chat.openai.com/auth/login
+[chatgpt]: https://chat.openai.com/auth/login
 
 #申請 Github 帳號
 先登入學校電子郵箱: <https://mail.nfu.edu.tw>
