@@ -21,6 +21,10 @@ Author: kmol
 ## 建立個人的課程倉儲
 確認所有學員都已經申請 Github 帳號後, 隨即可以建立個人的課程網站, 也就是在各學員的 Github 帳號中建立 wcm2024 倉儲, 但必須在登入 Github 帳號後, 連結到 <https://github.com/mdecycu/cmsimde_site> 以此倉儲作為 Template, 建立名稱為 wcm2024 全部使用英文小寫字母的 public repository (公開倉儲)
 
+根據上述步驟, [說明如何建立個人的 wcm2024 倉儲與網站].
+
+[說明如何建立個人的 wcm2024 倉儲與網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EUPknuYriNVHrc5E8RCHOR8B1YEe9JmE56nCjYMBxl-9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Kk08jv
+
 一旦在個人 Github 帳號下建立 wcm2024 倉儲後, 可以進入倉儲 Settings 中的 Pages, 將 Branch 分支的 main 分支設為網頁的 root (根目錄), 就可以將 wcm2024 轉為該倉儲的網站, 而其網站的連結為 https://帳號.github.io/wcm2024
 
 請學員準備一個 USB 3.0 以上的隨身碟 32GB 或 64GB 都可以, 用來存放可攜程式系統,個人數位私鑰以及其他設定檔案.
