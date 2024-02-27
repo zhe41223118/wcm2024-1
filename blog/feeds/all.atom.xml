@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-26T08:42:31+08:00</updated><entry><title>開始 WCM 四技課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-24T03:05:27+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-04T11:00:00+08:00</updated><entry><title>WCM 五專第三週課程內容</title><link href="./wcm-5j-w3.html" rel="alternate"></link><published>2024-03-04T11:00:00+08:00</published><updated>2024-02-27T19:54:12+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./wcm-5j-w3.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站 .&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站 .&lt;/p&gt;
+
+
+&lt;h1&gt;計算機概論摘要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
+&lt;h1&gt;nslookup 與 tracert&lt;/h1&gt;
+&lt;p&gt;nslookup - name server lookup 符號名稱伺服器查詢&lt;/p&gt;
+&lt;p&gt;tracert - trace route 路由追蹤&lt;/p&gt;
+&lt;h1&gt;利用 codespaces 維護 wcm2024 網站內容&lt;/h1&gt;
+&lt;p&gt;一般所謂網站, 指的是 &lt;a href="https://en.wikipedia.org/wiki/World_Wide_Web"&gt;www&lt;/a&gt; (world wide web) 全球資訊網協定中的 &lt;a href="https://en.wikipedia.org/wiki/HTML"&gt;html&lt;/a&gt; 超文件檔案資料, 可以直接用網頁瀏覽器在近端開啟, 或放在 &lt;a href="https://en.wikipedia.org/wiki/World_Wide_Web"&gt;www&lt;/a&gt; 伺服器上, 由網頁瀏覽器透過網址連線後觀看網頁內容.&lt;/p&gt;
+&lt;p&gt;網頁的組成 - 請用瀏覽器連結到一個網站, 然後用滑鼠右鍵帶出 Chrome 瀏覽器的"檢視頁面來源", 查看該網頁有哪些超文件標註內容.&lt;/p&gt;
+&lt;h2&gt;建立網頁內容&lt;/h2&gt;
+&lt;p&gt;由於採直接編寫 &lt;a href="https://en.wikipedia.org/wiki/HTML"&gt;html&lt;/a&gt; 建立網頁的方法比較繁瑣, 因此在網際內容管理課程中, 運用 &lt;a href="https://en.wikipedia.org/wiki/Python_(programming_language)"&gt;Python&lt;/a&gt; 程式編寫了一套系統, 用來協助使用者建立網站內容.&lt;/p&gt;
+&lt;p&gt;當使用者在建立網站過程, 資料不斷被納入, 雖然可以利用章節對內容分類, 但在網站內容完成之前, 使用者無法依照內容建構的時間先後次序, 主題式閱讀網站資料, 因此除了章節式的網站內容之外, 可以採流水帳的方式建立網站內容, 一般稱依照時間先後次序編寫網站文章的方式為"網誌" (&lt;a href="https://en.wikipedia.org/wiki/Blog"&gt;Weblog&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;如何在 &lt;a href="https://replit.com"&gt;Replit&lt;/a&gt; 中建立並維護個人或分組的網站內容?&lt;/p&gt;
+&lt;h2&gt;建立網誌內容&lt;/h2&gt;
+&lt;p&gt;網際內容管理課程建立 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; 建構, 並且利用 &lt;a href="https://www.markdownguide.org/"&gt;Markdown&lt;/a&gt; 格式編寫之後, 再利用轉檔流程轉為 html.&lt;/p&gt;
+&lt;p&gt;如何在 &lt;a href="https://replit.com"&gt;Replit&lt;/a&gt; 中設定並建立個人網站中的網誌內容?&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w3"></category></entry><entry><title>WCM 四技第二週課程</title><link href="./wcm-1a-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-27T20:04:33+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./wcm-1a-w2.html</id><summary type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+
+
+&lt;h1&gt;確認所有學員都已經建立個人網站&lt;/h1&gt;
+&lt;h1&gt;確認學員已經會利用 Replit 維護網站&lt;/h1&gt;
+&lt;h1&gt;如何利用 Codespaces 維護網站&lt;/h1&gt;
+&lt;h1&gt;利用 Github Classroom 進行分組&lt;/h1&gt;
+&lt;p&gt;在 mdewcm2024 帳號下, 分組專案名稱為 wcma, 若組長建立 Team 名稱為 g1, 則分組倉儲名稱將為 wcma-g1, 與五專課程則使用 wcmj-g1&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-27T19:56:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 
 
@@ -10,76 +79,70 @@
 &lt;p&gt;還未擁有 Github 帳號者, 必須自行建立 Github 帳號, 主要用來建立並維護個人的課程倉儲與網站.&lt;/p&gt;
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
-&lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答, 請轉到 &lt;a href="https://mde.tw/wcm2024/content/Q&amp;amp;A.html"&gt;https://mde.tw/wcm2024/content/Q&amp;amp;A.html&lt;/a&gt; 發問或討論.&lt;/p&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>WCM 五專課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-26T08:42:31+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;網際內容管理課程目標, 第一是讓學員了解如何利用 cmsimde_site 建立網站. 第二則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;網際內容管理課程目標, 第一是讓學員了解如何利用 cmsimde_site 建立網站. 第二則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>啟動 WCM 五專課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-02-27T19:53:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;以下包含五專精密機械科網際內容管理課程第一週與第二週的上課內容, 課程目標首先是讓學員了解如何利用 cmsimde_site 建立網站. 接著則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;以下包含五專精密機械科網際內容管理課程第一週與第二週的上課內容, 課程目標首先是讓學員了解如何利用 cmsimde_site 建立網站. 接著則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
 
 
 &lt;h1&gt;五專 WCM 第一週課程內容&lt;/h1&gt;
-&lt;p&gt;設法登入 MS Onedrive 大多數學員無法成功 (若無法使用 MS Teams 串流錄影上課, 預計改用教學系統廣播, 加上 OBS 錄影上課)&lt;/p&gt;
 &lt;p&gt;請學員申請 Github 帳號&lt;/p&gt;
+&lt;p&gt;Github 帳號登入依照規定需要兩段式認證(2FA, &lt;a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa"&gt;two-factor Authentication&lt;/a&gt;), 設定過程必須在手機安裝 Github Mobile, 若手機可連結至智慧手錶, 則可以將認證碼利用 &lt;a href="https://authy.com/"&gt;authy&lt;/a&gt; App 將兩段式登入驗證碼傳至手錶.&lt;/p&gt;
+&lt;h2&gt;Github 導引&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github"&gt;https://www.google.com/search?q=github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=github+教學"&gt;https://www.google.com/search?q=github+教學&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;請學員申請 Replit 帳號 - 建立使用可以收信的 Email 帳號作為 account, 自選密碼後登入 Replit&lt;/p&gt;
 &lt;h2&gt;建立個人的課程倉儲&lt;/h2&gt;
 &lt;p&gt;確認所有學員都已經申請 Github 帳號後, 隨即可以建立個人的課程網站, 也就是在各學員的 Github 帳號中建立 wcm2024 倉儲, 但必須在登入 Github 帳號後, 連結到 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt; 以此倉儲作為 Template, 建立名稱為 wcm2024 全部使用英文小寫字母的 public repository (公開倉儲)&lt;/p&gt;
-&lt;p&gt;根據上述步驟, &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EUPknuYriNVHrc5E8RCHOR8B1YEe9JmE56nCjYMBxl-9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=Kk08jv"&gt;說明如何建立個人的 wcm2024 倉儲與網站&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;一旦在個人 Github 帳號下建立 wcm2024 倉儲後, 可以進入倉儲 Settings 中的 Pages, 將 Branch 分支的 main 分支設為網頁的 root (根目錄), 就可以將 wcm2024 轉為該倉儲的網站, 而其網站的連結為 https://帳號.github.io/wcm2024&lt;/p&gt;
+&lt;p&gt;根據上述步驟, &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EUPknuYriNVHrc5E8RCHOR8B1YEe9JmE56nCjYMBxl-9jA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=Kk08jv"&gt;說明如何建立個人的 wcm2024 倉儲與網站&lt;/a&gt;的教學影片.&lt;/p&gt;
+&lt;p&gt;一旦在個人 Github 帳號下建立 wcm2024 倉儲後, 可以進入倉儲 Settings 中的 Pages, 將 Branch 分支的 main 分支設為網頁的 root (根目錄), 就可以將 wcm2024 轉為該倉儲的網站, 而其網站的連結將會是: https://帳號.github.io/wcm2024&lt;/p&gt;
 &lt;p&gt;請學員準備一個 USB 3.0 以上的隨身碟 32GB 或 64GB 都可以, 用來存放可攜程式系統,個人數位私鑰以及其他設定檔案.&lt;/p&gt;
 &lt;p&gt;一旦在 Github 建立 wcm2024, 而且已經登記 Replit 帳號, 就可以設法讓兩個帳號透過授權, 讓 Replit import wcm2024 倉儲, 啟動網頁編輯後進行改版, 並且轉為靜態網站內容之後, 將資料推回 Github, 就可以更新 Github Pages 上的 wcm2024 靜態網站內容.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETIDAS5fcBtGsqTyAOzKYKMBvSNFy1TFvZPtA4tC8H61pQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=lJTFXU"&gt;wcm2024_5j_如何更改靜態網站標題教學影片&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;另外希望可以整理以下訪談影片的內容:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8Pm2xEViNIo?si=BWumsWMYs7dwR0qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;以下是上列影片的部分訪談內容:&lt;/p&gt;
-&lt;p&gt;I'm going to say something and it's going to sound completely opposite of what people feel.&lt;/p&gt;
-&lt;p&gt;You probably recall over the course of the last 10 years 15 years almost everybody who sits on a stage like this would tell you it is vital that your children learn computer science.&lt;/p&gt;
-&lt;p&gt;Everybody should learn how to program and in fact it's almost exactly the opposite.&lt;/p&gt;
-&lt;p&gt;It is our job to create Computing technology such that nobody has to program and that the programming language is human.&lt;/p&gt;
-&lt;p&gt;Everybody in the world is now a programmer.  This is the miracle this is the miracle of artificial intelligence.&lt;/p&gt;
-&lt;p&gt;For the very first time we have closed the Gap the technology divide has been completely closed and this the reason why so many people can engage artificial intelligence.&lt;/p&gt;
-&lt;p&gt;It is the reason why every single government every single industrial conference every single company is talking about artificial intelligence today&lt;/p&gt;
-&lt;p&gt;Because for the very first time you can imagine everybody in your company being a technologist and so this is a tremendous time for all of you to realize that the technology divide has been closed.&lt;/p&gt;
-&lt;p&gt;Or another way to say it the technology leadership of other country has now been reset the countries the people that understand how to solve a domain problem in digital biology or in education of young people or in manufacturing or in farming.&lt;/p&gt;
-&lt;p&gt;Those people who understand domain expertise now can utilize technology that is readily available to you you now have a computer that will do what you tell it to do to help automate your work to amplify your productivity.&lt;/p&gt;
-&lt;p&gt;To make you more efficient and so I think that this is just a tremendous time the impact of course is great and your imperative to activate and take advantage of the technology is absolutely immediate.&lt;/p&gt;
-&lt;p&gt;And also to realize that to engage AI is a lot easier now than at any time in the history of computing.&lt;/p&gt;
-&lt;p&gt;It is vital that we we upskill everyone and the upskilling process I believe will be delightful surprising to realize that this computer can perform all these things that you're instructing it to do and doing it so easily.&lt;/p&gt;
-&lt;h2&gt;有關 MS Office 365 帳號&lt;/h2&gt;
-&lt;p&gt;若校方已經幫新生建立帳號, 試著從 &lt;a href="https://login.microsoftonline.com/"&gt;https://login.microsoftonline.com/&lt;/a&gt; 以"學號@nfu.edu.tw"作為帳號, 密碼使用當初啟用"學號@nfu.edu.tw"電子郵箱的預設密碼登入.&lt;/p&gt;
-&lt;p&gt;若上述方法無法登入, 也無法重設密碼, 則試著連到 &lt;a href="https://www.microsoft.com/zh-tw/education/products/office"&gt;https://www.microsoft.com/zh-tw/education/products/office&lt;/a&gt;, 輸入自己的"學號@nfu.edu.tw"作為帳號, 並依序完成 MS Office 365 教育版帳號的申請.&lt;/p&gt;
+&lt;p&gt;以下則利用各學員已經建立的 wcm2024 倉儲, 進行 &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETIDAS5fcBtGsqTyAOzKYKMBvSNFy1TFvZPtA4tC8H61pQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=lJTFXU"&gt;wcm2024_5j_如何更改靜態網站標題教學影片&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;必須自行練習的技能&lt;/h2&gt;
 &lt;p&gt;鍵盤中文與英文打字&lt;/p&gt;
 &lt;p&gt;看到電腦螢幕上的英文, 要試著用手機查詢字意, 再看看整個句子, 試著了解其含義. 另外也可以逐一將句子段落或單字複製到 &lt;a href="https://translate.google.com.tw/?hl=zh-TW&amp;amp;sl=en"&gt;Googl 英翻中網頁&lt;/a&gt;, 嘗試了解各英文單字與整個文章或電腦回應的意思.&lt;/p&gt;
 &lt;p&gt;每週上課後, 至少騰出一個小時, 回頭觀看課程網誌, 並針對上課主題, 自行練習與 &lt;a href="https://chat.openai.com/auth/login"&gt;ChatGPT&lt;/a&gt; 對話, 進一步瞭解各階段的上課內容.&lt;/p&gt;
 &lt;h1&gt;五專 WCM 第二週課程內容&lt;/h1&gt;
 &lt;h2&gt;chatgpt 使用&lt;/h2&gt;
-&lt;p&gt;簡單&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQgJcYlnkwJHgDlwwlGQ46YBp8v8l3GSyur9ylIompMArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=WLHbf6"&gt;說明&lt;/a&gt;如何利用 Gmail 帳號登入 &lt;a href="https://chat.openai.com/auth/login"&gt;chatgpt&lt;/a&gt;, 並進行問題.&lt;/p&gt;
-&lt;h1&gt;申請 Github 帳號&lt;/h1&gt;
-&lt;p&gt;先登入學校電子郵箱: &lt;a href="https://mail.nfu.edu.tw"&gt;https://mail.nfu.edu.tw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;再連結到 &lt;a href="https://github.com/signup"&gt;https://github.com/signup&lt;/a&gt; 建立 Github 帳號, 帳號名稱以學號優先, 若已經被佔用, 則可以學號加上英文姓名縮寫三個字母作為 Github 帳號.&lt;/p&gt;
-&lt;p&gt;Github 帳號登入依照規定需要兩段式認證(2FA, &lt;a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa"&gt;two-factor Authentication&lt;/a&gt;), 設定過程必須在手機安裝 Github Mobile, 若手機可連結至智慧手錶, 則可以將認證碼利用 &lt;a href="https://authy.com/"&gt;authy&lt;/a&gt; App 將兩段式登入驗證碼傳至手錶.&lt;/p&gt;
-&lt;h2&gt;Github 導引&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.google.com/search?q=github"&gt;https://www.google.com/search?q=github&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.google.com/search?q=github+教學"&gt;https://www.google.com/search?q=github+教學&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;計算機概論摘要&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;如何利用 &lt;a href="https://obsproject.com/download"&gt;OBS download&lt;/a&gt; + 網際簡報進行&lt;a href="https://www.google.com/search?q=OBS+live+stream+and+record+at+the+same+time"&gt;直播同時錄影&lt;/a&gt;?&lt;/p&gt;
-&lt;h1&gt;Q and A&lt;/h1&gt;
-&lt;p&gt;每週問題與解答, 請轉到 &lt;a href="https://mde.tw/wcm2024/content/Q&amp;amp;A.html"&gt;https://mde.tw/wcm2024/content/Q&amp;amp;A.html&lt;/a&gt; 發問或討論.&lt;/p&gt;
-&lt;h1&gt;nslookup 與 tracert&lt;/h1&gt;
-&lt;p&gt;nslookup - name server lookup 符號名稱伺服器查詢&lt;/p&gt;
-&lt;p&gt;tracert - trace route 路由追蹤&lt;/p&gt;
-&lt;h1&gt;維護 wcm2024 網站內容&lt;/h1&gt;
-&lt;p&gt;一般所謂網站, 指的是 &lt;a href="https://en.wikipedia.org/wiki/World_Wide_Web"&gt;www&lt;/a&gt; (world wide web) 全球資訊網協定中的 &lt;a href="https://en.wikipedia.org/wiki/HTML"&gt;html&lt;/a&gt; 超文件檔案資料, 可以直接用網頁瀏覽器在近端開啟, 或放在 &lt;a href="https://en.wikipedia.org/wiki/World_Wide_Web"&gt;www&lt;/a&gt; 伺服器上, 由網頁瀏覽器透過網址連線後觀看網頁內容.&lt;/p&gt;
-&lt;p&gt;網頁的組成 - 請用瀏覽器連結到一個網站, 然後用滑鼠右鍵帶出 Chrome 瀏覽器的"檢視頁面來源", 查看該網頁有哪些超文件標註內容.&lt;/p&gt;
-&lt;h2&gt;建立網頁內容&lt;/h2&gt;
-&lt;p&gt;由於採直接編寫 &lt;a href="https://en.wikipedia.org/wiki/HTML"&gt;html&lt;/a&gt; 建立網頁的方法比較繁瑣, 因此在網際內容管理課程中, 運用 &lt;a href="https://en.wikipedia.org/wiki/Python_(programming_language)"&gt;Python&lt;/a&gt; 程式編寫了一套系統, 用來協助使用者建立網站內容.&lt;/p&gt;
-&lt;p&gt;當使用者在建立網站過程, 資料不斷被納入, 雖然可以利用章節對內容分類, 但在網站內容完成之前, 使用者無法依照內容建構的時間先後次序, 主題式閱讀網站資料, 因此除了章節式的網站內容之外, 可以採流水帳的方式建立網站內容, 一般稱依照時間先後次序編寫網站文章的方式為"網誌" (&lt;a href="https://en.wikipedia.org/wiki/Blog"&gt;Weblog&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;如何在 &lt;a href="https://replit.com"&gt;Replit&lt;/a&gt; 中建立並維護個人或分組的網站內容?&lt;/p&gt;
-&lt;h2&gt;建立網誌內容&lt;/h2&gt;
-&lt;p&gt;網際內容管理課程建立 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; 建構, 並且利用 &lt;a href="https://www.markdownguide.org/"&gt;Markdown&lt;/a&gt; 格式編寫之後, 再利用轉檔流程轉為 html.&lt;/p&gt;
-&lt;p&gt;如何在 &lt;a href="https://replit.com"&gt;Replit&lt;/a&gt; 中設定並建立個人網站中的網誌內容?&lt;/p&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-18T12:30:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+&lt;p&gt;簡單&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQgJcYlnkwJHgDlwwlGQ46YBp8v8l3GSyur9ylIompMArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=WLHbf6"&gt;說明&lt;/a&gt;如何利用 Gmail 帳號登入 &lt;a href="https://chat.openai.com/auth/login"&gt;chatgpt&lt;/a&gt;, 並進行提問.&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-02-27T19:29:42+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
