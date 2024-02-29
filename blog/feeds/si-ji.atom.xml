@@ -40,7 +40,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-28T23:45:01+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-29T02:18:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 
 
@@ -51,6 +51,7 @@
 &lt;p&gt;還未擁有 Github 帳號者, 必須自行建立 Github 帳號, 主要用來建立並維護個人的課程倉儲與網站.&lt;/p&gt;
 &lt;h1&gt;建立個人課程網站&lt;/h1&gt;
 &lt;p&gt;網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 &lt;a href="https://github.com"&gt;Github&lt;/a&gt; 後, 連接至 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt;, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 後, 檢查是否已經可以連線到個人的課程網頁.&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EYH-ytRhxrtNowtIAIXPISgBmJDTW9IEwziub_4GH6xh3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=Z81Ph7"&gt;如何利用 Github 建立個人課程網頁&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;

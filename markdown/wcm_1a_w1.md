@@ -24,6 +24,10 @@ Author: kmol
 # 建立個人課程網站
 網際內容管理的個人課程網站名稱為 wcm2024, 請先登入 [Github](https://github.com) 後, 連接至 <https://github.com/mdecycu/cmsimde_site>, 以此倉儲作為 Template 建立個人的 wcm2024 倉儲, 並將倉儲主分支設定 [Github Pages](https://pages.github.com/) 後, 檢查是否已經可以連線到個人的課程網頁.
 
+說明[如何利用 Github 建立個人課程網頁]
+
+[如何利用 Github 建立個人課程網頁]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EYH-ytRhxrtNowtIAIXPISgBmJDTW9IEwziub_4GH6xh3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Z81Ph7
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
