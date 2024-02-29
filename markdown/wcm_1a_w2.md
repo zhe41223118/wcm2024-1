@@ -48,6 +48,8 @@ Codespaces 屬於目前 Github 免費帳號下的功能之一, 與 Github 倉儲
 # 利用 Github Classroom 建立分組網站 (w3進度)
 在 mdewcm2024 帳號下, 期中分組作業名稱為 1a, 若第一組組長建立 Team 名稱為 midag1, 則分組倉儲名稱將為 1a-midag1, 而五專課程則使用 5j-midjg1, 需要如此命名作業與分組倉儲名稱的原因是, 在 Github Classroom 同一個 organization 名稱下 (即 wcm2024), 各班作業名稱必須有所區別, 而且各分組 Team 名稱也不能相同.
 
+https://mdecd2024.github.io/test-ag1/content/AI.html
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
