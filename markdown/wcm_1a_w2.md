@@ -28,6 +28,10 @@ Author: kmol
 
 由於 wcm2024 課程學員使用 Replit 免費帳號, 因此雲端 IDE 僅允許使用 Port 80 與 443 啟動網頁, 因此若要在 Replit 檢視動態網站或網誌推送到 Github 之前的內容, 必須要在動態與靜態模式中擇一使用.
 
+說明[如何利用 Replit 修改個人網站標題]
+
+[如何利用 Replit 修改個人網站標題]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EY3dasLJKbdOjQl47CLrE-IB2HF9rpeeB_2dieKwvZe2Qg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c59nPn
+
 # 如何利用 Codespaces 維護網站
 Codespaces 屬於目前 Github 免費帳號下的功能之一, 與 Github 倉儲內容維護的整合度最高, 但是每個月的免費額度僅有 120 core hours, 若使用標準的 2 core 進行運算, 擇每天平均僅能使用兩個小時. 若提升至 4 core, 則每天可以使用 1 小時.
 
