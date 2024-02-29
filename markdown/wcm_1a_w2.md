@@ -12,10 +12,29 @@ Author: kmol
 <!-- PELICAN_END_SUMMARY -->
 
 # 確認所有學員都已經建立個人網站
+
+建立個人課程網站步驟:
+
+1. 登入 Github
+2. 連結到 <https://github.com/mdecycu/cmsimde_site>
+3. 利用 "Use this template" 下方的 "Create a new repository" 建立名稱為 wcm2024 的倉儲
+4. 在 wcm2024 倉儲上方的 Settings 設定頁面中, 左方 Pages 中的 Branch 分支區域, 選擇將 main 分支存為網頁的 root 根目錄
+5. 等 wcm2024 的倉儲 Github Pages 轉檔完成後, 可以看到 commits 提交區的綠色勾勾, 就完成網址為 https://帳號.github.io/wcm2024 的個人課程網站
+
+利用上述步驟完成的倉儲內容, 同時帶有以 Python 編寫的動態網站程式, 以及位於 content 目錄中的靜態網頁資料.
+
 # 確認學員已經會利用 Replit 維護網站
+建議學員以 email 作為登入 Replit 的帳號, 不要依附在 Github 或 Gmail 帳號下, 以保有使用的獨立性.
+
+由於 wcm2024 課程學員使用 Replit 免費帳號, 因此雲端 IDE 僅允許使用 Port 80 與 443 啟動網頁, 因此若要在 Replit 檢視動態網站或網誌推送到 Github 之前的內容, 必須要在動態與靜態模式中擇一使用.
+
 # 如何利用 Codespaces 維護網站
-# 利用 Github Classroom 進行分組
-在 mdewcm2024 帳號下, 分組專案名稱為 wcma, 若組長建立 Team 名稱為 g1, 則分組倉儲名稱將為 wcma-g1, 與五專課程則使用 wcmj-g1
+Codespaces 屬於目前 Github 免費帳號下的功能之一, 與 Github 倉儲內容維護的整合度最高, 但是每個月的免費額度僅有 120 core hours, 若使用標準的 2 core 進行運算, 擇每天平均僅能使用兩個小時. 若提升至 4 core, 則每天可以使用 1 小時.
+
+採用 Github Codespaces 維護網站的好處是, Visual Studio code 介面提供多終端機與多 ports 開啟功能, 在 Codespaces 中維護 wcm2024 的過程幾乎如同在 localhost Windows 10 或 11 的操作系統環境中進行.
+
+# 利用 Github Classroom 建立分組網站
+在 mdewcm2024 帳號下, 期中分組作業名稱為 1a, 若第一組組長建立 Team 名稱為 midag1, 則分組倉儲名稱將為 1a-midag1, 而五專課程則使用 5j-midjg1, 需要如此命名作業與分組倉儲名稱的原因是, 在 Github Classroom 同一個 organization 名稱下 (即 wcm2024), 各班作業名稱必須有所區別, 而且各分組 Team 名稱也不能相同.
 
 針對以上課程內容, 請利用以下留言系統進行討論:
 
