@@ -1,8 +1,8 @@
 ---
-Title: 啟動 WCM 五專課程內容
+Title: WCM 五專第一與第二週課程內容
 Date: 2024-02-19 11:00
 Category: 五專
-Tags: Github, MS_online, w1
+Tags: Github, MS_online, w1, w2
 Slug: Starting-5J-WCM-course
 Author: kmol
 ---

@@ -11,6 +11,24 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# OBS 錄影與直播
+<https://obsproject.com/> 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用[可攜模式](https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/) 執行.
+
+開啟 Y:\obs\bin\64bit\obs64.exe 後, 可以選擇串流或錄影優先模式, 並在"設定"中的"一般"下的"語言"選擇使用 English 後, 重新啟動就可顯示英文語系畫面.
+
+Windows 操作系統中的 OBS 設定內容存放於 C:\Users\使用者帳號\AppData\Roaming\obs-studio 目錄中, 若將 OBS 放在 USB 隨身碟中, 希望每次開啟可攜程式系統都能保有先前的設定, 可以利用下列批次指令, 將 USB 隨身碟中所儲存的先前設定複製到 Windows 目錄.
+
+<pre class="brush: jscript">
+    REM Xcopy %Disk%:\home_ipv6\AppData\Roaming\obs-studio C:\users\%USERNAME%\AppData\Roaming\obs-studio /E /H /C /I /Y
+</pre>
+
+在 Windows 命令列視窗中, 可以使用 xcopy /? 查詢與 xcopy 指令有關的選項設定說明.
+
+OBS 支援多 Scenes(場景), 且每一個場景支援多個 Sources(來源), 若要錄製電腦操作畫面, 可以選擇 Display Capture 作為 Source, 之後設定 Audio, Video, Output 以及 Hotkeys, 就可以開始錄影.
+
+# ShareX 錄影與截圖
+在 Windows 操作系統中, 若無直播需求, 且僅需錄製電腦的操作流程或截圖, 可以使用 [ShareX](https://github.com/ShareX/ShareX/releases)
+
 #計算機概論摘要
 [高中計概]
 
