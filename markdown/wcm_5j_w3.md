@@ -46,6 +46,12 @@ OBS 支援多 Scenes(場景), 且每一個場景支援多個 Sources(來源), �
 # ShareX 錄影與截圖
 在 Windows 操作系統中, 若無直播需求, 且僅需錄製電腦的操作流程或截圖, 可以使用 [ShareX](https://github.com/ShareX/ShareX/releases)
 
+wcm2024 網站如何整合 <https://github.com/nextapps-de/spotlight> and <https://github.com/xemle/home-gallery>?
+
+除了 Replit, 還可以使用 Codespaces, Gitpod 與可隨身系統維護 wcm2024 網站內容.
+
+<hr>
+
 #計算機概論摘要
 [高中計概]
 
