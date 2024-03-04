@@ -20,6 +20,10 @@ Author: kmol
 
 接著下載可攜版(Portable)的 ShareX: <https://github.com/ShareX/ShareX/releases>, 下載解開壓縮後放入隨身碟.
 
+說明[如何下載並設定 ShareX 錄製電腦操作過程]
+
+[如何下載並設定 ShareX 錄製電腦操作過程]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EWcSS4zMupBBpTHox_lnbRgBH5jnFQdUgYllbfFpMJOcow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tf0MEH
+
 # OBS 錄影與直播
 <https://obsproject.com/> 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用[可攜模式](https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/) 執行.
 
