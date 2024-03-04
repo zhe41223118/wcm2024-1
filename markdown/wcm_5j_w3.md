@@ -28,6 +28,8 @@ Author: kmol
 
 [如何利用 ShareX 截圖並放入個人網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbvB4lMi1LxCiAX7cT7HWB4BLp7B88P9dxshSGvo3JWROw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JLd2dh
 
+以上為第三週進度
+
 # OBS 錄影與直播
 <https://obsproject.com/> 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用[可攜模式](https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/) 執行.
 
@@ -48,7 +50,11 @@ OBS 支援多 Scenes(場景), 且每一個場景支援多個 Sources(來源), �
 
 wcm2024 網站如何整合 <https://github.com/nextapps-de/spotlight> and <https://github.com/xemle/home-gallery>?
 
-除了 Replit, 還可以使用 Codespaces, Gitpod 與可隨身系統維護 wcm2024 網站內容.
+Python 與 ffmpeg.exe 結合成為影像讀取工具: <https://github.com/chenxinfeng4/ffmpegcv>
+
+除了 Replit, 還可以使用 Codespaces, Gitpod 與隨身系統維護 wcm2024 網站內容.
+
+Replit 免費帳號並沒有線上工作時間限制(但給定的運算資源較小), Codespaces 免費帳號每個月可以使用 120 core hours(優點是直接與 Github 帳號綁定), Gitpod 免費帳號每個月可以使用 50 hours(優點是開放原始碼, 且給定運算資源最多), 使用隨身程式系統則可在沒有網路連線時進行改版, 有網路連線時才將近端的版本推到 Github 倉儲.
 
 <hr>
 
