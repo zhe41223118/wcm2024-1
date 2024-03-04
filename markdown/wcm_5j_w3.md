@@ -11,6 +11,15 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# 配置可攜程式系統
+下載可攜程式環境: [portable_2024.7z](http://229.cycu.org/portable_2024.7z) (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)
+
+說明[如何將 portable_2024 目錄解開到隨身碟].
+
+[如何將 portable_2024 目錄解開到隨身碟]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbjAjrCjezdClicUZtTFRygB3lfzx-3C23mmdI07jRB_DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnJNks
+
+接著下載可攜版(Portable)的 ShareX: <https://github.com/ShareX/ShareX/releases>, 下載解開壓縮後放入隨身碟.
+
 # OBS 錄影與直播
 <https://obsproject.com/> 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用[可攜模式](https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/) 執行.
 
