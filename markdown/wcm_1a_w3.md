@@ -37,6 +37,6 @@ Author: kmol
 [wink3.7z](htt://229.cycu.org/wink3.7z) (需要下載密碼)
 
 <pre class="brush: html">
-<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
-<source src="/downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
+<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
+<source src="./../downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
 </pre>
