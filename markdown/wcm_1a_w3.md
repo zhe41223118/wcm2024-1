@@ -24,6 +24,39 @@ Author: kmol
 
 [如何利用 Codespaces 維護分組倉儲]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ET-PmJv_eF1KuEqnatnWncABDK_SWAhf15lEll8bdO24kQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e9PD2D
 
+# 常用的 git 指令
+git 的新增、提交與推送指令:
+
+git add .
+git commit -m "說明字串"
+git push
+
+使用 git add . 表示要認列所進行的全部改版內容, git commit -m 執行之前, 若在近端使用, 必須先行設定 git config,  將 home_ipv6 目錄下的 .gitconfig 中明確列出改版者的身分, 其中包括:
+
+git config --global user.name "提交者的 github 帳號名稱"
+
+git config --global user.email "提交者在 github 所登錄的 email address"
+
+使用者也可以利用 git version 查詢目前所使用的 git 版本.
+
+git status 通常用來查核目前近端的改版狀況, 例如: 是否與遠端倉儲同步, 或者遠端倉儲已經有了新版本.
+
+若遠端倉儲已經有新的版本, 則在 git push 之前, 必須設法取下遠端資料進行合併後, 才能再提交新的版本並推送到遠端.
+
+git pull = git fetch + git merge
+
+由於要將各組員的 wcm2024 設定為各分組倉儲的子模組, 因此必須利用 git submodule add 以各組員的學號作為子目錄名稱, 利用下列指令, 將組員倉儲新增為分組倉儲的子模組:
+
+git submodule add 倉儲網址 子目錄
+
+若只要取下倉儲的主要內容, 可以使用下列指令:
+
+git clone 倉儲網址_協定.git 指定目錄與否 
+
+若要取下帶有子模組的倉儲, 且可能該子模組還有設定其他子模組, 則必須要加上 --recurse-submodules:
+
+git clone --recurse-submodules 倉儲網址_協定.git 指定目錄與否
+
 # 利用 Gitpod 維護倉儲
 <https://www.gitpod.io/> 的使用與 Codespaces 類似, 都可透過 Visual Studio Code 的網際介面進行倉儲的管理, 每個月有 50 小時的免費使用時間, 可以使用 Github 帳號登入, 相較於 Replit, 其給定的免費資源較多, 執行速度快且 .ssh 下的 id_rsa 與 config 僅需設定一次.
 
