@@ -31,8 +31,8 @@ Author: kmol
 # 利用 Wink 建立操作影片
 以下利用 Wink 建立操作過程影片:
 
-<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
-<source src="/downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
+<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
+<source src="./../downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
 
 [wink3.7z](htt://229.cycu.org/wink3.7z) (需要下載密碼)
 
