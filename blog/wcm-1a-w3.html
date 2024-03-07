@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>2024 網際內容管理 - Authors</title>
+  <title>WCM 四技第三週課程</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Categories Atom Feed" />
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -39,27 +40,55 @@
   <![endif]-->
 
 
+    <link href="./wcm-1a-w3.html" rel="canonical" />
+
+        <meta name="description" content="四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="codespaces">
+        <meta name="tags" content="gitpod">
+        <meta name="tags" content="localhost">
+        <meta name="tags" content="w3">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="2024 網際內容管理"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="2024 網際內容管理"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="WCM 四技第三週課程"/>
+<meta property="og:description" content="四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./"/>
-<meta property="og:image" content="./theme/images/home-bg.jpg">
+<meta property="og:url" content="./wcm-1a-w3.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-03-07 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-03-07 00:13:47.267208+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="四技"/>
+<meta property="article:tag" content="codespaces"/>
+<meta property="article:tag" content="gitpod"/>
+<meta property="article:tag" content="localhost"/>
+<meta property="article:tag" content="w3"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " 2024 網際內容管理 ",
-  "url" : "./",
-  "image": "./theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "WCM 四技第三週課程",
+  "headline": "WCM 四技第三週課程",
+  "datePublished": "2024-03-07 11:00:00+08:00",
+  "dateModified": "2024-03-07 00:13:47.267208+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./wcm-1a-w3.html",
+  "description": "四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站."
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -164,19 +193,31 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="./" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Articles by </h1>
+        <h1 class="post-title">WCM 四技第三週課程</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Thu 07 March 2024">Thu 07 March 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Thu 07 March 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -190,15 +231,62 @@ init_mathjax();
     </form>
 </section>
 
-      <article class="post">
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
         <div class="inner">
-            <a href="./author/kmol.html" rel="bookmark">
-                <h2 class="post-title">
-                    kmol (6)
-                </h2>
-            </a>
-        </div>
-      </article>
+            <section class="post-content">
+                <p>四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.</p>
+
+
+<h1>利用 Github Classroom 分組</h1>
+<p>四技期中分組作業名稱為 1a, 各組組長在取得作業連結之後, 自行建立各組 Team, 以第一組為例, Team 名稱為 ag1, 之後以每組至多 6 名組員, 透過作業連結加入 ag1 Team, 其餘各組組員則依序建立 ag2, ag3 等 Team 名稱, 讓該組組員可以加入.</p>
+<p>以第一組為例, 完成 ag1 Team 建立後, 將取得 mdewcm2024 帳號下的 1a-ag1 倉儲, 所有第一組的組員均對此分組倉儲有管理權, 可以使用登入 Github 的帳號權限進行改版.</p>
+<p>由於在 Replit 免費帳號下, 僅能與登入 Github 的帳號進行授權, 且在 Replit 導入的倉儲, 任何人都能夠取得倉儲下 .git 的所有資料, 因此無法利用組員的 Github 帳號 token 取得管理授權, 而必須動態在 /home/runner/.ssh 下建立 id_rsa 與 config 連線設定, 各組組員才能利用 Replit 管理分組網站內容.</p>
+<h1>利用 Github Codespaces 維護倉儲</h1>
+<p>如前所述, 使用 Replit 管理分組網站, 必須採動態建立 .ssh 目錄中的私鑰與 config, 過程比較複雜, 但若採用 Github Codespaces, 則可以在登入 Github 帳號下, 管理該帳號所有授權的倉儲, 包括分組倉儲與網站, 唯一的限制是每個月只能使用 120 core hours, 若以內定的 2 core 執行管理, 則平均每天可以使用兩個小時.</p>
+<h1>利用 Gitpod 維護倉儲</h1>
+<p><a href="https://www.gitpod.io/">https://www.gitpod.io/</a> 的使用與 Codespaces 類似, 都可透過 Visual Studio Code 的網際介面進行倉儲的管理, 每個月有 50 小時的免費使用時間, 可以使用 Github 帳號登入, 相較於 Replit, 其給定的免費資源較多, 執行速度快且 .ssh 下的 id_rsa 與 config 僅需設定一次.</p>
+<h1>利用 localhost 維護倉儲</h1>
+<p>前面提到的 Replit, Codespaces 與 Gitpod 是目前利用雲端運算管理分散式版次管理系統較為有名的環境, 使用者可以直接在瀏覽器中執行各種運算與程式的開發, wcm2024 網際內容管理的第一個階段, 便利用這些目前提供免費使用的範圍內來維護個人與分組的網站. 即便如此, 免費帳號各有不銅的限制, 目前允許免費使用的 Github Pages, 也可能在未來轉為收費服務, 因此未來希望對個人或團隊的倉儲或網站掌控最大權限, 仍需學習如何利用近端或自架主機管理及部署網際內容.</p>
+<p>首先, 透過 Windows 環境中的 USB 隨身碟, 配置可攜程式系統, 用來管理個人與分組的分組倉儲與網站, 之後再設法介紹如何利用自行建立的 Ubuntu 主機配置倉儲與網站.</p>
+<h1>利用 Wink 建立操作影片</h1>
+<p>以下利用 Wink 建立操作過程影片:</p>
+<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
+<source src="/downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
+
+<p><a href="htt://229.cycu.org/wink3.7z">wink3.7z</a> (需要下載密碼)</p>
+<pre class="brush: html">
+<div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
+<source src="/downloads/wcm_1a_w3.mp4" type="video/mp4" /></video></div>
+</pre>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/codespaces.html">codespaces</a><a href="./tag/gitpod.html">gitpod</a><a href="./tag/localhost.html">localhost</a><a href="./tag/w3.html">w3</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./wcm-5j-w3.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">WCM 五專第三週課程內容</h2>
+                            <p class="post-nav-excerpt">以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
