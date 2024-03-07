@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T00:23:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T00:32:25+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 
 
@@ -15,6 +15,10 @@
 &lt;p&gt;前面提到的 Replit, Codespaces 與 Gitpod 是目前利用雲端運算管理分散式版次管理系統較為有名的環境, 使用者可以直接在瀏覽器中執行各種運算與程式的開發, wcm2024 網際內容管理的第一個階段, 便利用這些目前提供免費使用的範圍內來維護個人與分組的網站. 即便如此, 免費帳號各有不銅的限制, 目前允許免費使用的 Github Pages, 也可能在未來轉為收費服務, 因此未來希望對個人或團隊的倉儲或網站掌控最大權限, 仍需學習如何利用近端或自架主機管理及部署網際內容.&lt;/p&gt;
 &lt;p&gt;首先, 透過 Windows 環境中的 USB 隨身碟, 配置可攜程式系統, 用來管理個人與分組的分組倉儲與網站, 之後再設法介紹如何利用自行建立的 Ubuntu 主機配置倉儲與網站.&lt;/p&gt;
 &lt;h1&gt;利用 Wink 建立操作影片&lt;/h1&gt;
+&lt;p&gt;Wink 官方網站: &lt;a href="https://www.debugmode.com/wink.html"&gt;https://www.debugmode.com/wink.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wink 錄製 mp4 操作影片, 可以與 &lt;a href="https://github.com/ShareX/ShareX/releases"&gt;Sharex&lt;/a&gt; 共用 ffmpeg.exe.&lt;/p&gt;
+&lt;p&gt;Sharex 可用於電腦畫面截圖, 也可以錄製電腦連續操作影片, 而 Wink 則可取電腦操作過程的關鍵影格, 加上文字說明標籤後, 製作操作流程示範影片.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://229.cycu.org/wink3.7z"&gt;下載 wink3.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;
 &lt;p&gt;以下利用 Wink 建立操作過程影片:&lt;/p&gt;
 &lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true"&gt;
 &lt;source src="./../downloads/wcm_1a_w3.mp4" type="video/mp4" /&gt;&lt;/video&gt;&lt;/div&gt;

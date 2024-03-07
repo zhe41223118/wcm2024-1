@@ -29,6 +29,15 @@ Author: kmol
 首先, 透過 Windows 環境中的 USB 隨身碟, 配置可攜程式系統, 用來管理個人與分組的分組倉儲與網站, 之後再設法介紹如何利用自行建立的 Ubuntu 主機配置倉儲與網站.
 
 # 利用 Wink 建立操作影片
+
+Wink 官方網站: <https://www.debugmode.com/wink.html>
+
+Wink 錄製 mp4 操作影片, 可以與 [Sharex](https://github.com/ShareX/ShareX/releases) 共用 ffmpeg.exe.
+
+Sharex 可用於電腦畫面截圖, 也可以錄製電腦連續操作影片, 而 Wink 則可取電腦操作過程的關鍵影格, 加上文字說明標籤後, 製作操作流程示範影片.
+
+[下載 wink3.7z](http://229.cycu.org/wink3.7z) (需要密碼)
+
 以下利用 Wink 建立操作過程影片:
 
 <div class="winkVideoContainerClass"><video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_wcm_1a_w3" muted="true">
