@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T00:32:25+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T02:18:29+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 
 
@@ -9,6 +9,7 @@
 &lt;p&gt;由於在 Replit 免費帳號下, 僅能與登入 Github 的帳號進行授權, 且在 Replit 導入的倉儲, 任何人都能夠取得倉儲下 .git 的所有資料, 因此無法利用組員的 Github 帳號 token 取得管理授權, 而必須動態在 /home/runner/.ssh 下建立 id_rsa 與 config 連線設定, 各組組員才能利用 Replit 管理分組網站內容.&lt;/p&gt;
 &lt;h1&gt;利用 Github Codespaces 維護倉儲&lt;/h1&gt;
 &lt;p&gt;如前所述, 使用 Replit 管理分組網站, 必須採動態建立 .ssh 目錄中的私鑰與 config, 過程比較複雜, 但若採用 Github Codespaces, 則可以在登入 Github 帳號下, 管理該帳號所有授權的倉儲, 包括分組倉儲與網站, 唯一的限制是每個月只能使用 120 core hours, 若以內定的 2 core 執行管理, 則平均每天可以使用兩個小時.&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ET-PmJv_eF1KuEqnatnWncABDK_SWAhf15lEll8bdO24kQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=e9PD2D"&gt;如何利用 Codespaces 維護分組倉儲&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;利用 Gitpod 維護倉儲&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.gitpod.io/"&gt;https://www.gitpod.io/&lt;/a&gt; 的使用與 Codespaces 類似, 都可透過 Visual Studio Code 的網際介面進行倉儲的管理, 每個月有 50 小時的免費使用時間, 可以使用 Github 帳號登入, 相較於 Replit, 其給定的免費資源較多, 執行速度快且 .ssh 下的 id_rsa 與 config 僅需設定一次.&lt;/p&gt;
 &lt;h1&gt;利用 localhost 維護倉儲&lt;/h1&gt;
