@@ -61,6 +61,10 @@ git clone --recurse-submodules 倉儲網址_協定.git 指定目錄與否
 
 [如何將組員的個人倉儲納入分組倉儲成為子模組]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EZbnYCWfEylAmXhpOqXWgZUBMxerlNYRgQsBBjZAQ90lmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8nGXOz
 
+說明[如何在 Replit 維護分組倉儲]
+
+[如何在 Replit 維護分組倉儲]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EUlbUzMAyBFHrHX7bLPRKzsB3L-T-D413BPuH6pMSEZmjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HjIQab
+
 # 利用 Gitpod 維護倉儲
 <https://www.gitpod.io/> 的使用與 Codespaces 類似, 都可透過 Visual Studio Code 的網際介面進行倉儲的管理, 每個月有 50 小時的免費使用時間, 可以使用 Github 帳號登入, 相較於 Replit, 其給定的免費資源較多, 執行速度快且 .ssh 下的 id_rsa 與 config 僅需設定一次.
 
