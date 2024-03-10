@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-03-06T07:36:54+08:00</updated><entry><title>WCM 五專第三週課程內容</title><link href="./wcm-5j-w3.html" rel="alternate"></link><published>2024-03-04T11:00:00+08:00</published><updated>2024-03-06T07:36:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./wcm-5j-w3.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站 .&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站 .&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-03-11T11:00:00+08:00</updated><entry><title>WCM 五專第四週課程內容</title><link href="./wcm-5j-w4.html" rel="alternate"></link><published>2024-03-11T11:00:00+08:00</published><updated>2024-03-10T11:34:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-11:./wcm-5j-w4.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
 
 
-&lt;h1&gt;配置可攜程式系統&lt;/h1&gt;
-&lt;p&gt;下載可攜程式環境: &lt;a href="http://229.cycu.org/portable_2024.7z"&gt;portable_2024.7z&lt;/a&gt; (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)&lt;/p&gt;
-&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbjAjrCjezdClicUZtTFRygB3lfzx-3C23mmdI07jRB_DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=hnJNks"&gt;如何將 portable_2024 目錄解開到隨身碟&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;接著下載可攜版(Portable)的 ShareX: &lt;a href="https://github.com/ShareX/ShareX/releases"&gt;https://github.com/ShareX/ShareX/releases&lt;/a&gt;, 下載解開壓縮後放入隨身碟.&lt;/p&gt;
-&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EWcSS4zMupBBpTHox_lnbRgBH5jnFQdUgYllbfFpMJOcow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=Tf0MEH"&gt;如何下載並設定 ShareX 錄製電腦操作過程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbvB4lMi1LxCiAX7cT7HWB4BLp7B88P9dxshSGvo3JWROw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=JLd2dh"&gt;如何利用 ShareX 截圖並放入個人網站&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以上為第三週進度&lt;/p&gt;
 &lt;h1&gt;OBS 錄影與直播&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://obsproject.com/"&gt;https://obsproject.com/&lt;/a&gt; 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用&lt;a href="https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/"&gt;可攜模式&lt;/a&gt; 執行.&lt;/p&gt;
 &lt;p&gt;開啟 Y:\obs\bin\64bit\obs64.exe 後, 可以選擇串流或錄影優先模式, 並在"設定"中的"一般"下的"語言"選擇使用 English 後, 重新啟動就可顯示英文語系畫面.&lt;/p&gt;
@@ -29,6 +22,9 @@
 &lt;hr&gt;
 
 &lt;h1&gt;計算機概論摘要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.asus.com/me-en/event/productguide/2024/Q1-24-ASUS-Product-guide.pdf"&gt;ASUS Product Guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://futuretodayinstitute.com/wp-content/uploads/2024/03/TR2024_Computing_FINAL_LINKED.pdf"&gt;Computing Trend Report&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://futuretodayinstitute.com/wp-content/uploads/2023/02/Artificial_Intelligence-1.pdf"&gt;AI Trend Report&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ntsh.ntct.edu.tw/ischool/public/resource_view/show.php?view=1&amp;amp;aid=135"&gt;高中計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210"&gt;大學計概&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ckmsc39th.github.io/"&gt;Github Pages 參考網站&lt;/a&gt; (&lt;a href="https://github.com/ckmsc39th/ckmsc39th.github.io"&gt;倉儲&lt;/a&gt;) (&lt;a href="https://www.youtube.com/@lumine39th"&gt;相關影片&lt;/a&gt;)&lt;/p&gt;
@@ -46,6 +42,35 @@
 &lt;h2&gt;建立網誌內容&lt;/h2&gt;
 &lt;p&gt;網際內容管理課程建立 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; 建構, 並且利用 &lt;a href="https://www.markdownguide.org/"&gt;Markdown&lt;/a&gt; 格式編寫之後, 再利用轉檔流程轉為 html.&lt;/p&gt;
 &lt;p&gt;如何在 &lt;a href="https://replit.com"&gt;Replit&lt;/a&gt; 中設定並建立個人網站中的網誌內容?&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w4"></category></entry><entry><title>WCM 五專第三週課程內容</title><link href="./wcm-5j-w3.html" rel="alternate"></link><published>2024-03-04T11:00:00+08:00</published><updated>2024-03-10T11:36:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./wcm-5j-w3.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+
+
+&lt;h1&gt;配置可攜程式系統&lt;/h1&gt;
+&lt;p&gt;下載可攜程式環境: &lt;a href="http://229.cycu.org/portable_2024.7z"&gt;portable_2024.7z&lt;/a&gt; (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbjAjrCjezdClicUZtTFRygB3lfzx-3C23mmdI07jRB_DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=hnJNks"&gt;如何將 portable_2024 目錄解開到隨身碟&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;接著下載可攜版(Portable)的 ShareX: &lt;a href="https://github.com/ShareX/ShareX/releases"&gt;https://github.com/ShareX/ShareX/releases&lt;/a&gt;, 下載解開壓縮後放入隨身碟.&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EWcSS4zMupBBpTHox_lnbRgBH5jnFQdUgYllbfFpMJOcow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=Tf0MEH"&gt;如何下載並設定 ShareX 錄製電腦操作過程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbvB4lMi1LxCiAX7cT7HWB4BLp7B88P9dxshSGvo3JWROw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=JLd2dh"&gt;如何利用 ShareX 截圖並放入個人網站&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;
