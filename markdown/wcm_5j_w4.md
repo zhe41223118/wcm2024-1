@@ -11,6 +11,20 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# Foosball 與影像辨識
+
+[有關 Foosball](https://blog.watsons.com/blog/why-is-it-called-foosball)
+
+[History of Foosball](https://www.foosballsoccer.com/history-of-foosball.html)
+
+[Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+
+[40623128](https://mdecadp2018.github.io/site-40623128)
+
+[40623130](https://mdecadp2018.github.io/site-40623130)
+
+[airhockey](https://github.com/mdecourse/airhockey)
+
 # OBS 錄影與直播
 <https://obsproject.com/> 是一套自由開放原始碼的錄影與直播套件. 在 Windows 操作系統可以使用[可攜模式](https://obsproject.com/forum/resources/obs-and-obs-studio-portable-mode-on-windows.359/) 執行.
 
