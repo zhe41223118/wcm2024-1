@@ -83,6 +83,10 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 
 <https://git-scm.com/book/zh/v2> (簡體中文)
 
+請各分組在分組網站中建立一個名稱為"git"的 H1 頁面, 以協同方式整理上述與 Git 有關的內容:
+
+<a href="https://mdewcm2024.github.io/1a-ag1">1a-ag1</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag1">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag2">1a-ag2</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag2">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag3">1a-ag3</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag3">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag4">1a-ag4</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag4">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag5">1a-ag5</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag5">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag6">1a-ag6</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag6">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag7">1a-ag7</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag7">repo</a>)<br><a href="https://mdewcm2024.github.io/1a-ag8">1a-ag8</a>&nbsp;(<a href="https://github.com/mdewcm2024/1a-ag8">repo</a>)
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
