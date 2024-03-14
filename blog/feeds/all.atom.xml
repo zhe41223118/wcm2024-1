@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-13T01:37:20+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T01:59:03+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 
 
@@ -9,8 +9,13 @@
 &lt;p&gt;因為希望所管理的網站內容, 從無到有的過程留下改版歷程, 因此使用分散式版次管理系統進行網頁的配置, 也就是利用 Github 所提供的 Pages 功能來建立網頁.&lt;/p&gt;
 &lt;p&gt;又因為直接編輯帶有各種標註符號的超文件過程較為繁瑣, 因此利用 Python 與 Javascript 編寫了一套網頁編輯系統, 也就是 cmsimde 套件, 可以在 Python 與特定模組的環境中啟動, 也就是所謂的動態編輯網站, 使用者在 cmsimde 網際管理系統中所編輯的超文件內容存入套件 config 目錄中的 content.htm, 並且利用此超文件中的 H1~H3 標註作為分頁界線, 將 content.htm 分割為具有三個階層的頁面內容, 用來展示使用者所建立的最終 Github Pages 靜態網頁內容, 此網頁資料儲存在 cmsimde 套件中的 content 目錄, 並將靜態的 css 與 Javascript 儲存在 cmsimde 套件中的 static 目錄中.&lt;/p&gt;
 &lt;p&gt;cmsimde 套件有關動態與靜態網站的標題、啟動網址與埠號設定位於 init.py 程式檔案中, 若將 init.py 中的啟動網址設為外部 IP, 則此網際內容管理系統的編輯網站, 可直接連外.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EX1Dck3V_qlFjUk9FFZQyAwBlWqZGwSJ1BQBc0FLt9J21g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=QCTY0r"&gt;wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容&lt;/a&gt;教學影片&lt;/p&gt;
 &lt;h1&gt;Git Tutorial&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/git-guides"&gt;https://github.com/git-guides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"&gt;https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A Tutorial for GitHub.pdf"&gt;A Tutorial for Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt; (繁體中文, 僅翻譯至第六章&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;https://git-scm.com/book/zh/v2&lt;/a&gt; (簡體中文)&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;

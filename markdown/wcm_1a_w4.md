@@ -21,8 +21,20 @@ Author: kmol
 
 cmsimde 套件有關動態與靜態網站的標題、啟動網址與埠號設定位於 init.py 程式檔案中, 若將 init.py 中的啟動網址設為外部 IP, 則此網際內容管理系統的編輯網站, 可直接連外.
 
+[wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容]教學影片
+
+[wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EX1Dck3V_qlFjUk9FFZQyAwBlWqZGwSJ1BQBc0FLt9J21g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QCTY0r
+
 # Git Tutorial
 <https://github.com/git-guides>
+
+<https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources>
+
+[A Tutorial for Github](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A Tutorial for GitHub.pdf)
+
+<https://git-scm.com/book/zh-tw/v2> (繁體中文, 僅翻譯至第六章
+
+<https://git-scm.com/book/zh/v2> (簡體中文)
 
 針對以上課程內容, 請利用以下留言系統進行討論:
 
