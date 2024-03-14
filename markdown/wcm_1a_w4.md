@@ -64,6 +64,11 @@ os.system("mv ./downloads/config.txt /home/runner/.ssh/config")
 os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 </pre>
 
+# Replit, Codespaces 與 Gitpod 執行動態與靜態網站
+說明[如何在 Replit, Codespaces 與 Gitpod 維護並檢視網頁內容]
+
+[如何在 Replit, Codespaces 與 Gitpod 維護並檢視網頁內容]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/Eah8hKe_Ca1JipYuBBkGX7sBnXvN0nHDHOhi0VpTzR9HCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YfCZse
+
 # LaTeX
 為了利用 LaTeX 建立各組的期中與期末報告, 請下載 [http://229.cycu.org/miktex-portable.7z](http://229.cycu.org/miktex-portable.7z) (需要密碼)
 
