@@ -64,6 +64,9 @@ os.system("mv ./downloads/config.txt /home/runner/.ssh/config")
 os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 </pre>
 
+# LaTeX
+為了利用 LaTeX 建立各組的期中與期末報告, 請下載 [http://229.cycu.org/miktex-portable.7z](http://229.cycu.org/miktex-portable.7z) (需要密碼)
+
 # Git Tutorial
 <https://github.com/git-guides>
 
@@ -71,7 +74,7 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 
 [A Tutorial for Github](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A Tutorial for GitHub.pdf)
 
-<https://git-scm.com/book/zh-tw/v2> (繁體中文, 僅翻譯至第六章
+<https://git-scm.com/book/zh-tw/v2> (繁體中文, 僅翻譯至第六章)
 
 <https://git-scm.com/book/zh/v2> (簡體中文)
 

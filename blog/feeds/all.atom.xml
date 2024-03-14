@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T02:38:18+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T02:47:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 
 
@@ -36,11 +36,13 @@ os.system("mv ./downloads/config.txt /home/runner/.ssh/config")
 os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 &lt;/pre&gt;
 
+&lt;h1&gt;LaTeX&lt;/h1&gt;
+&lt;p&gt;為了利用 LaTeX 建立各組的期中與期末報告, 請下載 &lt;a href="http://229.cycu.org/miktex-portable.7z"&gt;http://229.cycu.org/miktex-portable.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;
 &lt;h1&gt;Git Tutorial&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/git-guides"&gt;https://github.com/git-guides&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"&gt;https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A Tutorial for GitHub.pdf"&gt;A Tutorial for Github&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt; (繁體中文, 僅翻譯至第六章&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2"&gt;https://git-scm.com/book/zh-tw/v2&lt;/a&gt; (繁體中文, 僅翻譯至第六章)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;https://git-scm.com/book/zh/v2&lt;/a&gt; (簡體中文)&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
