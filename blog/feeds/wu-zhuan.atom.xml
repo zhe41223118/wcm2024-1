@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-03-18T11:00:00+08:00</updated><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-18T07:40:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-03-20T04:26:58+08:00</updated><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-20T04:26:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 
 
@@ -24,7 +24,27 @@
 &lt;p&gt;註記: 利用 Replit 檢視尚未推向 Github 的網誌, 需要下列兩個額外的程式: main2.py (&lt;a href="https://mde.tw/wcm2024/downloads/main2.txt"&gt;main2.txt&lt;/a&gt;) 以及 static.py (&lt;a href="https://mde.tw/wcm2024/downloads/static.txt"&gt;static.txt&lt;/a&gt;)&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;p&gt;示範&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ERZGewzSUUlKqd4n14wx0qsB4imQH6AosJ2dx4_2Cyz7rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=SEgB25"&gt;如何在 Replit 倉儲中加入靜態網站檢視的功能&lt;/a&gt;教學影片&lt;/p&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 五專第四週課程內容</title><link href="./wcm-5j-w4.html" rel="alternate"></link><published>2024-03-11T11:00:00+08:00</published><updated>2024-03-11T16:08:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-11:./wcm-5j-w4.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
+&lt;p&gt;示範&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ERZGewzSUUlKqd4n14wx0qsB4imQH6AosJ2dx4_2Cyz7rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=SEgB25"&gt;如何在 Replit 倉儲中加入靜態網站檢視的功能&lt;/a&gt;教學影片&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 五專第四週課程內容</title><link href="./wcm-5j-w4.html" rel="alternate"></link><published>2024-03-11T11:00:00+08:00</published><updated>2024-03-11T16:08:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-11:./wcm-5j-w4.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
 
 

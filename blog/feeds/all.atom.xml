@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-18T11:00:00+08:00</updated><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-18T07:40:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-20T10:48:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+
+
+&lt;h1&gt;教學影片&lt;/h1&gt;
+&lt;p&gt;wcm2024_1a_1_如何建立個人的課程網站.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_如何利用  Replit 修改網站標題.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=c26add8d-29c9-4eb7-8d09-78ec22eb13e2&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用  Replit 修改網站標題.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_如何利用 codespaces 維護網站內容.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=6b3cbe48-30f5-4b65-be07-3a57490876fc&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用 codespaces 維護網站內容.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_w3_1_利用 codespace 維護分組網站.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=9b988f3f-78ff-4a5d-b84a-a76ad9d69dc0&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_1_利用 codespace 維護分組網站.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_w3_2_將組員的個人倉儲納為分組倉儲的子模組.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=2560e796-139f-4029-9978-693aa5d68195&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_2_將組員的個人倉儲納為分組倉儲的子模組.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_w3_3_如何在 replit 自設 .ssh 維護分組倉儲.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=33535b49-c800-4711-ac75-fb6cb3d12b3b&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_3_如何在 replit 自設 .ssh 維護分組倉儲.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=4d72437d-fed5-45a9-8d49-3d145650c80c&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站.mp4&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=a7847ca8-09bf-49ad-8a96-2e0419065fbb&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站.mp4"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="mp4"></category><category term="w5"></category></entry><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-20T04:26:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 
 
@@ -24,7 +72,27 @@
 &lt;p&gt;註記: 利用 Replit 檢視尚未推向 Github 的網誌, 需要下列兩個額外的程式: main2.py (&lt;a href="https://mde.tw/wcm2024/downloads/main2.txt"&gt;main2.txt&lt;/a&gt;) 以及 static.py (&lt;a href="https://mde.tw/wcm2024/downloads/static.txt"&gt;static.txt&lt;/a&gt;)&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;p&gt;示範&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ERZGewzSUUlKqd4n14wx0qsB4imQH6AosJ2dx4_2Cyz7rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=SEgB25"&gt;如何在 Replit 倉儲中加入靜態網站檢視的功能&lt;/a&gt;教學影片&lt;/p&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T03:37:32+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
+&lt;p&gt;示範&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ERZGewzSUUlKqd4n14wx0qsB4imQH6AosJ2dx4_2Cyz7rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=SEgB25"&gt;如何在 Replit 倉儲中加入靜態網站檢視的功能&lt;/a&gt;教學影片&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-20T04:28:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 
 
@@ -169,7 +237,7 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-13T01:16:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-20T04:28:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 
 
