@@ -15,35 +15,35 @@ Author: kmol
 
 wcm2024_1a_1_如何建立個人的課程網站.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"></iframe>
 
 wcm2024_1a_如何利用  Replit 修改網站標題.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=c26add8d-29c9-4eb7-8d09-78ec22eb13e2&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用  Replit 修改網站標題.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=c26add8d-29c9-4eb7-8d09-78ec22eb13e2&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用  Replit 修改網站標題.mp4"></iframe>
 
 wcm2024_1a_如何利用 codespaces 維護網站內容.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=6b3cbe48-30f5-4b65-be07-3a57490876fc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用 codespaces 維護網站內容.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=6b3cbe48-30f5-4b65-be07-3a57490876fc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用 codespaces 維護網站內容.mp4"></iframe>
 
 wcm2024_1a_w3_1_利用 codespace 維護分組網站.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=9b988f3f-78ff-4a5d-b84a-a76ad9d69dc0&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_1_利用 codespace 維護分組網站.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=9b988f3f-78ff-4a5d-b84a-a76ad9d69dc0&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_1_利用 codespace 維護分組網站.mp4"></iframe>
 
 wcm2024_1a_w3_2_將組員的個人倉儲納為分組倉儲的子模組.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=2560e796-139f-4029-9978-693aa5d68195&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_2_將組員的個人倉儲納為分組倉儲的子模組.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=2560e796-139f-4029-9978-693aa5d68195&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_2_將組員的個人倉儲納為分組倉儲的子模組.mp4"></iframe>
 
 wcm2024_1a_w3_3_如何在 replit 自設 .ssh 維護分組倉儲.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=33535b49-c800-4711-ac75-fb6cb3d12b3b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_3_如何在 replit 自設 .ssh 維護分組倉儲.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=33535b49-c800-4711-ac75-fb6cb3d12b3b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w3_3_如何在 replit 自設 .ssh 維護分組倉儲.mp4"></iframe>
 
 wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=4d72437d-fed5-45a9-8d49-3d145650c80c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=4d72437d-fed5-45a9-8d49-3d145650c80c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_複習有關網站與 cmsimde 相關內容.mp4"></iframe>
 
 wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=a7847ca8-09bf-49ad-8a96-2e0419065fbb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站.mp4"></iframe>
+<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=a7847ca8-09bf-49ad-8a96-2e0419065fbb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站.mp4"></iframe>
 
 針對以上課程內容, 請利用以下留言系統進行討論:
 
