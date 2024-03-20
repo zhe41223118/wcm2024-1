@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-20T14:31:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-20T14:51:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -10,7 +10,7 @@
 &lt;p&gt;&lt;a href="https://sharepoint.handsontek.net/2022/10/04/get-embed-code-stream-video-hosted-sharepoint-onedrive/"&gt;https://sharepoint.handsontek.net/2022/10/04/get-embed-code-stream-video-hosted-sharepoint-onedrive/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/t5/microsoft-stream-on-sharepoint/get-embed-code-for-video-in-sharepoint-or-onedrive/m-p/3643398"&gt;https://techcommunity.microsoft.com/t5/microsoft-stream-on-sharepoint/get-embed-code-for-video-in-sharepoint-or-onedrive/m-p/3643398&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;wcm2024_1a_1_如何建立個人的課程網站.mp4&lt;/p&gt;
-&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"&gt;&lt;/iframe&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/p-aVES1oops?si=iV3jsJQ82akxBLsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;wcm2024_1a_如何利用  Replit 修改網站標題.mp4&lt;/p&gt;
 &lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=c26add8d-29c9-4eb7-8d09-78ec22eb13e2&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_如何利用  Replit 修改網站標題.mp4"&gt;&lt;/iframe&gt;

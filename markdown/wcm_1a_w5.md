@@ -25,7 +25,7 @@ Author: kmol
 
 wcm2024_1a_1_如何建立個人的課程網站.mp4
 
-<iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"></iframe>
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/p-aVES1oops?si=iV3jsJQ82akxBLsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 wcm2024_1a_如何利用  Replit 修改網站標題.mp4
 
