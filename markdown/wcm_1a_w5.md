@@ -13,6 +13,16 @@ Author: kmol
 
 # 教學影片
 
+<https://learn.microsoft.com/en-us/training/modules/sharepoint-embedded-setup/>
+
+<https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128>
+
+<https://support.microsoft.com/en-us/office/using-videos-on-sharepoint-pages-5a0eb37c-81a8-45b7-875e-ff0515dd2e5f>
+
+<https://sharepoint.handsontek.net/2022/10/04/get-embed-code-stream-video-hosted-sharepoint-onedrive/>
+
+<https://techcommunity.microsoft.com/t5/microsoft-stream-on-sharepoint/get-embed-code-for-video-in-sharepoint-or-onedrive/m-p/3643398>
+
 wcm2024_1a_1_如何建立個人的課程網站.mp4
 
 <iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=d4cafe81-c661-4dbb-a30b-480085cf2128&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen title="wcm2024_1a_1_如何建立個人的課程網站.mp4"></iframe>
