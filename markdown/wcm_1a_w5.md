@@ -55,6 +55,10 @@ wcm2024 1a w5 Putty Solvespace STL 零件檢視方法_10.mp4
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/ep6lDKCU_wo?si=A5uitqG_KGfozev8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+大規模人工智慧運算的時代：前景、影響及回應
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/tr8lcnY4uUM?si=6fDIJgq9RkhwJlQS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
