@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T04:38:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T04:58:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -38,6 +38,17 @@
 &lt;p&gt;大規模人工智慧運算的時代：前景、影響及回應&lt;/p&gt;
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/tr8lcnY4uUM?si=6fDIJgq9RkhwJlQS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
+&lt;h1&gt;Questions for CMSiMDE&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;動態與靜態系統能不能參照相同的 static, downloads 與 images 路徑&lt;/li&gt;
+&lt;li&gt;動態與靜態系統能不能使用 Template, 讓頁面顯示更有彈性&lt;/li&gt;
+&lt;li&gt;系統能否成為其他系統的模組, 或發展出 API 架構&lt;/li&gt;
+&lt;li&gt;對於圖片與 STL 引用, 能否強化其即時互動性&lt;/li&gt;
+&lt;li&gt;在自架主機上能否直接與 CoppeliaSim 或 Webots 的模擬場景互動&lt;/li&gt;
+&lt;li&gt;與 Web-based Solvespace 進行整合&lt;/li&gt;
+&lt;li&gt;將 Range3 作為後端 FEM 運算模組&lt;/li&gt;
+&lt;li&gt;納入 Pyslvs-UI 的演算模組架構&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;

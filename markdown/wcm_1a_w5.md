@@ -59,6 +59,16 @@ wcm2024 1a w5 Putty Solvespace STL 零件檢視方法_10.mp4
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/tr8lcnY4uUM?si=6fDIJgq9RkhwJlQS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+# Questions for CMSiMDE
+- 動態與靜態系統能不能參照相同的 static, downloads 與 images 路徑
+- 動態與靜態系統能不能使用 Template, 讓頁面顯示更有彈性
+- 系統能否成為其他系統的模組, 或發展出 API 架構
+- 對於圖片與 STL 引用, 能否強化其即時互動性
+- 在自架主機上能否直接與 CoppeliaSim 或 Webots 的模擬場景互動
+- 與 Web-based Solvespace 進行整合
+- 將 Range3 作為後端 FEM 運算模組
+- 納入 Pyslvs-UI 的演算模組架構
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
