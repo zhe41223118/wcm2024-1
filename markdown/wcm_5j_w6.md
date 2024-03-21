@@ -51,6 +51,10 @@ wcm2024 5j w4 3 如何在倉儲中建立 main2 與 static python 檔案 9.mp4
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/ptTG5lOO0B0?si=CTZ4wrq8jZfYvaLl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+wcm2024 5j w5 與 ChatGPT 詢答的內容整理至網誌 10
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/6yJTGypDlkc?si=CWXeQ2u2MkOhpjlF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
