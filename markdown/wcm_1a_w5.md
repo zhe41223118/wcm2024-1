@@ -47,6 +47,14 @@ wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/NzChItkBiBQ?si=WGauAF0Z_3brYeVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+wcm2024  1a w5 Replit 平台上的分組倉儲權限設定_9.mp4
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/syTeJ0kJAow?si=aMLdtUib0CUnxw6G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+wcm2024 1a w5 Putty Solvespace STL 零件檢視方法_10.mp4
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/ep6lDKCU_wo?si=A5uitqG_KGfozev8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-25T11:00:00+08:00</updated><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-03-21T00:32:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-25T11:00:00+08:00</updated><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-03-21T02:55:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第六週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -51,7 +51,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Video"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T00:13:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Video"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T03:03:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -80,6 +80,12 @@
 
 &lt;p&gt;wcm2024_1a_w4_說明如何在 Replit Codespaces 與 Gitpod 執行倉儲的動態與靜態網站_8.mp4&lt;/p&gt;
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/NzChItkBiBQ?si=WGauAF0Z_3brYeVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024  1a w5 Replit 平台上的分組倉儲權限設定_9.mp4&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/syTeJ0kJAow?si=aMLdtUib0CUnxw6G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wcm2024 1a w5 Putty Solvespace STL 零件檢視方法_10.mp4&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/ep6lDKCU_wo?si=A5uitqG_KGfozev8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
