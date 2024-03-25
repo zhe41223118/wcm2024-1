@@ -7,9 +7,35 @@ Slug: wcm-5j-w6
 Author: kmol
 ---
 
-五專 WCM 第六週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.
+五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.
 
 <!-- PELICAN_END_SUMMARY -->
+
+# Pro Git 電子書
+假如要較為深入了解 Git, 就 <https://git-scm.com/book/en/v2> 這本電子書來說, 需要認識多少英文單字?
+
+[check_dict_from_cdict_net.py] (建立英文單字查詢 html 檔案)
+
+[get_txt_from_pdf.py] (從 pdf 檔案中取出文字內容)
+
+pip install pymupdf fitz
+
+目前 get_txt_from_pdf.py 會從 pdf 檔案擷取文字內容並直接列印在 console, 請利用 ChatGPt, 要求將擷取的文字內容存為檔案.
+
+請利用上述兩個程式, 以 html 格式整理出上列電子書的英文單字查詢涵義與應用資料.
+
+各學員完成上述 Python 程式操作後, 請將過程與結果整理在自己的 wcm2024 課程網站與網誌中.
+
+另外, 因為 <https://git-scm.com/book/en/v2> 可以直接從 git-scm.com 網站下載, 一旦上傳到 downloads 目錄取出英文單字查詢超文件之後, 可以不將這個 18 MB 的檔案放在倉儲內, 根據[這裡](https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file)的說明, 可得知該如何操作.
+
+[check_dict_from_cdict_net.py]: https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/b37ad6acfd6000d91aaec806d9558994f70e1891/check_dict_from_cdict_net.py
+
+[get_txt_from_pdf.py]: https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/b37ad6acfd6000d91aaec806d9558994f70e1891/get_txt_from_pdf.py
+
+# Gist 的應用
+[Gist 應用 上](https://ithelp.ithome.com.tw/articles/10206233)
+
+[Gist 應用 下](https://ithelp.ithome.com.tw/articles/10206277)
 
 # 教學影片
 
