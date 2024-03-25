@@ -18,7 +18,11 @@ Author: kmol
 
 [get_txt_from_pdf.py] (從 pdf 檔案中取出文字內容)
 
-pip install pymupdf fitz
+為了能夠執行 get_txt_from_pdf.py, Replit Python3 程式庫需要分別安裝 fitz 以及 pymupdf 等模組.
+
+先安裝 fitz 模組: pip install fitz
+
+再安裝 pymupdf 模組: pip install pymupdf 
 
 目前 get_txt_from_pdf.py 會從 pdf 檔案擷取文字內容並直接列印在 console, 請利用 ChatGPt, 要求將擷取的文字內容存為檔案.
 
@@ -28,7 +32,17 @@ pip install pymupdf fitz
 
 另外, 因為 <https://git-scm.com/book/en/v2> 可以直接從 git-scm.com 網站下載, 一旦上傳到 downloads 目錄取出英文單字查詢超文件之後, 可以不將這個 18 MB 的檔案放在倉儲內, 根據[這裡](https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file)的說明, 可得知該如何操作.
 
-[check_dict_from_cdict_net.py]: https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/b37ad6acfd6000d91aaec806d9558994f70e1891/check_dict_from_cdict_net.py
+操作結果:
+
+<https://mde.tw/wcm2024/downloads/words_progit.html>
+
+<https://mde.tw/wcm2024/downloads/words_w6_git_add_except.html>
+
+wcm2024 5j w6 progit vocabulary check up 教學影片:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gqP5Mbg4w5M?si=yD_mh1hg9az2_dvV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[check_dict_from_cdict_net.py]: https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/edbd164ea99d2247853ae200fc145a90c934f7d8/check_dict_from_cdict_net.py
 
 [get_txt_from_pdf.py]: https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/b37ad6acfd6000d91aaec806d9558994f70e1891/get_txt_from_pdf.py
 
