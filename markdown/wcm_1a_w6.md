@@ -145,6 +145,12 @@ git push -u origin main
 
 表示目前 Y:\tmp\gitserver\repository\repo1 伺服器中的 repo1, 已經分別存入 Y:\tmp\gitproject\repo1 與 C:\tmp\repository\repo1 目錄中, 使用者可以分別在這兩個倉儲中進行改版後, 在各自的倉儲資料中進行提交, 隨後再設法將改版內容 push 到 Y:\tmp\gitserver\repository\repo1 中進行合併.
 
+以上操作的教學影片:
+
+wcm2024 1a w6 git client server 實際操作
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/ofZ1Fc6ukJ0?si=-ssHH2vuyEopaKd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>
