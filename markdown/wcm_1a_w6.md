@@ -7,7 +7,7 @@ Slug: wcm-1a-w6
 Author: kmol
 ---
 
-四技 WCM 第六週課程, 說明如何透過與 ChatGPt 的對話, 了解有關 git 在不同專業領域的應用方法.
+四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -119,15 +119,17 @@ ChatGPT 回答:
 
 啟動近端可攜程式系統
 
-更換目錄至 y:\tmp 分別建立 gitproject 與 gitserver 目錄
+更換目錄至 y:\tmp 分別建立 gitproject\repository 與 gitserver\repository 目錄
 
 利用以下指令, 設定之後的 git init 將採用 main 作為內定主分支
 
 在 Y:\tmp\gitproject> git config --global init.defaultBranch main
 
-進入 gitproject 目錄執行 git init, 之後將空倉儲複製到 gitserver 目錄中
+進入 gitproject\repository 目錄, 新增一個目錄名稱為 repo1, 進入 repo1 後執行 git init
 
-在 gitproject 目錄操作:
+進入 gitserver\repository 目錄, 新增一個目錄名稱為 repo1, 進入 repo1 後執行 git init --bare 
+
+之後在 Y:\tmp\gitproject\repo1 目錄操作, 建立新檔案 README.md:
 
 echo "Hello, World!" > README.md
 
@@ -135,9 +137,13 @@ git add README.md
 
 git commit -m "Initial commit"
 
-git remote add origin y:\tmp\gitserver
+git remote add origin y:\tmp\gitserver\repository\repo1
 
 git push -u origin main
+
+如此, 就可以將 Y:\tmp\gitproject\repo1 中的倉儲內容送到 Y:\tmp\gitserver\repository\repo1 目錄中. 之後請在 C:\tmp\repository> 執行 git clone Y:\tmp\gitserver\repository\repo1, 由於沒有特別指令倉儲 clone 後的目錄名稱, 因此 git 會將 Y:\tmp\gitserver\repository\repo1 倉儲內容複製一份放入 C:\tmp\repository\repo1 目錄中.
+
+表示目前 Y:\tmp\gitserver\repository\repo1 伺服器中的 repo1, 已經分別存入 Y:\tmp\gitproject\repo1 與 C:\tmp\repository\repo1 目錄中, 使用者可以分別在這兩個倉儲中進行改版後, 在各自的倉儲資料中進行提交, 隨後再設法將改版內容 push 到 Y:\tmp\gitserver\repository\repo1 中進行合併.
 
 針對以上課程內容, 請利用以下留言系統進行討論:
 
