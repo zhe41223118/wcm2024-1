@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-25T08:15:48-00:00</lastmod>
+<lastmod>2024-03-28T01:06:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-25T08:15:48-00:00</lastmod>
+<lastmod>2024-03-28T01:06:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-25T08:15:48-00:00</lastmod>
+<lastmod>2024-03-28T01:06:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-25T08:15:48-00:00</lastmod>
+<lastmod>2024-03-28T01:06:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2024-02-15T03:25:19+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./wcm-1a-w6.html</loc>
+<lastmod>2024-03-28T01:06:07+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/si-ji.html</loc>
-<lastmod>2024-03-21T11:00:00+08:06</lastmod>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,14 +144,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/video.html</loc>
-<lastmod>2024-03-25T11:00:00+08:06</lastmod>
+<loc>./tag/git.html</loc>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w6.html</loc>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/video.html</loc>
 <lastmod>2024-03-25T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -271,7 +285,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-03-25T11:00:00+08:06</lastmod>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
