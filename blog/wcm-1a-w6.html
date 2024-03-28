@@ -42,7 +42,7 @@
 
     <link href="./wcm-1a-w6.html" rel="canonical" />
 
-        <meta name="description" content="四技 WCM 第六週課程, 說明如何透過與 ChatGPt 的對話, 了解有關 git 在不同專業領域的應用方法.">
+        <meta name="description" content="四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.">
 
         <meta name="author" content="kmol">
 
@@ -55,12 +55,12 @@
 <!-- Open Graph -->
 <meta property="og:site_name" content="2024 網際內容管理"/>
 <meta property="og:title" content="WCM 四技第六週課程"/>
-<meta property="og:description" content="四技 WCM 第六週課程, 說明如何透過與 ChatGPt 的對話, 了解有關 git 在不同專業領域的應用方法."/>
+<meta property="og:description" content="四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./wcm-1a-w6.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-28 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-03-28 01:06:07.891244+08:00"/>
+<meta property="article:modified_time" content="2024-03-28 02:54:58.060292+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="四技"/>
 <meta property="article:tag" content="git"/>
@@ -76,7 +76,7 @@
   "name": "WCM 四技第六週課程",
   "headline": "WCM 四技第六週課程",
   "datePublished": "2024-03-28 11:00:00+08:00",
-  "dateModified": "2024-03-28 01:06:07.891244+08:00",
+  "dateModified": "2024-03-28 02:54:58.060292+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -84,7 +84,7 @@
   },
   "image": "./theme/images/post-bg.jpg",
   "url": "./wcm-1a-w6.html",
-  "description": "四技 WCM 第六週課程, 說明如何透過與 ChatGPt 的對話, 了解有關 git 在不同專業領域的應用方法."
+  "description": "四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法."
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -233,7 +233,7 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>四技 WCM 第六週課程, 說明如何透過與 ChatGPt 的對話, 了解有關 git 在不同專業領域的應用方法.</p>
+                <p>四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.</p>
 
 
 <h1>Git 歷史與希望解決的問題</h1>
@@ -342,16 +342,19 @@ init_mathjax();
 <p>因此，使用 NXOpen Python 程式存檔並結合 Git 分散式版本管理系統可以更有效地管理和控制零組件的設計過程，提高團隊的協同效率和設計品質。</p>
 <h1>從 git init 到 git push</h1>
 <p>啟動近端可攜程式系統</p>
-<p>更換目錄至 y:\tmp 分別建立 gitproject 與 gitserver 目錄</p>
+<p>更換目錄至 y:\tmp 分別建立 gitproject\repository 與 gitserver\repository 目錄</p>
 <p>利用以下指令, 設定之後的 git init 將採用 main 作為內定主分支</p>
 <p>在 Y:\tmp\gitproject&gt; git config --global init.defaultBranch main</p>
-<p>進入 gitproject 目錄執行 git init, 之後將空倉儲複製到 gitserver 目錄中</p>
-<p>在 gitproject 目錄操作:</p>
+<p>進入 gitproject\repository 目錄, 新增一個目錄名稱為 repo1, 進入 repo1 後執行 git init</p>
+<p>進入 gitserver\repository 目錄, 新增一個目錄名稱為 repo1, 進入 repo1 後執行 git init --bare </p>
+<p>之後在 Y:\tmp\gitproject\repo1 目錄操作, 建立新檔案 README.md:</p>
 <p>echo "Hello, World!" &gt; README.md</p>
 <p>git add README.md</p>
 <p>git commit -m "Initial commit"</p>
-<p>git remote add origin y:\tmp\gitserver</p>
+<p>git remote add origin y:\tmp\gitserver\repository\repo1</p>
 <p>git push -u origin main</p>
+<p>如此, 就可以將 Y:\tmp\gitproject\repo1 中的倉儲內容送到 Y:\tmp\gitserver\repository\repo1 目錄中. 之後請在 C:\tmp\repository&gt; 執行 git clone Y:\tmp\gitserver\repository\repo1, 由於沒有特別指令倉儲 clone 後的目錄名稱, 因此 git 會將 Y:\tmp\gitserver\repository\repo1 倉儲內容複製一份放入 C:\tmp\repository\repo1 目錄中.</p>
+<p>表示目前 Y:\tmp\gitserver\repository\repo1 伺服器中的 repo1, 已經分別存入 Y:\tmp\gitproject\repo1 與 C:\tmp\repository\repo1 目錄中, 使用者可以分別在這兩個倉儲中進行改版後, 在各自的倉儲資料中進行提交, 隨後再設法將改版內容 push 到 Y:\tmp\gitserver\repository\repo1 中進行合併.</p>
 <p>針對以上課程內容, 請利用以下留言系統進行討論:</p>
 <div id="disqus_thread"></div>
 <script>
