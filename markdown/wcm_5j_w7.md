@@ -131,5 +131,15 @@ for anchor in anchors:
         result_list.innerHTML += "<li>{}</li>".format(anchor.getAttribute('href')) 
 </script>
 
+以下為 Brython 由電腦執行猜數字遊戲:
+
+wcm2024 5j w7 intro brython number guessing
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/UJXBDkeHNII?si=m7a4MgSn93KyDXNJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Gist
+
+<https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists>
+
+請根據上列有關 Github Gist 的簡介說明, 將 Gist 相關的參考資料整理到各自的網誌.
 
