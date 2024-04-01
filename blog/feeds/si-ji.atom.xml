@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-03-28T11:00:00+08:00</updated><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-03-28T03:48:41+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T06:54:34+08:00</updated><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -148,7 +148,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T04:58:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -217,7 +217,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="mp4"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-20T04:28:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="mp4"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 
 
@@ -285,7 +285,7 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="cmsimde"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-20T04:28:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="cmsimde"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 
 
@@ -355,7 +355,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="gitpod"></category><category term="localhost"></category><category term="w3"></category></entry><entry><title>WCM 四技第二週課程</title><link href="./wcm-1a-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T03:28:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./wcm-1a-w2.html</id><summary type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="gitpod"></category><category term="localhost"></category><category term="w3"></category></entry><entry><title>WCM 四技第二週課程</title><link href="./wcm-1a-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./wcm-1a-w2.html</id><summary type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
@@ -400,7 +400,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-29T02:18:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 
 

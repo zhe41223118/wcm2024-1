@@ -11,6 +11,12 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# 練習利用程式建立單字查詢網頁
+
+wcm2024 5j w7 利用 Python 建立 Javascript 電子書的單字查詢超文件
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/dJB6unDgngA?si=vWHr08lU6LbVJU4u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Brython 程式
 
 首先, 對 ChatGPT 提問: Brython 是甚麼程式語言? 該如何使用?

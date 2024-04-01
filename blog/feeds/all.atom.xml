@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:00:00+08:00</updated><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-01T06:04:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:00:00+08:00</updated><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-01T07:12:46+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 
+
+&lt;h1&gt;練習利用程式建立單字查詢網頁&lt;/h1&gt;
+&lt;p&gt;wcm2024 5j w7 利用 Python 建立 Javascript 電子書的單字查詢超文件&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/dJB6unDgngA?si=vWHr08lU6LbVJU4u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h1&gt;Brython 程式&lt;/h1&gt;
 &lt;p&gt;首先, 對 ChatGPT 提問: Brython 是甚麼程式語言? 該如何使用?&lt;/p&gt;
@@ -106,7 +110,7 @@ for anchor in anchors:
         result_list.innerHTML += "&lt;li&gt;{}&lt;/li&gt;".format(anchor.getAttribute('href')) 
 &lt;/script&gt;
 
-&lt;h1&gt;Gist&lt;/h1&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-03-28T03:48:41+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;h1&gt;Gist&lt;/h1&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -255,7 +259,7 @@ for anchor in anchors:
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w6"></category></entry><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-03-25T08:15:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w6"></category></entry><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -330,7 +334,7 @@ for anchor in anchors:
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Video"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T04:58:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Video"></category><category term="w6"></category></entry><entry><title>WCM 四技第五週課程</title><link href="./wcm-1a-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./wcm-1a-w5.html</id><summary type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第五週課程, 以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
@@ -399,7 +403,7 @@ for anchor in anchors:
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="mp4"></category><category term="w5"></category></entry><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-20T04:26:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="mp4"></category><category term="w5"></category></entry><entry><title>WCM 五專第五週課程內容</title><link href="./wcm-5j-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm-5j-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話, 整理與精密機械科有關的問題詢答紀錄.&lt;/p&gt;
 
 
@@ -444,7 +448,7 @@ for anchor in anchors:
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-20T04:28:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Chatgpt"></category><category term="w5"></category></entry><entry><title>WCM 四技第四週課程</title><link href="./wcm-1a-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./wcm-1a-w4.html</id><summary type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第四週課程, 複習前三週的課程內容, 並且介紹 git 與 cmsimde 的相關用法.&lt;/p&gt;
 
 
@@ -512,7 +516,7 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="cmsimde"></category><category term="w4"></category></entry><entry><title>WCM 五專第四週課程內容</title><link href="./wcm-5j-w4.html" rel="alternate"></link><published>2024-03-11T11:00:00+08:00</published><updated>2024-03-11T16:08:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-11:./wcm-5j-w4.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="cmsimde"></category><category term="w4"></category></entry><entry><title>WCM 五專第四週課程內容</title><link href="./wcm-5j-w4.html" rel="alternate"></link><published>2024-03-11T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-11:./wcm-5j-w4.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第四週上課內容, 包括回顧計算機概論, 以及如何在網頁推送至 Github 倉儲之前檢查所編輯的網頁內容.&lt;/p&gt;
 
 
@@ -589,7 +593,7 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-20T04:28:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w4"></category></entry><entry><title>WCM 四技第三週課程</title><link href="./wcm-1a-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./wcm-1a-w3.html</id><summary type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第三週課程, 除了 Replit, Github Codespaces, Gitpod 之外, 還介紹如何利用可攜系統維護個人與分組網站.&lt;/p&gt;
 
 
@@ -659,7 +663,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="gitpod"></category><category term="localhost"></category><category term="w3"></category></entry><entry><title>WCM 五專第三週課程內容</title><link href="./wcm-5j-w3.html" rel="alternate"></link><published>2024-03-04T11:00:00+08:00</published><updated>2024-03-10T11:36:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./wcm-5j-w3.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="gitpod"></category><category term="localhost"></category><category term="w3"></category></entry><entry><title>WCM 五專第三週課程內容</title><link href="./wcm-5j-w3.html" rel="alternate"></link><published>2024-03-04T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./wcm-5j-w3.html</id><summary type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;以下為五專精密機械科網際內容管理課程第三週上課內容, 包括回顧計算機概論, 利用 Github Classroom 進行分組作業派送(名稱為 wcmj), 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
@@ -688,7 +692,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w3"></category></entry><entry><title>WCM 四技第二週課程</title><link href="./wcm-1a-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T03:28:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./wcm-1a-w2.html</id><summary type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="計概"></category><category term="分組"></category><category term="w3"></category></entry><entry><title>WCM 四技第二週課程</title><link href="./wcm-1a-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./wcm-1a-w2.html</id><summary type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第二週課程, 主要確認各學員是否完成 Github 中個人倉儲與網站的建立, 並且除了 Replit 還導入利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
@@ -733,7 +737,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-29T02:18:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="codespaces"></category><category term="classroom"></category><category term="w2"></category></entry><entry><title>WCM 四技第一週課程</title><link href="./Starting-U4-WCM-course.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./Starting-U4-WCM-course.html</id><summary type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第一週課程, 主要引導學員登入 MS Online 並建立 Github 帳號, 以及利用 cmsimde_site 作為 Template 建立個人課程網站.&lt;/p&gt;
 
 
@@ -764,7 +768,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>WCM 五專第一與第二週課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-03-04T06:24:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;以下包含五專精密機械科網際內容管理課程第一週與第二週的上課內容, 課程目標首先是讓學員了解如何利用 cmsimde_site 建立網站. 接著則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category></entry><entry><title>WCM 五專第一與第二週課程內容</title><link href="./Starting-5J-WCM-course.html" rel="alternate"></link><published>2024-02-19T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-19:./Starting-5J-WCM-course.html</id><summary type="html">&lt;p&gt;以下包含五專精密機械科網際內容管理課程第一週與第二週的上課內容, 課程目標首先是讓學員了解如何利用 cmsimde_site 建立網站. 接著則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;以下包含五專精密機械科網際內容管理課程第一週與第二週的上課內容, 課程目標首先是讓學員了解如何利用 cmsimde_site 建立網站. 接著則是讓學員了解如何利用 Replit 維護網站內容.&lt;/p&gt;
 
 
@@ -808,7 +812,7 @@ git push&lt;/p&gt;
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category><category term="w2"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-03-06T07:34:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Github"></category><category term="MS_online"></category><category term="w1"></category><category term="w2"></category></entry><entry><title>2024 Spring WCM 課程</title><link href="./2024-Spring-Web-based-Content-Management.html" rel="alternate"></link><published>2024-02-13T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-13:./2024-Spring-Web-based-Content-Management.html</id><summary type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring WCM 的教學主要介紹如何利用 Replit, Codespaces 與 Gitpod 建立網際內容管理系統.&lt;/p&gt;
 
 
