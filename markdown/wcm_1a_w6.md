@@ -145,6 +145,16 @@ git push -u origin main
 
 表示目前 Y:\tmp\gitserver\repository\repo1 伺服器中的 repo1, 已經分別存入 Y:\tmp\gitproject\repo1 與 C:\tmp\repository\repo1 目錄中, 使用者可以分別在這兩個倉儲中進行改版後, 在各自的倉儲資料中進行提交, 隨後再設法將改版內容 push 到 Y:\tmp\gitserver\repository\repo1 中進行合併.
 
+最後, 若要讓使用者跨網路存取 Windows 操作系統上的倉儲, 可以根據[這裡]的說明, 啟動伺服器:
+
+git daemon --reuseaddr --base-path=. --export-all --verbose
+
+然後利用 C:\tmp\repository>git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.
+
+
+
+[這裡]: https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple
+
 以上操作的教學影片:
 
 wcm2024 1a w6 git client server 實際操作
