@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:00:00+08:00</updated><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-01T07:26:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:00:00+08:00</updated><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-01T07:44:42+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 
 
@@ -24,19 +24,17 @@
 &lt;p&gt;再問: 可以舉一個簡單 Brython 程式範例, 從 1 累加到 10, 然後在網頁中以 html 列出運算結果&lt;/p&gt;
 &lt;p&gt;回答:&lt;/p&gt;
 &lt;pre class="brush: html"&gt;
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;!-- 引入 Brython 的 JavaScript 文件 --&gt;
-  &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;script type="text/javascript"&gt;
+&lt;!-- 導入 Brython 程式庫 --&gt;
+&lt;script src="./../cmsimde/static/brython.js"&gt;&lt;/script&gt;
+&lt;script src="./../cmsimde/static/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;!-- 啟動 Brython --&gt;
+&lt;script&gt;
 window.onload=function(){
 brython();
 }
 &lt;/script&gt;
 &lt;h1&gt;累加結果：&lt;/h1&gt;
+&lt;!-- 顯示結果標註 --&gt;
 &lt;ul id="result"&gt;&lt;/ul&gt;
 
 &lt;!-- 在 &lt;script type="text/python"&gt; 標籤中編寫 Python 代碼 --&gt;
@@ -54,8 +52,6 @@ for i in range(init, upto+1):
     if i !=1:
         result_list.innerHTML += "&lt;li&gt;{} + {} = {}&lt;/li&gt;".format(sum-i, i, sum)
 &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
 &lt;/pre&gt;
 &lt;!-- 導入 Brython 程式庫 --&gt;
 &lt;script src="./../cmsimde/static/brython.js"&gt;&lt;/script&gt;

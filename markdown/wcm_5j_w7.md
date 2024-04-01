@@ -44,19 +44,17 @@ Brython 是一種在瀏覽器中運行的 Python 解譯器。它允許您在網�
 回答:
 
 <pre class="brush: html">
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- 引入 Brython 的 JavaScript 文件 -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
-</head>
-<body>
-<script type="text/javascript">
+<!-- 導入 Brython 程式庫 -->
+<script src="./../cmsimde/static/brython.js"></script>
+<script src="./../cmsimde/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
 window.onload=function(){
 brython();
 }
 </script>
 <h1>累加結果：</h1>
+<!-- 顯示結果標註 -->
 <ul id="result"></ul>
 
 <!-- 在 <script type="text/python"> 標籤中編寫 Python 代碼 -->
@@ -74,8 +72,6 @@ for i in range(init, upto+1):
     if i !=1:
         result_list.innerHTML += "<li>{} + {} = {}</li>".format(sum-i, i, sum)
 </script>
-</body>
-</html>
 </pre>
 <!-- 導入 Brython 程式庫 -->
 <script src="./../cmsimde/static/brython.js"></script>
