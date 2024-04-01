@@ -15,8 +15,8 @@ os.environ['HTTPS_PROXY'] = proxy
 
 # 將系統輸出語系編碼設為 utf8
 sys.stdout = codecs.getwriter("utf8")(sys.stdout.detach())
-# 表示要讀入的文章檔名為 w6_git_add_except.txt
-filename = "w6_git_add_except"
+# 表示要讀入的文章檔名為 2023_Programming for Absolute Beginners.txt
+filename = "2023_Programming for Absolute Beginners"
  
 """
  Project: Concordancer Jr.
