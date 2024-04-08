@@ -29,7 +29,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w8"></category></entry><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-08T01:15:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w8"></category></entry><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-08T06:37:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 
 
@@ -143,7 +143,7 @@ for anchor in anchors:
 &lt;p&gt;wcm2024 5j w7 intro brython number guessing&lt;/p&gt;
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/UJXBDkeHNII?si=m7a4MgSn93KyDXNJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;自動猜數字遊戲 Brython 程式碼:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/cb3b9b3e455c54381482d2f98f153442eff93ec4/auto_guessing_game.py"&gt;自動猜數字遊戲&lt;/a&gt; Brython 程式碼:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
 # 程式自動猜數字遊戲
 # 從 browser 導入 document, html 與 alert 模組

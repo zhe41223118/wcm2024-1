@@ -137,7 +137,9 @@ wcm2024 5j w7 intro brython number guessing
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/UJXBDkeHNII?si=m7a4MgSn93KyDXNJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-自動猜數字遊戲 Brython 程式碼:
+[自動猜數字遊戲] Brython 程式碼:
+
+[自動猜數字遊戲]: https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/cb3b9b3e455c54381482d2f98f153442eff93ec4/auto_guessing_game.py
 
 <pre class="brush: python">
 # 程式自動猜數字遊戲
