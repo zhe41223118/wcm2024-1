@@ -142,10 +142,241 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Servers << <a href='Servers.html'>Previous</a> <a href='wsgi.html'>Next</a> >> wsgi<br /><h1>Virtualbox</h1>
-<p>修改 cdwin.vdi 的 uuid:</p>
-<p>"C:\Program Files\Oracle\VirtualBox\vboxmanage" internalcommands sethduuid cdwin.vdi</p>
-<br />Servers << <a href='Servers.html'>Previous</a> <a href='wsgi.html'>Next</a> >> wsgi</div>
+    <div id="tipue_search_content">Programming << <a href='Programming.html'>Previous</a> <a href='Servers.html'>Next</a> >> Servers<br /><h1>STL</h1>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">solid Cube
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 0 1
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 1 1
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 0 1
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 1
+      vertex 1 0 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 1 1 1
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 0
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 1 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 1 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid Cube</pre>
+<!-- 導入 brython 程式庫 -->
+<p>
+<script src="./../cmsimde/static/brython.js"></script>
+<script src="./../cmsimde/static/brython_stdlib.js"></script>
+</p>
+<!-- 啟動 Brython -->
+<p>
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['./../cmsimde/static/','./../downloads/py/']});
+}
+</script>
+</p>
+<p>解讀 ASCII STL 檔案內容:</p>
+<div id="brython_div"></div>
+<script type="text/python">
+from browser import document, window, html
+import re
+
+stl = """solid Cube
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 0 1
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 1 1
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 0 1
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 1
+      vertex 1 0 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 1 1 1
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 0
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 1 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 1 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid Cube
+"""
+brython_div = document["brython_div"]
+
+def parseSTL(stl_data):
+    print("Parsing STL data...")
+    vertices = []
+    triangles = []
+    lines = stl_data.split("\n")
+    for line in lines:
+        if re.match(r'\s*vertex', line):  # Match lines with optional leading whitespace before "vertex"
+            parts = line.split()
+            vertex = [float(parts[1]), float(parts[2]), float(parts[3])]
+            vertices.extend(vertex)  # Extend the list instead of appending
+        elif line.startswith("facet"):
+            normal = [float(parts[2]), float(parts[3]), float(parts[4])]
+        elif line.startswith("endfacet"):
+            pass  # We don't need to do anything here for now
+        elif line.startswith("end"):
+            break  # End of file, stop parsing
+    print("Vertices:", vertices)
+    brython_div <= str(vertices)
+    
+    renderSTL(vertices, triangles)
+
+def renderSTL(vertices, triangles):
+    canvas = document["canvas"]
+    gl = canvas.getContext("webgl")
+    if not gl:
+        print("WebGL not supported, cannot render STL.")
+        return
+
+    # Convert vertices to Float32Array
+    vertices_array = window.Float32Array.new(vertices)
+
+    # Create vertex buffer
+    vertex_buffer = gl.createBuffer()
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer)
+    gl.bufferData(gl.ARRAY_BUFFER, vertices_array, gl.STATIC_DRAW)
+
+    # Remaining rendering code remains unchanged...
+
+parseSTL(stl)
+</script><br />Programming << <a href='Programming.html'>Previous</a> <a href='Servers.html'>Next</a> >> Servers</div>
         
     <!-- footer -->
       <div class="container">
