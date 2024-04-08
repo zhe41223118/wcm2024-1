@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:00:00+08:00</updated><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-01T08:18:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 五專</title><link href="./" rel="alternate"></link><link href="./feeds/wu-zhuan.atom.xml" rel="self"></link><id>./</id><updated>2024-04-08T11:00:00+08:00</updated><entry><title>WCM 五專第八週課程內容</title><link href="./wcm-5j-w8.html" rel="alternate"></link><published>2024-04-08T11:00:00+08:00</published><updated>2024-04-08T01:23:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-08:./wcm-5j-w8.html</id><summary type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
+
+
+&lt;h1&gt;領英&lt;/h1&gt;
+&lt;p&gt;有關&lt;a href="https://zh.wikipedia.org/wiki/%E9%A0%98%E8%8B%B1"&gt;領英&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(註冊領英帳號](https://www.linkedin.com/signup?_l=zh-tw)&lt;/p&gt;
+&lt;h1&gt;網際內容管理課程回顧&lt;/h1&gt;
+&lt;p&gt;學員簡報與自評&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w8"></category></entry><entry><title>WCM 五專第七週課程內容</title><link href="./wcm-5j-w7.html" rel="alternate"></link><published>2024-04-01T11:00:00+08:00</published><updated>2024-04-08T01:15:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-01:./wcm-5j-w7.html</id><summary type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第七週課程, 開始說明如何在頁面配置 Brython 環境, 並將 Brython 程式配置在個人 Github 帳號下的 Gist.&lt;/p&gt;
 
 
@@ -167,7 +195,27 @@ id4 &lt;= "平均次數: " + str(平均猜測次數)
 
 &lt;h1&gt;Gist&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists"&gt;https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;請根據上列有關 Github Gist 的簡介說明, 將 Gist 相關的參考資料整理到各自的網誌.&lt;/p&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
+&lt;p&gt;請根據上列有關 Github Gist 的簡介說明, 將 Gist 相關的參考資料整理到各自的網誌.&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 五專第六週課程內容</title><link href="./wcm-5j-w6.html" rel="alternate"></link><published>2024-03-25T11:00:00+08:00</published><updated>2024-04-01T06:54:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-25:./wcm-5j-w6.html</id><summary type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第六週課程, 閱讀 Git 相關原文書, 需要認識多少英文單字. 另外以 iframe 嵌入先前的教學影片, 並摘要各影片內容.&lt;/p&gt;
 
 
