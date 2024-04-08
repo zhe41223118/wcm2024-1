@@ -15,7 +15,7 @@ Author: kmol
 
 有關[領英]
 
-[註冊領英帳號](https://www.linkedin.com/signup?_l=zh-tw)
+[註冊領英帳號](https://www.linkedin.com/signup?_l=zh-tw) - 請直接以 Gmail 登入, 並設定身分為學生.
 
 [領英]: https://zh.wikipedia.org/wiki/%E9%A0%98%E8%8B%B1
 
@@ -25,9 +25,21 @@ Author: kmol
 
 [Do you actually need a website?]: https://www.google.com/search?q=Do+you+actually+need+a+website+in+2024
 
+# Pull Requests
+
+以 <https://github.com/51233138/wcm2024> 為例, scrum-1 登入 Github 後, fork 51233138 帳號下的  wcm2024 倉儲後, 設法改版後, 利用 Pull Requests 的流程要求 51233138 將改版資料[拉回合併].
+
+[拉回合併]: https://github.com/51233138/wcm2024/pull/1 
+
 # 網際內容管理課程回顧
 
 學員簡報與自評
+
+申請 Github 帳號: 目的是希望針對網站內容改版的每一個版本都能有效取得
+
+申請 Replit 帳號: 可以在網頁瀏覽器或手機 App 修改網站內容
+
+學習 Brython 程式: 可以直接在網頁上執行與產品設計有關的數值運算
 
 針對以上課程內容, 請利用以下留言系統進行討論:
 
