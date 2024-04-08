@@ -21,6 +21,8 @@ Author: kmol
 
 [Do you actually need a website?]
 
+[人格特質的飬成？](https://github.com/mdecycu/cd2024/discussions/5)
+
 [Do you actually need a website?]: https://www.google.com/search?q=Do+you+actually+need+a+website+in+2024
 
 # 網際內容管理課程回顧
