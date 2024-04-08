@@ -19,6 +19,10 @@ Author: kmol
 
 [領英]: https://zh.wikipedia.org/wiki/%E9%A0%98%E8%8B%B1
 
+[Do you actually need a website?]
+
+[Do you actually need a website?]: https://www.google.com/search?q=Do+you+actually+need+a+website+in+2024
+
 # 網際內容管理課程回顧
 
 學員簡報與自評

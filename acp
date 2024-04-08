@@ -2,5 +2,3 @@
 git add .
 git commit -m "$1"
 git push
-cd ../public_html/wcm2024
-git pull
