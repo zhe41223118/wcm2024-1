@@ -15,7 +15,7 @@ Author: kmol
 
 有關[領英]
 
-(註冊領英帳號](https://www.linkedin.com/signup?_l=zh-tw)
+[註冊領英帳號](https://www.linkedin.com/signup?_l=zh-tw)
 
 [領英]: https://zh.wikipedia.org/wiki/%E9%A0%98%E8%8B%B1
 
