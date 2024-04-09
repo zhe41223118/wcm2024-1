@@ -41,6 +41,20 @@ Author: kmol
 
 學習 Brython 程式: 可以直接在網頁上執行與產品設計有關的數值運算
 
+# Angry Bird
+
+第十週開始是否可以將下列程式改採 Brython 編寫?
+
+[any-bird-python](https://github.com/mdecycu/angry-birds-python)
+
+[Angry Birds](https://github.com/mdecycu/Gaming-in-Python/tree/master/Angry_Birds)
+
+[ab](https://github.com/mdecycu/ab), [執行 ab](https://mde.tw/ab)
+
+參考: <https://github.com/mdecycu/webgame>
+
+
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>

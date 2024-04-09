@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-08T11:00:00+08:00</updated><entry><title>WCM 五專第八週課程內容</title><link href="./wcm-5j-w8.html" rel="alternate"></link><published>2024-04-08T11:00:00+08:00</published><updated>2024-04-08T07:55:07+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-08:./wcm-5j-w8.html</id><summary type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-09T09:26:10+08:00</updated><entry><title>WCM 五專第八週課程內容</title><link href="./wcm-5j-w8.html" rel="alternate"></link><published>2024-04-08T11:00:00+08:00</published><updated>2024-04-09T09:26:10+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-08:./wcm-5j-w8.html</id><summary type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
 
 
@@ -15,6 +15,12 @@
 &lt;p&gt;申請 Github 帳號: 目的是希望針對網站內容改版的每一個版本都能有效取得&lt;/p&gt;
 &lt;p&gt;申請 Replit 帳號: 可以在網頁瀏覽器或手機 App 修改網站內容&lt;/p&gt;
 &lt;p&gt;學習 Brython 程式: 可以直接在網頁上執行與產品設計有關的數值運算&lt;/p&gt;
+&lt;h1&gt;Angry Bird&lt;/h1&gt;
+&lt;p&gt;第十週開始是否可以將下列程式改採 Brython 編寫?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/angry-birds-python"&gt;any-bird-python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/Gaming-in-Python/tree/master/Angry_Birds"&gt;Angry Birds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/ab"&gt;ab&lt;/a&gt;, &lt;a href="https://mde.tw/ab"&gt;執行 ab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;參考: &lt;a href="https://github.com/mdecycu/webgame"&gt;https://github.com/mdecycu/webgame&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;
