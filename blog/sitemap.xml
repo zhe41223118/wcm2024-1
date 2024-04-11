@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-10T08:50:14-00:00</lastmod>
+<lastmod>2024-04-11T01:43:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-10T08:50:14-00:00</lastmod>
+<lastmod>2024-04-11T01:43:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-10T08:50:14-00:00</lastmod>
+<lastmod>2024-04-11T01:43:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-10T08:50:14-00:00</lastmod>
+<lastmod>2024-04-11T01:43:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2024-04-01T06:54:34+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./wcm-1a-w8.html</loc>
+<lastmod>2024-04-11T01:42:54+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -145,7 +152,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/si-ji.html</loc>
-<lastmod>2024-04-10T08:50:04+08:06</lastmod>
+<lastmod>2024-04-11T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -158,14 +165,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/brython.html</loc>
-<lastmod>2024-04-09T09:26:10+08:06</lastmod>
+<loc>./tag/git.html</loc>
+<lastmod>2024-04-11T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w8.html</loc>
+<lastmod>2024-04-11T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/jiao-yu-de-ben-zhi.html</loc>
+<lastmod>2024-04-11T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/brython.html</loc>
 <lastmod>2024-04-09T09:26:10+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -174,13 +195,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/w7.html</loc>
 <lastmod>2024-04-08T06:37:22+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/git.html</loc>
-<lastmod>2024-04-10T08:50:04+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -320,7 +334,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-04-10T08:50:04+08:06</lastmod>
+<lastmod>2024-04-11T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
