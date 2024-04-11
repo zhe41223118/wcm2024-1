@@ -236,7 +236,7 @@ id4 &lt;= "平均次數: " + str(平均猜測次數)
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T06:52:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T10:15:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -363,8 +363,8 @@ id4 &lt;= "平均次數: " + str(平均猜測次數)
 &lt;p&gt;git daemon --reuseaddr --base-path=. --export-all --verbose&lt;/p&gt;
 &lt;p&gt;然後利用 C:\tmp\repository&amp;gt;git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.&lt;/p&gt;
 &lt;p&gt;若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 &lt;a href="https://github.com/gogs/gogs"&gt;https://github.com/gogs/gogs&lt;/a&gt;, 其中包括網際資料庫 &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt; 伺服器或 SQLite 的應用.&lt;/p&gt;
-&lt;p&gt;下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: &lt;a href="http://229.cycu.org/portable_2024_w_gogs.7z"&gt;http://229.cycu.org/portable_2024_w_gogs.7z&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GOGS Y:\gogs_nssm\custom\conf\app.ini&lt;/p&gt;
+&lt;p&gt;下載配置 Go 解譯器、Gogs 以及 SQlite 的可攜程式檔案: &lt;a href="http://229.cycu.org/portable_2024_w_gogs.7z"&gt;http://229.cycu.org/portable_2024_w_gogs.7z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gogs Y:\gogs_nssm\custom\conf\app.ini&lt;/p&gt;
 &lt;pre class="brush: jscript"&gt;
 BRAND_NAME = Gogs
 RUN_USER   = kmol
@@ -424,6 +424,12 @@ SECRET_KEY   = KsEYQ7BYZt8NZEW
 [i18n]
 LANGS = en-US
 NAMES = English
+
+[service]
+; Does not allow register and admin create account only
+DISABLE_REGISTRATION = true
+; User must sign in to view anything.
+REQUIRE_SIGNIN_VIEW = true
 &lt;/pre&gt;
 
 &lt;p&gt;以上操作的教學影片:&lt;/p&gt;

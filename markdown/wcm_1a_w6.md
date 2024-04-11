@@ -156,9 +156,9 @@ git daemon --reuseaddr --base-path=. --export-all --verbose
 [這裡]: https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple
 [PostgreSQL]: https://www.postgresql.org/
 
-下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: <http://229.cycu.org/portable_2024_w_gogs.7z>
+下載配置 Go 解譯器、Gogs 以及 SQlite 的可攜程式檔案: <http://229.cycu.org/portable_2024_w_gogs.7z>
 
-GOGS Y:\gogs_nssm\custom\conf\app.ini
+Gogs Y:\gogs_nssm\custom\conf\app.ini
 
 <pre class="brush: jscript">
 BRAND_NAME = Gogs
@@ -219,6 +219,12 @@ SECRET_KEY   = KsEYQ7BYZt8NZEW
 [i18n]
 LANGS = en-US
 NAMES = English
+
+[service]
+; Does not allow register and admin create account only
+DISABLE_REGISTRATION = true
+; User must sign in to view anything.
+REQUIRE_SIGNIN_VIEW = true
 </pre>
 
 以上操作的教學影片:

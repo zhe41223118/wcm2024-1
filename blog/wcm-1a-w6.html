@@ -60,7 +60,7 @@
 <meta property="og:url" content="./wcm-1a-w6.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-28 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-11 06:52:26.647587+08:00"/>
+<meta property="article:modified_time" content="2024-04-11 10:15:52.182785+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="四技"/>
 <meta property="article:tag" content="git"/>
@@ -76,7 +76,7 @@
   "name": "WCM 四技第六週課程",
   "headline": "WCM 四技第六週課程",
   "datePublished": "2024-03-28 11:00:00+08:00",
-  "dateModified": "2024-04-11 06:52:26.647587+08:00",
+  "dateModified": "2024-04-11 10:15:52.182785+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -359,8 +359,8 @@ init_mathjax();
 <p>git daemon --reuseaddr --base-path=. --export-all --verbose</p>
 <p>然後利用 C:\tmp\repository&gt;git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.</p>
 <p>若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 <a href="https://github.com/gogs/gogs">https://github.com/gogs/gogs</a>, 其中包括網際資料庫 <a href="https://www.postgresql.org/">PostgreSQL</a> 伺服器或 SQLite 的應用.</p>
-<p>下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: <a href="http://229.cycu.org/portable_2024_w_gogs.7z">http://229.cycu.org/portable_2024_w_gogs.7z</a></p>
-<p>GOGS Y:\gogs_nssm\custom\conf\app.ini</p>
+<p>下載配置 Go 解譯器、Gogs 以及 SQlite 的可攜程式檔案: <a href="http://229.cycu.org/portable_2024_w_gogs.7z">http://229.cycu.org/portable_2024_w_gogs.7z</a></p>
+<p>Gogs Y:\gogs_nssm\custom\conf\app.ini</p>
 <pre class="brush: jscript">
 BRAND_NAME = Gogs
 RUN_USER   = kmol
@@ -420,6 +420,12 @@ SECRET_KEY   = KsEYQ7BYZt8NZEW
 [i18n]
 LANGS = en-US
 NAMES = English
+
+[service]
+; Does not allow register and admin create account only
+DISABLE_REGISTRATION = true
+; User must sign in to view anything.
+REQUIRE_SIGNIN_VIEW = true
 </pre>
 
 <p>以上操作的教學影片:</p>
