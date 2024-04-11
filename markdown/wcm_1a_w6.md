@@ -151,10 +151,12 @@ git daemon --reuseaddr --base-path=. --export-all --verbose
 
 然後利用 C:\tmp\repository>git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.
 
-若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 <https://github.com/gogs/gogs>, 其中包括網際資料庫 [PostgreSQL] 伺服器的應用.
+若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 <https://github.com/gogs/gogs>, 其中包括網際資料庫 [PostgreSQL] 伺服器或 SQLite 的應用.
 
 [這裡]: https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple
 [PostgreSQL]: https://www.postgresql.org/
+
+下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: <http://229.cycu.org/portable_2024_w_gogs.7z>
 
 以上操作的教學影片:
 

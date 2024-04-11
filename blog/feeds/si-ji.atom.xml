@@ -7,7 +7,7 @@
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/zmKrkX8Z8UQ?si=AfZtmoTFHE_e7iKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;wcm2024 1a w8 說明如何將影片嵌入網頁&lt;/p&gt;
-&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-10T08:50:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T05:53:41+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -133,7 +133,8 @@
 &lt;p&gt;最後, 若要讓使用者跨網路存取 Windows 操作系統上的倉儲, 可以根據&lt;a href="https://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple"&gt;這裡&lt;/a&gt;的說明, 啟動伺服器:&lt;/p&gt;
 &lt;p&gt;git daemon --reuseaddr --base-path=. --export-all --verbose&lt;/p&gt;
 &lt;p&gt;然後利用 C:\tmp\repository&amp;gt;git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.&lt;/p&gt;
-&lt;p&gt;若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 &lt;a href="https://github.com/gogs/gogs"&gt;https://github.com/gogs/gogs&lt;/a&gt;, 其中包括網際資料庫 &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt; 伺服器的應用.&lt;/p&gt;
+&lt;p&gt;若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 &lt;a href="https://github.com/gogs/gogs"&gt;https://github.com/gogs/gogs&lt;/a&gt;, 其中包括網際資料庫 &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt; 伺服器或 SQLite 的應用.&lt;/p&gt;
+&lt;p&gt;下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: &lt;a href="http://229.cycu.org/portable_2024_w_gogs.7z"&gt;http://229.cycu.org/portable_2024_w_gogs.7z&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以上操作的教學影片:&lt;/p&gt;
 &lt;p&gt;wcm2024 1a w6 git client server 實際操作&lt;/p&gt;
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/ofZ1Fc6ukJ0?si=-ssHH2vuyEopaKd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
