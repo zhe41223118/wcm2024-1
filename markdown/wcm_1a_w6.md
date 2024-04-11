@@ -158,6 +158,69 @@ git daemon --reuseaddr --base-path=. --export-all --verbose
 
 下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: <http://229.cycu.org/portable_2024_w_gogs.7z>
 
+GOGS Y:\gogs_nssm\custom\conf\app.ini
+
+<pre class="brush: jscript">
+BRAND_NAME = Gogs
+RUN_USER   = kmol
+RUN_MODE   = prod
+
+[database]
+TYPE     = sqlite3
+HOST     = 127.0.0.1:5432
+NAME     = gogs
+SCHEMA   = public
+USER     = gogs
+PASSWORD = 
+SSL_MODE = disable
+PATH     = y:/data/gogs.db
+
+[repository]
+ROOT           = y:/home_ipv6/gogs-repositories
+DEFAULT_BRANCH = main
+
+[server]
+DOMAIN           = localhost
+HTTP_PORT        = 3000
+EXTERNAL_URL     = http://localhost:3000/
+DISABLE_SSH      = false
+SSH_PORT         = 22
+START_SSH_SERVER = false
+OFFLINE_MODE     = false
+
+[mailer]
+ENABLED = false
+
+[auth]
+REQUIRE_EMAIL_CONFIRMATION  = false
+DISABLE_REGISTRATION        = false
+ENABLE_REGISTRATION_CAPTCHA = true
+REQUIRE_SIGNIN_VIEW         = false
+
+[user]
+ENABLE_EMAIL_NOTIFICATION = false
+
+[picture]
+DISABLE_GRAVATAR        = false
+ENABLE_FEDERATED_AVATAR = false
+
+[session]
+PROVIDER = file
+
+[log]
+MODE      = file
+LEVEL     = Info
+ROOT_PATH = y:/gogs_nssm/log
+
+[security]
+INSTALL_LOCK = true
+SECRET_KEY   = KsEYQ7BYZt8NZEW
+
+[i18n]
+LANGS = en-US
+NAMES = English
+</pre>
+
 以上操作的教學影片:
 
 wcm2024 1a w6 git client server 實際操作

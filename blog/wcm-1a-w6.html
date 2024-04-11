@@ -60,7 +60,7 @@
 <meta property="og:url" content="./wcm-1a-w6.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-28 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-11 05:53:41.659196+08:00"/>
+<meta property="article:modified_time" content="2024-04-11 06:52:26.647587+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="四技"/>
 <meta property="article:tag" content="git"/>
@@ -76,7 +76,7 @@
   "name": "WCM 四技第六週課程",
   "headline": "WCM 四技第六週課程",
   "datePublished": "2024-03-28 11:00:00+08:00",
-  "dateModified": "2024-04-11 05:53:41.659196+08:00",
+  "dateModified": "2024-04-11 06:52:26.647587+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -360,6 +360,68 @@ init_mathjax();
 <p>然後利用 C:\tmp\repository&gt;git clone git://localhost/repo1 repo002 取下倉儲內容, 其中的 localhost 可以使用外部 IP 或對應的網路符號名稱.</p>
 <p>若要在 Windows 環境打造一個類似 Github 的網際環境, 可以採用 <a href="https://github.com/gogs/gogs">https://github.com/gogs/gogs</a>, 其中包括網際資料庫 <a href="https://www.postgresql.org/">PostgreSQL</a> 伺服器或 SQLite 的應用.</p>
 <p>下載配置 Go 解譯器、GOGS 以及 SQlite 的可攜程式檔案: <a href="http://229.cycu.org/portable_2024_w_gogs.7z">http://229.cycu.org/portable_2024_w_gogs.7z</a></p>
+<p>GOGS Y:\gogs_nssm\custom\conf\app.ini</p>
+<pre class="brush: jscript">
+BRAND_NAME = Gogs
+RUN_USER   = kmol
+RUN_MODE   = prod
+
+[database]
+TYPE     = sqlite3
+HOST     = 127.0.0.1:5432
+NAME     = gogs
+SCHEMA   = public
+USER     = gogs
+PASSWORD = 
+SSL_MODE = disable
+PATH     = y:/data/gogs.db
+
+[repository]
+ROOT           = y:/home_ipv6/gogs-repositories
+DEFAULT_BRANCH = main
+
+[server]
+DOMAIN           = localhost
+HTTP_PORT        = 3000
+EXTERNAL_URL     = http://localhost:3000/
+DISABLE_SSH      = false
+SSH_PORT         = 22
+START_SSH_SERVER = false
+OFFLINE_MODE     = false
+
+[mailer]
+ENABLED = false
+
+[auth]
+REQUIRE_EMAIL_CONFIRMATION  = false
+DISABLE_REGISTRATION        = false
+ENABLE_REGISTRATION_CAPTCHA = true
+REQUIRE_SIGNIN_VIEW         = false
+
+[user]
+ENABLE_EMAIL_NOTIFICATION = false
+
+[picture]
+DISABLE_GRAVATAR        = false
+ENABLE_FEDERATED_AVATAR = false
+
+[session]
+PROVIDER = file
+
+[log]
+MODE      = file
+LEVEL     = Info
+ROOT_PATH = y:/gogs_nssm/log
+
+[security]
+INSTALL_LOCK = true
+SECRET_KEY   = KsEYQ7BYZt8NZEW
+
+[i18n]
+LANGS = en-US
+NAMES = English
+</pre>
+
 <p>以上操作的教學影片:</p>
 <p>wcm2024 1a w6 git client server 實際操作</p>
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/ofZ1Fc6ukJ0?si=-ssHH2vuyEopaKd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
