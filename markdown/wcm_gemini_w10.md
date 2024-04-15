@@ -37,3 +37,13 @@ Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理�
 6. 將 Windows 的網路設定為 设置网络连接为“按流量计费”, 就可以防止後臺下載了嗎?
 7. 如何使用下载管理器控制 Windows 更新下載或各種應用程序的自動更新下載?
 8. 能不能利用 batch command 或 Powershell 指令要求 Windows 暂停更新?
+
+# Python related
+
+<https://github.com/manatlan/htag> and <https://github.com/manatlan/htag/tree/main/brython>
+
+Can Brython work with <https://github.com/liabru/matter-js>
+
+Python for Android and Chromebook: <https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree>
+
+<https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree>
