@@ -44,11 +44,12 @@ ChatGPT 與 Gemini Pro 都可以直接利用 Gmail 帳號登入, 初級應用目
 1. 一份採 UTF-8 中文編碼的 .csv (例如: [5j_wcm2024_midterm.csv](http://229.cycu.org/5j_wcm2024_midterm.csv))在 Windows Excel 2016 開啟之後呈現亂碼, 該如何設定改為用 UTF-8 編碼?
 2. 請根據上一個 .csv (csv 是甚麼格式的資料?) 檔案內容, 在個人的網頁與網誌中列出每一位學員的 github wcm2024 倉儲與網頁連結. (第一次請直接用手動輸入的方式建立 html 檔案內容, 之後再思考如何讀取此一檔案後, 能直接將所需要的倉儲與網頁連結呈現在個人網站或網誌的特定位置)
 3. [這一本書](http://229.cycu.org/2023%20Programming%20for%20Absolute%20Beginners%20-%20Using%20the%20JavaScript%20Programming%20Language.pdf) 的第一章在講甚麼?能不能將其中練習編寫的內容, 放入個人的網頁與網誌?
-4. 為什麼 wcm2024 倉儲中的 cms.bat 在 Windows 啟動之後, 若同時多人連線, 系統會無法負荷, 同一台電腦硬體有沒有可能採其他方法啟動, 可以同時讓多人連線且不會產生延遲或停頓的問題? 例如採 wsgi 方式啟動, 這該如何進行?
-5. 承接上一題: 一個採用 Flask 編寫的伺服器系統, 該如何在  Windows 環境中以 wsgi 方式啟動?
-6. wcm2024 課程中曾經提到可以利用舊的可攜 Python 程式環境建立新的 Python 可攜程式環境, 但該如何進行?
-7. 假如希望直接在網頁中利用 Brython 建立一個掃地機器人的工作模擬系統, 該如何進行?
-8. wcm2024 課程除了可以使用 [ChatGPT] 外, 還能夠使用 Google [Gemini Pro], 請試著在解決上列問題時, 善用這兩個系統, 並將使用過程與心得整理在個人的課程網頁與網誌中.
+4. 為什麼 wcm2024 倉儲中的 cms.bat 在 Windows 啟動之後, 若同時多人連線, 系統會無法負荷, 同一台電腦硬體有沒有可能採其他方法啟動, 可以同時讓多人連線且不會產生延遲或停頓的問題? 例如採 wsgi 方式啟動, 這該如何進行? 當設定好讓 Flask 編寫的網際內容管理系統透過效率較高的 wsgi 模式執行後, 如何讓執行程式與電腦開機同步執行? 直接執行套件與透過 Windows services 執行有何不同? NSSM 是什麼工具?
+5. 如何在一台 Windows (Ubuntu) 電腦快速建立多人帳號? 建立多人帳號之後, 如何透過程式將帳號密碼寄給使用者?
+6. 承接上一題: 一個採用 Flask 編寫的伺服器系統, 該如何在  Windows 環境中以 wsgi 方式啟動?
+7. wcm2024 課程中曾經提到可以利用舊的可攜 Python 程式環境建立新的 Python 可攜程式環境, 但該如何進行?
+8. 假如希望直接在網頁中利用 Brython 建立一個掃地機器人的工作模擬系統, 該如何進行?
+9. wcm2024 課程除了可以使用 [ChatGPT] 外, 還能夠使用 Google [Gemini Pro], 請試著在解決上列問題時, 善用這兩個系統, 並將使用過程與心得整理在個人的課程網頁與網誌中.
 <pre class="brush: python">
     from browser import document, window, html, load
 

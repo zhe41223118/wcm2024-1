@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Gemini</title><link href="./" rel="alternate"></link><link href="./feeds/gemini.atom.xml" rel="self"></link><id>./</id><updated>2024-04-21T11:00:00+08:00</updated><entry><title>WCM Gemini Pro 問答</title><link href="./wcm-gemini-w10.html" rel="alternate"></link><published>2024-04-21T11:00:00+08:00</published><updated>2024-04-15T15:00:48+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-21:./wcm-gemini-w10.html</id><summary type="html">&lt;p&gt;Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?&lt;/p&gt;
+
+
+&lt;h1&gt;Gemini Pro&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html"&gt;Gemini Pro 1.5&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;建立多人帳號並寄信通知&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;如何在一台 Windows (Ubuntu) 電腦快速建立多人帳號? 建立多人帳號之後, 如何透過程式將帳號密碼寄給使用者?&lt;/li&gt;
+&lt;li&gt;假如想在 Windows 使用 Python 從帶有使用者帳號與密碼的 .csv 讀取資料後建立多用戶帳號, 並用 Gmail 帳號結合 Python 寄送帳號與密碼給使用者, 該如何進行?&lt;/li&gt;
+&lt;li&gt;Gmail 是不是多年前就不能用 "server.login("your_gmail@gmail.com", "your_app_password")" 方式寄信?&lt;/li&gt;
+&lt;li&gt;請針對 "应用密码 (App Passwords):" 說明該如何進行?&lt;/li&gt;
+&lt;li&gt;請針對使用"OAuth2 认证:"寄信詳細說明使用步驟.&lt;/li&gt;
+&lt;li&gt;使用 "第三方邮件发送服务:" 是不是通常需要付費?&lt;/li&gt;
+&lt;li&gt;在 Github 有沒有既存的 Python 程式套件, 帶有 GUI 介面能夠允許透過第一種與第二種方法, 一方面在 Windows 與 Ubuntu 中建立多人帳號後, 再寄信通知?&lt;/li&gt;
+&lt;li&gt;假如想要利用 Python 加上最簡單的 GUI 介面來開發這樣一個程式套件, 會建議如何進行?&lt;/li&gt;
+&lt;li&gt;請列出完整可以執行的程式碼, 包括建立帳號與採用第一種方法寄信的完整套件.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Windows 系統伺服器&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows 10 或 Windows 11 操作系統專業版內建那些 server 系統?&lt;/li&gt;
+&lt;li&gt;Windows 是否也內建 sftp 與 ssh server?&lt;/li&gt;
+&lt;li&gt;針對 OpenSSH: 您可以通過 "可选功能" 手動安裝 OpenSSH 客户端，但需要額外配置才能作为服务器使用, 該如何配置使用?&lt;/li&gt;
+&lt;li&gt;Windows 10 或 Windows 11 有沒有針對網路連線的頻寬進行降頻, 若有, 是甚麼原因, 要如何解開這些限制?&lt;/li&gt;
+&lt;li&gt;能不能利用 batch command 或 powershell 執行"设置网络连接为 "按流量计费"，限制后台下载。"?&lt;/li&gt;
+&lt;li&gt;將 Windows 的網路設定為 设置网络连接为“按流量计费”, 就可以防止後臺下載了嗎?&lt;/li&gt;
+&lt;li&gt;如何使用下载管理器控制 Windows 更新下載或各種應用程序的自動更新下載?&lt;/li&gt;
+&lt;li&gt;能不能利用 batch command 或 Powershell 指令要求 Windows 暂停更新?&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry></feed>

@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-15T10:49:54-00:00</lastmod>
+<lastmod>2024-04-15T15:02:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-15T10:49:54-00:00</lastmod>
+<lastmod>2024-04-15T15:02:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-15T10:49:54-00:00</lastmod>
+<lastmod>2024-04-15T15:02:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-15T10:49:54-00:00</lastmod>
+<lastmod>2024-04-15T15:02:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./wcm-gemini-w10.html</loc>
+<lastmod>2024-04-15T15:00:48+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./wcm-midterm.html</loc>
-<lastmod>2024-04-15T10:49:46+08:00</lastmod>
+<lastmod>2024-04-15T14:23:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,6 +158,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./category/gemini.html</loc>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./category/misc.html</loc>
 <lastmod>2024-04-01T06:54:34+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -166,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/wcm.html</loc>
-<lastmod>2024-04-15T10:49:46+08:06</lastmod>
+<lastmod>2024-04-15T14:23:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -179,15 +193,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/windows.html</loc>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/ubuntu.html</loc>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/gmail.html</loc>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/w10.html</loc>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/brython.html</loc>
-<lastmod>2024-04-15T10:49:46+08:06</lastmod>
+<lastmod>2024-04-15T14:23:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w9.html</loc>
-<lastmod>2024-04-15T10:49:46+08:06</lastmod>
+<lastmod>2024-04-15T14:23:26+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -355,7 +397,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-04-15T10:49:46+08:06</lastmod>
+<lastmod>2024-04-21T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
