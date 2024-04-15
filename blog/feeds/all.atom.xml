@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T11:00:00+08:00</updated><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-11T03:21:50+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-15T03:31:23+08:00</updated><entry><title>WCM 課程期中整理</title><link href="./wcm-midterm.html" rel="alternate"></link><published>2024-04-14T11:00:00+08:00</published><updated>2024-04-15T03:31:23+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-14:./wcm-midterm.html</id><summary type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
+
+
+&lt;h1&gt;網頁式內容管理&lt;/h1&gt;
+&lt;p&gt;目前無論是 Github 的 Codespaces, Gitpod 或 Replit 都讓使用者可以直接在網頁瀏覽器中維護網站內容. 其中 Replit 還提供手機 App 讓使用者透過手機或平板管理網頁內容.&lt;/p&gt;
+&lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中, 且讓使用者寄存在 Github 中, 只要能夠執行 Python 的雲端或近端環境都能開啟網頁編輯程式進行改版, 而編輯完成的網頁資料則可在 Github 倉儲中透過 Pages 的全球資訊網伺服器功能呈現網站內容.&lt;/p&gt;
+&lt;p&gt;網際內容管理課程所採用的管理系統採用 Python Flask 編寫, 其中除了章節式的網頁內容採超文件的 H 標註進行分頁外, 還導入 Pelican 與 Reveal.js 等兩個延伸套件, 其中 Pelican 可用來建立網誌, 而 Reveal.js 則可用來建立網頁上的簡報資料.&lt;/p&gt;
+&lt;p&gt;學習議題: 如何建立 Github 上的網站? 如何管理內容? 如何建立章節式網站? 能放入甚麼多媒體內容? 靜態圖文? 動態圖文? 線上遊戲? 3D 零組件展示? 如何建立網頁系統中的網誌? 如何建立網頁系統中的簡報?&lt;/p&gt;
+&lt;h1&gt;Python 程式系統&lt;/h1&gt;
+&lt;p&gt;上課用的電腦中配置了一套舊版的可攜式 Python 程式系統, 可讓使用者建立新版的可攜式 Python 程式系統, 放入 USB 隨身碟後, 可以在任何一台 64 位元的 Winodws 操作系統中使用, 主要目的除了可用來維護位於 Github 的網頁內容之外, 也可用來開發各種 Python 程式, 或與其他 Windows 應用套件結合使用, 例如: 與 CoppeliaSim 機器人模擬場景結合, 建立機電控制系統, 或與 Siemens NX 的 API 延伸程式結合應用.&lt;/p&gt;
+&lt;p&gt;學習議題: 如何利用電腦輔助設計室的舊 Python 建立新的可攜環境? 在網頁中置入 Python 語法的程式加上對 Javascript 與超文件語法的了解後, 能夠應用在那些領域? (精密)機械設計流程? 設計運算? 特定系統模擬?&lt;/p&gt;
+&lt;h1&gt;網頁上的 IDE&lt;/h1&gt;
+&lt;p&gt;IDE 是甚麼? 可以將 Replit、Codespaces 與 Gitpod 當成 IDE 用來開發各種程式嗎? 與近端操作系統上的開發有何不同? 多人協同? 這樣安全嗎?&lt;/p&gt;
+&lt;p&gt;學習議題: 學會使用網頁上的各種 IDE 之後, 有沒有甚麼感想或心得?&lt;/p&gt;
+&lt;h1&gt;AI 工具&lt;/h1&gt;
+&lt;p&gt;ChatGPT 與 Gemini Pro 都可以直接利用 Gmail 帳號登入, 初級應用目前都可免費使用, 這兩個 AI 工具可以協助我們解決甚麼問題? 為什麼有人驚這些工具為天人? 有人卻覺得還好而已, 並無法從中挖出甚麼資料?&lt;/p&gt;
+&lt;p&gt;學習議題: AI 工具曾經協助我們解決甚麼問題? &lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="WCM"></category><category term="Brython"></category><category term="w9"></category></entry><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-15T03:28:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 
 
@@ -7,7 +44,28 @@
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/zmKrkX8Z8UQ?si=AfZtmoTFHE_e7iKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;wcm2024 1a w8 說明如何將影片嵌入網頁&lt;/p&gt;
-&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 五專第八週課程內容</title><link href="./wcm-5j-w8.html" rel="alternate"></link><published>2024-04-08T11:00:00+08:00</published><updated>2024-04-09T09:26:10+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-08:./wcm-5j-w8.html</id><summary type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 五專第八週課程內容</title><link href="./wcm-5j-w8.html" rel="alternate"></link><published>2024-04-08T11:00:00+08:00</published><updated>2024-04-09T09:26:10+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-08:./wcm-5j-w8.html</id><summary type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專 WCM 第八週課程, 建議學員長期維護個人的履歷網站, 並註冊領英帳號.&lt;/p&gt;
 
 

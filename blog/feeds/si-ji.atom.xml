@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T11:00:00+08:00</updated><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-11T03:21:50+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-04-15T03:28:58+08:00</updated><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-15T03:28:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 
 
@@ -7,7 +7,28 @@
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/zmKrkX8Z8UQ?si=AfZtmoTFHE_e7iKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;wcm2024 1a w8 說明如何將影片嵌入網頁&lt;/p&gt;
-&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T10:15:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/3XDoYSvsvOA?si=cXkPvFI4dPp5ecf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T10:15:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
