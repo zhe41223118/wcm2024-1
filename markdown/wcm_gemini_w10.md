@@ -13,7 +13,7 @@ Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理�
 
 # Gemini Pro
 
-[Gemini Pro 1.5](https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html)
+[Gemini 1.5 Pro](https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html)
 
 ## 建立多人帳號並寄信通知
 
