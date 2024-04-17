@@ -32,12 +32,15 @@
 &lt;p&gt;&lt;a href="https://github.com/manatlan/htag"&gt;https://github.com/manatlan/htag&lt;/a&gt; and &lt;a href="https://github.com/manatlan/htag/tree/main/brython"&gt;https://github.com/manatlan/htag/tree/main/brython&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can Brython work with &lt;a href="https://github.com/liabru/matter-js"&gt;https://github.com/liabru/matter-js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Python for Android and Chromebook: &lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-17T13:16:10+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-17T13:38:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
 &lt;h1&gt;分組專案&lt;/h1&gt;
 &lt;p&gt;給定 &lt;a href="http://229.cycu.org/5j_wcm2024_midterm.csv"&gt;5j_wcm2024_midterm 資料&lt;/a&gt;檔案, 包含學號、姓名、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.&lt;/p&gt;
+&lt;p&gt;每位組員在各自的倉儲編寫網誌文章, 然後整合至分組倉儲與網站.&lt;/p&gt;
+&lt;p&gt;每位組員在各自的倉儲編寫專案報告 (in LaTeX 格式), 然後整合至分組倉儲並以 pdf 格式發佈.&lt;/p&gt;
+&lt;p&gt;每位組員在各自的倉儲編寫程式, 然後整合至分組倉儲與網站.&lt;/p&gt;
 &lt;h1&gt;Brython&lt;/h1&gt;
 &lt;p&gt;從 &lt;a href="https://brython.info/static_doc/3.12/en/intro.html"&gt;Brython Introduction&lt;/a&gt; 開始. Brython's goal is to replace Javascript with Python, as the scripting language for web browsers.&lt;/p&gt;
 &lt;p&gt;目前 &lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsimde&lt;/a&gt; 採用 &lt;a href="https://raw.githubusercontent.com/mdecycu/cmsimde/a67c261141c21c5ee0ebbb8ffc2cb323330e8cca/static/brython.js"&gt;Brython 3.10.5&lt;/a&gt;, 但是最新的 Brython 已經升級到 &lt;a href="https://github.com/brython-dev/brython/releases/tag/3.12.3"&gt;3.12.3&lt;/a&gt;, 現在正測試希望使用的功能是否需要升級.&lt;/p&gt;

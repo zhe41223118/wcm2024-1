@@ -15,6 +15,12 @@ Author: kmol
 
 給定 [5j_wcm2024_midterm 資料](http://229.cycu.org/5j_wcm2024_midterm.csv)檔案, 包含學號、姓名、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.
 
+每位組員在各自的倉儲編寫網誌文章, 然後整合至分組倉儲與網站.
+
+每位組員在各自的倉儲編寫專案報告 (in LaTeX 格式), 然後整合至分組倉儲並以 pdf 格式發佈.
+
+每位組員在各自的倉儲編寫程式, 然後整合至分組倉儲與網站.
+
 # Brython
 
 從 [Brython Introduction] 開始. Brython's goal is to replace Javascript with Python, as the scripting language for web browsers.
