@@ -32,7 +32,49 @@
 &lt;p&gt;&lt;a href="https://github.com/manatlan/htag"&gt;https://github.com/manatlan/htag&lt;/a&gt; and &lt;a href="https://github.com/manatlan/htag/tree/main/brython"&gt;https://github.com/manatlan/htag/tree/main/brython&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can Brython work with &lt;a href="https://github.com/liabru/matter-js"&gt;https://github.com/liabru/matter-js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Python for Android and Chromebook: &lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 課程期中整理</title><link href="./wcm-midterm.html" rel="alternate"></link><published>2024-04-14T11:00:00+08:00</published><updated>2024-04-15T14:23:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-14:./wcm-midterm.html</id><summary type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-17T12:55:35+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+
+
+&lt;h1&gt;分組專案&lt;/h1&gt;
+&lt;p&gt;給定 &lt;a href="http://229.cycu.org/5j_wcm2024_midterm.csv"&gt;5j_wcm2024_midterm 資料&lt;/a&gt;檔案, 包含學號、姓名、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.&lt;/p&gt;
+&lt;h1&gt;Brython&lt;/h1&gt;
+&lt;p&gt;從 &lt;a href="https://brython.info/static_doc/3.12/en/intro.html"&gt;Brython Introduction&lt;/a&gt; 開始. Brython's goal is to replace Javascript with Python, as the scripting language for web browsers.&lt;/p&gt;
+&lt;p&gt;目前 &lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsimde&lt;/a&gt; 採用 &lt;a href="https://raw.githubusercontent.com/mdecycu/cmsimde/a67c261141c21c5ee0ebbb8ffc2cb323330e8cca/static/brython.js"&gt;Brython 3.10.5&lt;/a&gt;, 但是最新的 Brython 已經升級到 &lt;a href="https://github.com/brython-dev/brython/releases/tag/3.12.3"&gt;3.12.3&lt;/a&gt;, 現在正測試希望使用的功能是否需要升級.&lt;/p&gt;
+&lt;p&gt;請利用下列 Brython 程式碼, 在課程網站或分組網站中的 Brython 頁面編輯器中進行執行測試, 並透過與 AI 對話了解每一行程式的意義與用法:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from browser import document, html
+from browser.widgets.dialog import InfoDialog
+
+# Define a function to handle button click event
+def on_click(event):
+    # Get the value of the input field
+    input_value = document["zone"].value
+    # Output the value in the console
+    print(input_value)
+
+# Create input element with id "zone"
+input_element = html.INPUT(id="zone")
+
+# Create button element with id "echo" and text "click !"
+button_element = html.BUTTON("click !", id="echo")
+
+# Add event listener to the button
+button_element.bind("click", on_click)
+
+# Append input and button elements to the document body with "brython_div1"
+document["brython_div1"] &lt;= input_element
+document["brython_div1"] &lt;= button_element
+
+def click(ev):
+    InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to callback function
+document["echo"].bind("click", click)
+&lt;/pre&gt;
+
+&lt;p&gt;與 Brython 開發有關的 Google 論壇: [Brython Google Groups]&lt;/p&gt;
+&lt;p&gt;將 &lt;a href="https://github.com/liabru/matter-js"&gt;matter&lt;/a&gt; 導入 Brython. 必須特別注意 &lt;a href="https://brython.info/static_doc/3.10/en/jsobjects.html"&gt;Brython 3.10 Javascript&lt;/a&gt; 與 &lt;a href="https://brython.info/static_doc/3.12/en/jsobjects.html"&gt;Brython 3.12 Javascript&lt;/a&gt; 與 Javascript 程式互動的方法差異. 就長遠的 Brython 程式相容考量, 必須將 &lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsimde&lt;/a&gt; 中的 Brython 升級到 3.12.3.&lt;/p&gt;</content><category term="Project"></category><category term="Brython"></category><category term="w10"></category></entry><entry><title>WCM 課程期中整理</title><link href="./wcm-midterm.html" rel="alternate"></link><published>2024-04-14T11:00:00+08:00</published><updated>2024-04-15T14:23:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-14:./wcm-midterm.html</id><summary type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
 
 

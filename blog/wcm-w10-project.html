@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+      <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>2024 網際內容管理 - Categories</title>
+  <title>WCM 分組專案</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Categories Atom Feed" />
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -38,6 +39,54 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+
+    <link href="./wcm-w10-project.html" rel="canonical" />
+
+        <meta name="description" content="網際內容管理課程分組專案 - 網頁與 Brython 程式應用">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="Brython">
+        <meta name="tags" content="w10">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="2024 網際內容管理"/>
+<meta property="og:title" content="WCM 分組專案"/>
+<meta property="og:description" content="網際內容管理課程分組專案 - 網頁與 Brython 程式應用"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./wcm-w10-project.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-04-18 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-04-17 12:55:35.391730+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="Project"/>
+<meta property="article:tag" content="Brython"/>
+<meta property="article:tag" content="w10"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "WCM 分組專案",
+  "headline": "WCM 分組專案",
+  "datePublished": "2024-04-18 11:00:00+08:00",
+  "dateModified": "2024-04-17 12:55:35.391730+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./wcm-w10-project.html",
+  "description": "網際內容管理課程分組專案 - 網頁與 Brython 程式應用"
+}
+</script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
@@ -140,9 +189,14 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
@@ -152,7 +206,14 @@ init_mathjax();
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">2024 網際內容管理 - Categories</h1>
+        <h1 class="post-title">WCM 分組專案</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Thu 18 April 2024">Thu 18 April 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Wed 17 April 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -166,36 +227,87 @@ init_mathjax();
     </form>
 </section>
 
-    <article class="post">
-      <div class="inner">
-        <a href="./category/gemini.html">Gemini</a> (1)
-      </div>
-    </article>
-    <article class="post">
-      <div class="inner">
-        <a href="./category/misc.html">Misc</a> (1)
-      </div>
-    </article>
-    <article class="post">
-      <div class="inner">
-        <a href="./category/project.html">Project</a> (1)
-      </div>
-    </article>
-    <article class="post">
-      <div class="inner">
-        <a href="./category/si-ji.html">四技</a> (7)
-      </div>
-    </article>
-    <article class="post">
-      <div class="inner">
-        <a href="./category/wcm.html">WCM</a> (1)
-      </div>
-    </article>
-    <article class="post">
-      <div class="inner">
-        <a href="./category/wu-zhuan.html">五專</a> (7)
-      </div>
-    </article>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>網際內容管理課程分組專案 - 網頁與 Brython 程式應用</p>
+
+
+<h1>分組專案</h1>
+<p>給定 <a href="http://229.cycu.org/5j_wcm2024_midterm.csv">5j_wcm2024_midterm 資料</a>檔案, 包含學號、姓名、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.</p>
+<h1>Brython</h1>
+<p>從 <a href="https://brython.info/static_doc/3.12/en/intro.html">Brython Introduction</a> 開始. Brython's goal is to replace Javascript with Python, as the scripting language for web browsers.</p>
+<p>目前 <a href="https://github.com/mdecycu/cmsimde">cmsimde</a> 採用 <a href="https://raw.githubusercontent.com/mdecycu/cmsimde/a67c261141c21c5ee0ebbb8ffc2cb323330e8cca/static/brython.js">Brython 3.10.5</a>, 但是最新的 Brython 已經升級到 <a href="https://github.com/brython-dev/brython/releases/tag/3.12.3">3.12.3</a>, 現在正測試希望使用的功能是否需要升級.</p>
+<p>請利用下列 Brython 程式碼, 在課程網站或分組網站中的 Brython 頁面編輯器中進行執行測試, 並透過與 AI 對話了解每一行程式的意義與用法:</p>
+<pre class="brush: python">
+from browser import document, html
+from browser.widgets.dialog import InfoDialog
+
+# Define a function to handle button click event
+def on_click(event):
+    # Get the value of the input field
+    input_value = document["zone"].value
+    # Output the value in the console
+    print(input_value)
+
+# Create input element with id "zone"
+input_element = html.INPUT(id="zone")
+
+# Create button element with id "echo" and text "click !"
+button_element = html.BUTTON("click !", id="echo")
+
+# Add event listener to the button
+button_element.bind("click", on_click)
+
+# Append input and button elements to the document body with "brython_div1"
+document["brython_div1"] <= input_element
+document["brython_div1"] <= button_element
+
+def click(ev):
+    InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to callback function
+document["echo"].bind("click", click)
+</pre>
+
+<p>與 Brython 開發有關的 Google 論壇: [Brython Google Groups]</p>
+<p>將 <a href="https://github.com/liabru/matter-js">matter</a> 導入 Brython. 必須特別注意 <a href="https://brython.info/static_doc/3.10/en/jsobjects.html">Brython 3.10 Javascript</a> 與 <a href="https://brython.info/static_doc/3.12/en/jsobjects.html">Brython 3.12 Javascript</a> 與 Javascript 程式互動的方法差異. 就長遠的 Brython 程式相容考量, 必須將 <a href="https://github.com/mdecycu/cmsimde">cmsimde</a> 中的 Brython 升級到 3.12.3.</p>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/brython.html">Brython</a><a href="./tag/w10.html">w10</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-next" href="./wcm-gemini-w10.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-left"></i>
+                                <h2 class="post-nav-title">WCM Gemini Pro 問答</h2>
+                            <p class="post-nav-excerpt">Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?</p>
+                        </section>
+                    </a>
+                    <a class="post-nav-prev" href="./wcm-midterm.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">WCM 課程期中整理</h2>
+                            <p class="post-nav-excerpt">網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然,...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
