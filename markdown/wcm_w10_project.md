@@ -66,3 +66,23 @@ document["echo"].bind("click", click)
 
 [Brython 3.10 Javascript]: https://brython.info/static_doc/3.10/en/jsobjects.html
 [Brython 3.12 Javascript]: https://brython.info/static_doc/3.12/en/jsobjects.html
+
+# Replit 現況
+
+先前在 Replit 中啟用 cmsimde_site 相關的倉儲網站, 僅能在動態編輯與靜態檢視兩者擇一, 因為內建的網路埠號並未開放給免費帳號使用, 但自 w8 開始, Replit 與 Copespaces 相同, 新增了 Networking tool, 允許免費帳號用戶可以自行選擇設定內外網路對接埠號, 也就是在 .replit 設定檔案中加入了 Ports 的設定選項:
+
+<pre class="brython: jscript">
+[[ports]]
+localPort = 80
+externalPort = 3000
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[[ports]]
+localPort = 8081
+externalPort = 3001
+</pre>
+
+其中 main.py 使用 內部埠號 8080, 網站啟動後, 或轉跳到 port 80 (再跳轉至 https 443), 只要將 main2.py 中原先的 8080 改為 8081 避開 main.py 已經佔用的 8080, 然後再將 localPort 8081 設定跳轉到外部的 3001, 動態網站啟動後, 就會使用 443 連結, 而靜態網站將可從 3001 埠號進行伺服.
