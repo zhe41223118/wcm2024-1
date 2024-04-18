@@ -60,6 +60,17 @@ def click(ev):
 document["echo"].bind("click", click)
 </pre>
 
+拆解工作流程:
+1. 了解基本 html 語法
+2. 了解如何在頁面導入 Javascript 程式
+3. 了解如何在頁面啟動 Brython 程式解譯環境
+4. 了解如何利用 Brython 透過網址讀取資料
+5. 了解如何利用 Brython 程式分割 .csv 檔案, 了解數列的資料儲存方式
+6. 了解如何使用 Brython 重複迴圈
+7. 了解 Brython html 模組的應用, 了解 html DOM 運作方式
+8. 了解 Brython 如何與 Javascript 程式互動
+9. 了解 Brython 如何與 Python server 程式互動
+
 與 Brython 開發有關的 Google 論壇: [Brython Google Groups]
 
 [Brhton Google Groups]: https://groups.google.com/g/brython
@@ -77,7 +88,7 @@ document["echo"].bind("click", click)
 
 先前在 Replit 中啟用 cmsimde_site 相關的倉儲網站, 僅能在動態編輯與靜態檢視兩者擇一, 因為內建的網路埠號並未開放給免費帳號使用, 但自 w8 開始, Replit 與 Copespaces 相同, 新增了 Networking tool, 允許免費帳號用戶可以自行選擇設定內外網路對接埠號, 也就是在 .replit 設定檔案中加入了 Ports 的設定選項:
 
-<pre class="brython: jscript">
+<pre class="brush: jscript">
 [[ports]]
 localPort = 80
 externalPort = 3000
