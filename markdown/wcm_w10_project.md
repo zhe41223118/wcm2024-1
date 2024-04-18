@@ -61,6 +61,7 @@ document["echo"].bind("click", click)
 </pre>
 
 拆解工作流程:
+
 1. 了解基本 html 語法
 2. 了解如何在頁面導入 Javascript 程式
 3. 了解如何在頁面啟動 Brython 程式解譯環境

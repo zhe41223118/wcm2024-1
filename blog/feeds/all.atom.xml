@@ -32,7 +32,7 @@
 &lt;p&gt;&lt;a href="https://github.com/manatlan/htag"&gt;https://github.com/manatlan/htag&lt;/a&gt; and &lt;a href="https://github.com/manatlan/htag/tree/main/brython"&gt;https://github.com/manatlan/htag/tree/main/brython&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can Brython work with &lt;a href="https://github.com/liabru/matter-js"&gt;https://github.com/liabru/matter-js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Python for Android and Chromebook: &lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-18T00:50:38+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-18T01:41:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
@@ -76,16 +76,18 @@ def click(ev):
 document["echo"].bind("click", click)
 &lt;/pre&gt;
 
-&lt;p&gt;拆解工作流程:
-1. 了解基本 html 語法
-2. 了解如何在頁面導入 Javascript 程式
-3. 了解如何在頁面啟動 Brython 程式解譯環境
-4. 了解如何利用 Brython 透過網址讀取資料
-5. 了解如何利用 Brython 程式分割 .csv 檔案, 了解數列的資料儲存方式
-6. 了解如何使用 Brython 重複迴圈
-7. 了解 Brython html 模組的應用, 了解 html DOM 運作方式
-8. 了解 Brython 如何與 Javascript 程式互動
-9. 了解 Brython 如何與 Python server 程式互動&lt;/p&gt;
+&lt;p&gt;拆解工作流程:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;了解基本 html 語法&lt;/li&gt;
+&lt;li&gt;了解如何在頁面導入 Javascript 程式&lt;/li&gt;
+&lt;li&gt;了解如何在頁面啟動 Brython 程式解譯環境&lt;/li&gt;
+&lt;li&gt;了解如何利用 Brython 透過網址讀取資料&lt;/li&gt;
+&lt;li&gt;了解如何利用 Brython 程式分割 .csv 檔案, 了解數列的資料儲存方式&lt;/li&gt;
+&lt;li&gt;了解如何使用 Brython 重複迴圈&lt;/li&gt;
+&lt;li&gt;了解 Brython html 模組的應用, 了解 html DOM 運作方式&lt;/li&gt;
+&lt;li&gt;了解 Brython 如何與 Javascript 程式互動&lt;/li&gt;
+&lt;li&gt;了解 Brython 如何與 Python server 程式互動&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;與 Brython 開發有關的 Google 論壇: [Brython Google Groups]&lt;/p&gt;
 &lt;p&gt;將 &lt;a href="https://github.com/liabru/matter-js"&gt;matter&lt;/a&gt; 導入 Brython. 必須特別注意 &lt;a href="https://brython.info/static_doc/3.10/en/jsobjects.html"&gt;Brython 3.10 Javascript&lt;/a&gt; 與 &lt;a href="https://brython.info/static_doc/3.12/en/jsobjects.html"&gt;Brython 3.12 Javascript&lt;/a&gt; 與 Javascript 程式互動的方法差異. 就長遠的 Brython 程式相容考量, 必須將 &lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsimde&lt;/a&gt; 中的 Brython 升級到 3.12.3.&lt;/p&gt;
 &lt;h1&gt;Replit 現況&lt;/h1&gt;
