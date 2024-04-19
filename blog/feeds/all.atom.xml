@@ -32,7 +32,7 @@
 &lt;p&gt;&lt;a href="https://github.com/manatlan/htag"&gt;https://github.com/manatlan/htag&lt;/a&gt; and &lt;a href="https://github.com/manatlan/htag/tree/main/brython"&gt;https://github.com/manatlan/htag/tree/main/brython&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can Brython work with &lt;a href="https://github.com/liabru/matter-js"&gt;https://github.com/liabru/matter-js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Python for Android and Chromebook: &lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-18T02:10:39+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-19T04:16:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
@@ -88,6 +88,56 @@ document["echo"].bind("click", click)
 &lt;li&gt;了解 Brython 如何與 Javascript 程式互動&lt;/li&gt;
 &lt;li&gt;了解 Brython 如何與 Python server 程式互動&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;從 Gist 讀取 &lt;a href="https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/5j_wcm2024_midterm.csv"&gt;5j&lt;/a&gt; 與 &lt;a href="https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/1a_wcm2024_midterm.csv"&gt;1a&lt;/a&gt; 的期中資料名單後, 將各學員的資料放入數列資料結構中:&lt;/p&gt;
+&lt;p&gt;對 Gemini 1.5 Pro 提問:&lt;/p&gt;
+&lt;p&gt;假如已知可以從 gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/6efc959ee222102ffe51e326c66c4ad75fc3a3d1/1a_wcm2024_midterm.csv 取得 .csv 資料, 希望利用 Brython 讀取來自 gist 的檔案, 然後將其中的資料拆開存為數列, 程式要如何編寫?&lt;/p&gt;
+&lt;p&gt;回答結果:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from browser import window, ajax
+
+def fetch_csv_data():
+  # CSV 檔案網址
+  url = "https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/6efc959ee222102ffe51e326c66c4ad75fc3a3d1/1a_wcm2024_midterm.csv"
+
+  def on_complete(req):
+    if req.status == 200 or req.status == 0:
+      # 讀取 CSV 檔案內容
+      content = req.text
+
+      # 依照換行符號拆分資料
+      lines = content.split('\n')
+
+      # 建立空列表儲存資料
+      data = []
+
+      # 遍歷每一行資料
+      for line in lines:
+        # 忽略空白行
+        if line.strip() == "":
+          continue
+
+        # 依照逗號拆分資料
+        items = line.split(',')
+
+        # 將拆分後的資料加入列表
+        data.append(items)
+
+      # 印出結果
+      print(data)
+    else:
+      print("Error:", req.text)
+
+  # 發送 AJAX 請求
+  req = ajax.ajax()
+  req.bind('complete', on_complete)
+  req.open('GET', url, True)
+  req.set_header('content-type', 'application/x-www-form-urlencoded')
+  req.send()
+
+# 呼叫函式讀取 CSV 資料
+fetch_csv_data()
+&lt;/pre&gt;
+
 &lt;p&gt;與 Brython 開發有關的 Google 論壇: [Brython Google Groups]&lt;/p&gt;
 &lt;p&gt;將 &lt;a href="https://github.com/liabru/matter-js"&gt;matter&lt;/a&gt; 導入 Brython. 必須特別注意 &lt;a href="https://brython.info/static_doc/3.10/en/jsobjects.html"&gt;Brython 3.10 Javascript&lt;/a&gt; 與 &lt;a href="https://brython.info/static_doc/3.12/en/jsobjects.html"&gt;Brython 3.12 Javascript&lt;/a&gt; 與 Javascript 程式互動的方法差異. 就長遠的 Brython 程式相容考量, 必須將 &lt;a href="https://github.com/mdecycu/cmsimde"&gt;cmsimde&lt;/a&gt; 中的 Brython 升級到 3.12.3.&lt;/p&gt;
 &lt;h1&gt;Replit 現況&lt;/h1&gt;

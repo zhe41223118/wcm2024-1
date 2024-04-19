@@ -72,6 +72,60 @@ document["echo"].bind("click", click)
 8. 了解 Brython 如何與 Javascript 程式互動
 9. 了解 Brython 如何與 Python server 程式互動
 
+從 Gist 讀取 [5j](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/5j_wcm2024_midterm.csv) 與 [1a](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/1a_wcm2024_midterm.csv) 的期中資料名單後, 將各學員的資料放入數列資料結構中:
+
+對 Gemini 1.5 Pro 提問:
+
+假如已知可以從 gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/6efc959ee222102ffe51e326c66c4ad75fc3a3d1/1a_wcm2024_midterm.csv 取得 .csv 資料, 希望利用 Brython 讀取來自 gist 的檔案, 然後將其中的資料拆開存為數列, 程式要如何編寫?
+
+回答結果:
+
+<pre class="brush: python">
+from browser import window, ajax
+
+def fetch_csv_data():
+  # CSV 檔案網址
+  url = "https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/6efc959ee222102ffe51e326c66c4ad75fc3a3d1/1a_wcm2024_midterm.csv"
+  
+  def on_complete(req):
+    if req.status == 200 or req.status == 0:
+      # 讀取 CSV 檔案內容
+      content = req.text
+      
+      # 依照換行符號拆分資料
+      lines = content.split('\n')
+      
+      # 建立空列表儲存資料
+      data = []
+      
+      # 遍歷每一行資料
+      for line in lines:
+        # 忽略空白行
+        if line.strip() == "":
+          continue
+        
+        # 依照逗號拆分資料
+        items = line.split(',')
+        
+        # 將拆分後的資料加入列表
+        data.append(items)
+      
+      # 印出結果
+      print(data)
+    else:
+      print("Error:", req.text)
+
+  # 發送 AJAX 請求
+  req = ajax.ajax()
+  req.bind('complete', on_complete)
+  req.open('GET', url, True)
+  req.set_header('content-type', 'application/x-www-form-urlencoded')
+  req.send()
+
+# 呼叫函式讀取 CSV 資料
+fetch_csv_data()
+</pre>
+
 與 Brython 開發有關的 Google 論壇: [Brython Google Groups]
 
 [Brhton Google Groups]: https://groups.google.com/g/brython
