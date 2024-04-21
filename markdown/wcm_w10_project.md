@@ -158,3 +158,9 @@ externalPort = 3001
 </pre>
 
 其中 main.py 使用 內部埠號 8080, 網站啟動後, 或轉跳到 port 80 (再跳轉至 https 443), 只要將 main2.py 中原先的 8080 改為 8081 避開 main.py 已經佔用的 8080, 然後再將 localPort 8081 設定跳轉到外部的 3001, 動態網站啟動後, 就會使用 443 連結, 而靜態網站將可從 3001 埠號進行伺服.
+
+# 常用英文單字
+
+<a href="./../downloads/3900_common_words.html">3900 常用英文單字</a>
+
+<a href="./../downloads/more_than_10k_words.html">More than 10k words</a>

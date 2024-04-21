@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Project</title><link href="./" rel="alternate"></link><link href="./feeds/project.atom.xml" rel="self"></link><id>./</id><updated>2024-04-19T04:16:22+08:00</updated><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-19T04:16:22+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Project</title><link href="./" rel="alternate"></link><link href="./feeds/project.atom.xml" rel="self"></link><id>./</id><updated>2024-04-21T05:08:52+08:00</updated><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-21T05:08:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
@@ -123,4 +123,7 @@ localPort = 8081
 externalPort = 3001
 &lt;/pre&gt;
 
-&lt;p&gt;其中 main.py 使用 內部埠號 8080, 網站啟動後, 或轉跳到 port 80 (再跳轉至 https 443), 只要將 main2.py 中原先的 8080 改為 8081 避開 main.py 已經佔用的 8080, 然後再將 localPort 8081 設定跳轉到外部的 3001, 動態網站啟動後, 就會使用 443 連結, 而靜態網站將可從 3001 埠號進行伺服.&lt;/p&gt;</content><category term="Project"></category><category term="Brython"></category><category term="w10"></category></entry></feed>
+&lt;p&gt;其中 main.py 使用 內部埠號 8080, 網站啟動後, 或轉跳到 port 80 (再跳轉至 https 443), 只要將 main2.py 中原先的 8080 改為 8081 避開 main.py 已經佔用的 8080, 然後再將 localPort 8081 設定跳轉到外部的 3001, 動態網站啟動後, 就會使用 443 連結, 而靜態網站將可從 3001 埠號進行伺服.&lt;/p&gt;
+&lt;h1&gt;常用英文單字&lt;/h1&gt;
+&lt;p&gt;&lt;a href="./../downloads/3900_common_words.html"&gt;3900 常用英文單字&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../downloads/more_than_10k_words.html"&gt;More than 10k words&lt;/a&gt;&lt;/p&gt;</content><category term="Project"></category><category term="Brython"></category><category term="w10"></category></entry></feed>
