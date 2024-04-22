@@ -72,7 +72,7 @@ document["echo"].bind("click", click)
 8. 了解 Brython 如何與 Javascript 程式互動
 9. 了解 Brython 如何與 Python server 程式互動
 
-從 Gist 讀取 [5j](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/5j_wcm2024_midterm.csv) 與 [1a](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/1a_wcm2024_midterm.csv) 的期中資料名單後, 將各學員的資料放入數列資料結構中:
+除了從 [5j_wcm2024_midterm.csv](http://229.cycu.org/5j_wcm2024_midterm.csv) 與 [1a_wcm2024_midterm.csv](http://229.cycu.org/1a_wcm2024_midterm.csv) 讀取學員基本資料外, 也可以從 Gist 讀取 [5j](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/5j_wcm2024_midterm.csv) 與 [1a](https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/8433006d7f66a1789ca99dea42af38a724521806/1a_wcm2024_midterm.csv) 的期中資料名單後, 將各學員的資料放入數列資料結構中:
 
 對 Gemini 1.5 Pro 提問:
 
@@ -126,9 +126,11 @@ def fetch_csv_data():
 fetch_csv_data()
 </pre>
 
+接下來必須逐一從數列取出各學員的基本資料後, 根據需求建立能夠連結至學員倉儲與網站, 還有分組倉儲與網站的 html 後, 設法放入網頁與網誌.
+
 與 Brython 開發有關的 Google 論壇: [Brython Google Groups]
 
-[Brhton Google Groups]: https://groups.google.com/g/brython
+[Brython Google Groups]: https://groups.google.com/g/brython
 [Brython Introduction]: https://brython.info/static_doc/3.12/en/intro.html
 [cmsimde]: https://github.com/mdecycu/cmsimde
 [Brython 3.10.5]: https://raw.githubusercontent.com/mdecycu/cmsimde/a67c261141c21c5ee0ebbb8ffc2cb323330e8cca/static/brython.js
