@@ -13,6 +13,10 @@ Author: kmol
 
 # 分組專案
 
+1a stud 倉儲: <https://github.com/mdewcm2024/1astud-site>
+
+5j stud 倉儲: <https://github.com/mdewcm2024/5jstud-5jsite>
+
 給定 [5j_wcm2024_midterm 資料](http://229.cycu.org/5j_wcm2024_midterm.csv) 與 [1a_wcm2024_midterm 資料](http://229.cycu.org/1a_wcm2024_midterm.csv) 檔案, 包含學號、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.
 
 ## 可行的處理方式

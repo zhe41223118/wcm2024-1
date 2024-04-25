@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-22T09:49:42+08:00</updated><entry><title>WCM Gemini Pro 問答</title><link href="./wcm-gemini-w10.html" rel="alternate"></link><published>2024-04-21T11:00:00+08:00</published><updated>2024-04-15T16:05:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-21:./wcm-gemini-w10.html</id><summary type="html">&lt;p&gt;Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T01:02:36+08:00</updated><entry><title>WCM Gemini Pro 問答</title><link href="./wcm-gemini-w10.html" rel="alternate"></link><published>2024-04-21T11:00:00+08:00</published><updated>2024-04-15T16:05:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-21:./wcm-gemini-w10.html</id><summary type="html">&lt;p&gt;Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?&lt;/p&gt;
 
 
@@ -32,11 +32,13 @@
 &lt;p&gt;&lt;a href="https://github.com/manatlan/htag"&gt;https://github.com/manatlan/htag&lt;/a&gt; and &lt;a href="https://github.com/manatlan/htag/tree/main/brython"&gt;https://github.com/manatlan/htag/tree/main/brython&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can Brython work with &lt;a href="https://github.com/liabru/matter-js"&gt;https://github.com/liabru/matter-js&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Python for Android and Chromebook: &lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-22T09:49:42+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree"&gt;https://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree&lt;/a&gt;&lt;/p&gt;</content><category term="Gemini"></category><category term="Windows"></category><category term="Ubuntu"></category><category term="Gmail"></category><category term="w10"></category></entry><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-25T01:02:36+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
 &lt;h1&gt;分組專案&lt;/h1&gt;
+&lt;p&gt;1a stud 倉儲: &lt;a href="https://github.com/mdewcm2024/1astud-site"&gt;https://github.com/mdewcm2024/1astud-site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5j stud 倉儲: &lt;a href="https://github.com/mdewcm2024/5jstud-5jsite"&gt;https://github.com/mdewcm2024/5jstud-5jsite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;給定 &lt;a href="http://229.cycu.org/5j_wcm2024_midterm.csv"&gt;5j_wcm2024_midterm 資料&lt;/a&gt; 與 &lt;a href="http://229.cycu.org/1a_wcm2024_midterm.csv"&gt;1a_wcm2024_midterm 資料&lt;/a&gt; 檔案, 包含學號、Github 帳號與組別. 請各組設法在分組網站與網誌中, 建立能連結到各分組組員的課程倉儲與網站連結頁面. 且最終希望能在處理過程將各組員的歷程網站與網誌整理到分組倉儲中.&lt;/p&gt;
 &lt;h2&gt;可行的處理方式&lt;/h2&gt;
 &lt;ol&gt;
