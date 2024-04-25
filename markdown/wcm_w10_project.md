@@ -11,6 +11,10 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# W10 起 Replit 已經可以用來維護分組倉儲
+
+[Replit 帳號維護分組倉儲](https://github.com/mdecycu/wcm2024/discussions/9)
+
 # 分組專案
 
 1a stud 倉儲: <https://github.com/mdewcm2024/1astud-site>

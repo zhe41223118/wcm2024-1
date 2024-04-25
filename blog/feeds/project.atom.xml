@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Project</title><link href="./" rel="alternate"></link><link href="./feeds/project.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T01:02:36+08:00</updated><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-25T01:02:36+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - Project</title><link href="./" rel="alternate"></link><link href="./feeds/project.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T14:38:29+08:00</updated><entry><title>WCM 分組專案</title><link href="./wcm-w10-project.html" rel="alternate"></link><published>2024-04-18T11:00:00+08:00</published><updated>2024-04-25T14:38:29+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-18:./wcm-w10-project.html</id><summary type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程分組專案 - 網頁與 Brython 程式應用&lt;/p&gt;
 
 
+&lt;h1&gt;W10 起 Replit 已經可以用來維護分組倉儲&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/wcm2024/discussions/9"&gt;Replit 帳號維護分組倉儲&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;分組專案&lt;/h1&gt;
 &lt;p&gt;1a stud 倉儲: &lt;a href="https://github.com/mdewcm2024/1astud-site"&gt;https://github.com/mdewcm2024/1astud-site&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;5j stud 倉儲: &lt;a href="https://github.com/mdewcm2024/5jstud-5jsite"&gt;https://github.com/mdewcm2024/5jstud-5jsite&lt;/a&gt;&lt;/p&gt;
