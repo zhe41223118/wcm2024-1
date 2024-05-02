@@ -1,62 +1,92 @@
-<!DOCTYPE html><html>
-        <head>
-        <title>網際內容管理</title>
-        <meta charset="utf-8">
-<meta property="head" content="H1">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
-        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
-        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
-        
-        <style type='text/css'>
-            .site-section {
-            background-color: #FFFF;
-            padding: 40px 40px;
-            }
-            body > div > div.dropdown.open {
-                display: block;
-            }
-        </style>
-    
-        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
-        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
-        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
-        <script src="tipuesearch_content.js"></script>
-        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
-        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
-        <!-- for Wink3 客製化關閉 -->
-        <!--
-        <link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" />
-        <script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"></script>
-        -->
-        <script>
-            /* original tipuesearch
-            $(document).ready(function() {
-                 $('#tipue_search_input').tipuesearch();
-            });
-            */
-            // customed doSearch
-            function doSearch() {
-                $('#tipue_search_input').tipuesearch({
-                    newWindow: true, 
-                    minimumLength: 2,
-                    wholeWords: false, // for search 中文
-                });
-            }
-            $(document).ready(doSearch);
-        </script>
-        
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>WCM 第 11 週課程內容</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="./" rel="canonical" />
+
+  <!-- Feed -->
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="2024 網際內容管理 Categories Atom Feed" />
+
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+
+  
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="./wcm-w11-Brython.html" rel="canonical" />
+
+        <meta name="description" content="網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="Brython">
+        <meta name="tags" content="w11">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="2024 網際內容管理"/>
+<meta property="og:title" content="WCM 第 11 週課程內容"/>
+<meta property="og:description" content="網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./wcm-w11-Brython.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-05-02 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-05-02 00:17:42.231800+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="WCM"/>
+<meta property="article:tag" content="Brython"/>
+<meta property="article:tag" content="w11"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "WCM 第 11 週課程內容",
+  "headline": "WCM 第 11 週課程內容",
+  "datePublished": "2024-05-02 11:00:00+08:00",
+  "dateModified": "2024-05-02 00:17:42.231800+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./wcm-w11-Brython.html",
+  "description": "網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用"
+}
+</script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
@@ -75,107 +105,142 @@
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushRust.js"></script>
-<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
-<script type="text/javascript">SyntaxHighlighter.all();</script>
-<!-- 暫時不用
-<script src="./../cmsimde/static/fengari-web.js"></script>
-<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
-<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
-<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
--->
-<!-- for Brython 暫時不用
-<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
-<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
--->
-<style>
-img.add_border {
-    border: 3px solid blue;
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "./../cmsimde/static/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "./../cmsimde/static/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+<!-- for LaTeX equations -->
+<!--<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
 }
-</style>
+init_mathjax();
+</script>
+-->
 
 </head>
-<body>
-<div class='container'><nav>
-        
-    <div class="site-wrap">
+<!-- TODO : Body class -->
+<body class="home-template">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+    <!--
+
+              <li role="presentation"><a href="./pages/about/">About</a></li>
+      -->
+
+            <li><a href="./pages/about/index.html">About</span></a></li>
+            
+            <li><a href="./archives.html">Archives</span></a></li>
+            
+            <li><a href="./categories.html">Categories</span></a></li>
+            
+            <li><a href="./tags.html">Tags</span></a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
     </div>
-    
-            <header class="site-navbar py-4 bg-white" role="banner">
-              <div class="container">
-                <div class="row align-items-center">
-                <h1>wcm2024 網際內容管理</h1>
-                <div class="pl-4">
-                    <form>
-                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
-                    </form>
-                </div>
-                  <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">wcm2024 網際內容管理</a></h1> 
-                  </div>
-                  -->
-                  <div class="col-12 col-md-10 d-none d-xl-block">
-                    <nav class="site-navigation position-relative text-right" role="navigation">
-    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
-                        <li class="active has-children"><a href="index.html">Home</a>
-                        <ul class="dropdown">
-                            <li><a href="sitemap.html">SMap</a></li>
-                            <li><a href="./../reveal/index.html">reveal</a></li>
-                            <li><a href="./../blog/index.html">blog</a></li>
-                        </ul>
-                      </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='cadlab.html'>cadlab</a><li><a href='Teams.html'>Teams</a></li></ul><li><a href='Q&A.html'>Q&A</a><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='wcm.html'>wcm</a><li><a href='Disqus.html'>Disqus</a><li><a href='LaTeX.html'>LaTeX</a><li class='has-children'><a href='IDE.html'>IDE</a><ul class='dropdown'><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li><a href='Video.html'>Video</a><li class='has-children'><a href='Programming.html'>Programming</a><ul class='dropdown'><li><a href='STL.html'>STL</a></li></ul><li class='has-children'><a href='Servers.html'>Servers</a><ul class='dropdown'><li><a href='Virtualbox.html'>Virtualbox</a><li><a href='wsgi.html'>wsgi</a></li></ul><li class='has-children'><a href='Brython.html'>Brython</a><ul class='dropdown'><li><a href='Brython_editor.html'>Brython_editor</a></li>
-                      </ul>
-                </nav>
-              </div>
-              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-              </div>
 
-            </div>
-          </div>
-          
-        </header>
-    <div id="tipue_search_content">wsgi << <a href='wsgi.html'>Previous</a> <a href='Brython_editor.html'>Next</a> >> Brython_editor<br /><h1>Brython</h1>
-<p>Look at <a href="https://www.infoworld.com/article/3660550/the-best-new-features-and-fixes-in-python-311.html">https://www.infoworld.com/article/3660550/the-best-new-features-and-fixes-in-python-311.html</a></p>
-<p>Look at <a href="https://www.infoworld.com/article/3694512/python-312-faster-leaner-more-future-proof.html">https://www.infoworld.com/article/3694512/python-312-faster-leaner-more-future-proof.html</a></p>
-<p>Look at <a href="https://docs.pola.rs/">https://docs.pola.rs/</a></p>
-<hr/>
-<p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
-<h4>Examples:</h4>
-<p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
-<p style="padding-left: 30px;"><a href="https://www.geeksforgeeks.org/python-programming-examples/">https://www.geeksforgeeks.org/python-programming-examples/</a></p>
-<p style="padding-left: 30px;"><a href="https://www.programiz.com/python-programming/examples">https://www.programiz.com/python-programming/examples</a></p>
-<p style="padding-left: 30px;"><a href="https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/">https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/</a></p>
-<h4>Python Tutorial:</h4>
-<p style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a></p>
-<p style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/introduction.html">An informal introduction to Python</a></p>
-<h4>Indentation (Python 採 4 個 Spaces 縮排, 以界定執行範圍)</h4>
-<h4>Variables (<a href="https://github.com/python/cpython/blob/3.11/Lib/keyword.py">Python Keywords</a>)</h4>
-<h4>Comments (# 單行註解, 三個單引號或三個雙引號標註多行註解)</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#numbers">Numbers</a> (整數 int(), 浮點數 float())</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#strings">Strings</a> (字串)</h4>
-<h4>print (Python 內建函式, <a href="https://docs.python.org/3/library/functions.html#print">print()</a> 函式)</h4>
-<p><a href="https://docs.python.org/3/tutorial/controlflow.html">Python control flow tools</a></p>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#for-statements">for</a></h4>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#if-statements">if</a></h4>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#the-range-function">range</a></h4>
-<h4>open</h4>
-<h4>read</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#lists">lists</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences">tuples</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">dictionaries</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions">functions</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/errors.html#exceptions">try ... except</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops">break</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#pass-statements">pass</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/classes.html?highlight=classes">classes</a></h4>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">WCM 第 11 週課程內容</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Thu 02 May 2024">Thu 02 May 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Thu 02 May 2024</span>
+            <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+<section class="search">
+      <form class="navbar-search" action="./search.html">
+      <input type="text"  placeholder="Search" name="q" id="tipue_search_input" required>
+    </form>
+</section>
+
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用</p>
+
+
+<h1>Brython 程式環境</h1>
+<p>將 <a href="/downloads/brython_w_editor_html.txt">brython_w_editor_html.txt</a> 超文件內容放入網誌中, 即可得到下列內容.</p>
+<p>若要放入動態網站, 則必須注意各引用頁面是由 cmsimde 目錄中啟動, 必須使用 <a href="/downloads/brython_on_editor.txt">brython_on_editor.txt</a> 超文件格式.</p>
+<hr>
+
 <p>這個頁面 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (<a href="./../downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件).</p>
 <p><a href="./../downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.</p>
 <p>亦即將所有對應的 html 也使用 Brython 產生, 然後寫為 <a href="https://docs.python.org/3/tutorial/classes.html">class</a> 後, 在範例導入時透過 <a href="https://docs.python.org/3/tutorial/classes.html#instance-objects">instance</a> 引用.</p>
@@ -311,8 +376,8 @@ doc["add1to100"].bind('click', add)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div1"></div>
-<!-- editor1 結束 --><hr/><!-- ########################################## -->
-<p>從 1 累加到 100 part2:</p>
+<!-- editor1 結束 -->
+<hr/><!-- ########################################## --><p>從 1 累加到 100 part2:</p>
 <p><button id="add1to100part2">1 add to 100</button><button id="cango_three_gears">cango_three_gears</button><button id="bsnake">BSnake</button><button id="aitetris">AI Tetris</button><button id="threejsblock">Rotating Block</button></p>
 <p><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src2"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
 <p>
@@ -430,58 +495,54 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div2"></div>
-<!-- editor2 結束 --><hr/>
-<p>
+<!-- editor2 結束 -->
+<hr/><p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
-</p>
-<br />wsgi << <a href='wsgi.html'>Previous</a> <a href='Brython_editor.html'>Next</a> >> Brython_editor</div>
-        
-    <!-- footer -->
-      <div class="container">
-        <div class="row pt-3 mx-auto">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/brython.html">Brython</a><a href="./tag/w11.html">w11</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./wcm-gemini-w10.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">WCM Gemini Pro 問答</h2>
+                            <p class="post-nav-excerpt">Google 推出 Gemini Pro 1.5, 透過對話能解決甚麼與網際內容管理相關的問題?</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
       </div>
-    <!-- for footer -->
-    
-        </div> <!-- for site wrap -->
-            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
-            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
-            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/aos.js"></script>
-            <!--
-            <script src="../cmsimde/static/chimper/js/typed.js"></script>
-                    <script>
-                    var typed = new Typed('.typed-words', {
-                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
-                    typeSpeed: 80,
-                    backSpeed: 80,
-                    backDelay: 4000,
-                    startDelay: 1000,
-                    loop: true,
-                    showCursor: true
-                    });
-                    </script>
-            -->
-            <script src="../cmsimde/static/chimper/js/main.js"></script>
-        
-<!-- 啟用 LaTeX equations 編輯 -->
-  <!-- <script>
-  MathJax = {
-    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
-  };
-  </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
-    </body></html>
-        
+    </footer>
+  </section>
+  
+  <script type="text/javascript" src="./theme/js/script.js"></script>
+
+ 
+
+
+</body>
+</html>
