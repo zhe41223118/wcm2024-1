@@ -11,6 +11,18 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# 1a 評分倉儲
+
+倉儲: <https://github.com/mdewcm2024/1astud-site>
+
+網站: <https://mdewcm2024.github.io/1astud-site>
+
+# 5j 評分倉儲
+
+倉儲: <https://github.com/mdewcm2024/5jstud-5jsite>
+
+網站: <https://mdewcm2024.github.io/5jstud-5jsite/>
+
 # Brython 程式環境
 將 <a href="/downloads/brython_w_editor_html.txt">brython_w_editor_html.txt</a> 超文件內容放入網誌中, 即可得到下列內容.
 
