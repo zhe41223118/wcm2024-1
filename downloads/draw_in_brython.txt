@@ -1,0 +1,50 @@
+# Line drawing
+# 導入 doc
+from browser import document as doc
+from browser import html
+import math
+canvas = html.CANVAS(width = 300, height = 200)
+canvas.id = "line_drawing"
+brython_div = doc["brython_div"]
+brython_div <= canvas
+# 準備繪圖畫布
+canvas = doc["line_drawing"]
+ctx = canvas.getContext("2d")
+# 進行座標轉換, x 軸不變, y 軸反向且移動 canvas.height 單位光點
+# ctx.setTransform(1, 0, 0, -1, 0, canvas.height)
+# 以下採用 canvas 原始座標繪圖
+# 設定填圖顏色
+ctx.fillStyle = "rgb(200,0,0)"
+# 設定畫筆顏色
+ctx.strokeStyle = "rgb(0,0,200)"
+# 乘上 deg 可轉為徑度單位
+deg = math.pi / 180
+# 建立多邊形定點位置畫線函式
+def star(radius, xc, yc, n):
+    #radius = 100
+    #xc = 200
+    #yc = 200
+    xi = xc + radius*math.cos((360/n)*deg+90*deg)
+    yi = yc - radius*math.sin((360/n)*deg+90*deg)
+    ctx.beginPath()
+    ctx.moveTo(xi,yi)
+    for i in range(2, n+1):
+        x = xc + radius*math.cos((360/n)*deg*i+90*deg)
+        y = yc - radius*math.sin((360/n)*deg*i+90*deg)
+        ctx.lineTo(x,y)
+# 以下利用多邊形畫線函式呼叫執行畫框線或填入顏色
+# 畫五邊形框線
+star(50, 50, 50, 5)
+ctx.closePath()
+ctx.stroke()
+
+# 填三角形色塊
+star(50, 150, 50, 3)
+ctx.closePath()
+ctx.fill()
+
+# 改變畫線顏色後, 畫七邊形框線
+ctx.strokeStyle = "rgb(0,200,20)"
+star(50, 250, 50, 7)
+ctx.closePath()
+ctx.stroke()

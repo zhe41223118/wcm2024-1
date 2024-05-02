@@ -1,0 +1,41 @@
+# 參考: https://usefulangle.com/post/352/javascript-capture-image-from-camera
+# 參考: https://usefulangle.com/post/353/javascript-canvas-image-upload
+from browser import html, document, window
+
+# 建立 video tag, 並且插入既有的 brython_div 標註中
+# autoplay=True for phone camera, 480X640 for iphone
+videotag = html.VIDEO(autoplay=True,id='video', width='480', height='640')
+# 建立 canvas tag
+canvas = html.CANVAS(width = 480, height = 640, id="canvas")
+# 建立 button tag
+button = html.BUTTON("Save Image", id="save")
+# 分別將上列 tags 插入 id="brython_div" 之位置
+brython_div = document['brython_div']
+brython_div <= videotag + html.BR()
+brython_div <= button + html.BR()
+brython_div <= canvas
+ctx = canvas.getContext("2d")
+
+# 定義 OnSuccess 函式在 video 標註中播放 Webcam 串流影像
+def OnSuccess(stream):
+  video = document['video']
+  video.srcObject = stream
+  video.play()
+
+# 透過瀏覽器取得使用者同意後傳送 Webcam 串流資料
+# 'facingMode': 'environment' for rear camera
+window.navigator.mediaDevices.getUserMedia(
+    {"video": {"facingMode": 'environment'}, "audio": False}
+    ).then(OnSuccess)
+
+# 建立儲存串流影像至圖檔函式
+def save_image(e):
+    #print(canvas.width)
+    video = document['video']
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height)
+    image_data_url = canvas.toDataURL('image/jpeg')
+    print(image_data_url)
+
+# click id="save" 按鈕後, 執行 save_image
+# 此 image_data_url 可以用於將影像檔案送到 server
+document["save"].bind("click", save_image)

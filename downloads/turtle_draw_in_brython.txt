@@ -1,0 +1,16 @@
+# Turtle6 繪圖
+from browser import document as doc
+import turtle
+import math
+turtle.set_defaults(
+    turtle_canvas_wrapper = doc['brython_div']
+)
+t = turtle.Turtle("turtle")
+t.speed(10)
+colors = ['red', 'purple', 'blue', 'green', 'orange']
+for x in range(150):
+    t.pencolor(colors[x % 5])
+    t.width(x/10 + 1)
+    t.forward(x)
+    t.left(59)
+turtle.done()

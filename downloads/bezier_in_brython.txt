@@ -1,0 +1,78 @@
+# Cango 24v3 版本 Bezier 繪圖
+from browser import window, html
+from browser import document as doc
+canvas = html.CANVAS(width = 600, height = 400)
+canvas.id = "canvas"
+brython_div = doc["brython_div"]
+brython_div <= canvas
+# Javascript 物件
+cango = window.Cango.new
+path = window.Path.new
+shape = window.Shape.new
+group = window.Group.new
+# 24v3 circle 為 Javascript 物件
+circle = window.circle.new
+
+g1 = cango("canvas")
+g1.clearCanvas()
+g1.gridboxPadding(10, 10, 5, 7)
+g1.fillGridbox("lightgreen")
+g1.setWorldCoordsRHC(-100, -100, 400)
+x1 = 40
+y1 = 20
+cx1 = 90
+cy1 = 120
+x2 = 120
+y2 = 100
+cx2 = 130
+cy2 = 20
+cx3 = 150
+cy3 = 120
+x3 = 180
+y3 = 60
+def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()
+def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()
+def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()
+def drawCurve():
+    qbez = path(['M', x1, y1, 'Q', cx1, cy1, x2, y2], {
+      'strokeColor':'blue'})
+    cbez = path(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], {
+      'strokeColor':'green'})
+    L1 = path(['M', x1, y1, 'L', cx1, cy1, x2, y2], {
+      'strokeColor':"rgba(0, 0, 0, 0.2)",
+      'dashed':[4]})
+    L2 = path(['M', x2, y2, 'L', cx2, cy2], {
+      'strokeColor':"rgba(0, 0, 0, 0.2)",
+      'dashed':[4]})
+    L3 = path(['M', x3, y3, 'L', cx3, cy3], {
+      'strokeColor':"rgba(0, 0, 0, 0.2)",
+      'dashed':[4]})
+    # 24v3 直接 translate 無需經過 tranform
+    c1.translate(cx1, cy1)
+    c2.translate(cx2, cy2)
+    c3.translate(cx3, cy3)
+    grp = group(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    g1.render(grp, True)
+
+g1.clearCanvas("lightyellow")
+g1.deleteAllLayers()
+g1.setWorldCoordsRHC(0, 0, 200)
+c1 = shape(circle(6), {'fillColor':'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = shape(circle(6), {'fillColor':'red'})
+c2.enableDrag(None, dragC2, None)
+c3 = shape(circle(6), {'fillColor':'red'})
+c3.enableDrag(None, dragC3, None);
+drawCurve()
