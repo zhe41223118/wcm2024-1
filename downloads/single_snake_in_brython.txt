@@ -12,11 +12,11 @@ from random import random, randint
 canvas = html.CANVAS(width = 600, height = 600)
 # 將 canvas 標註的 id 設為 "canvas"
 canvas.id = "canvas"
-# 將 document 中 id 為 "brython_div" 的標註 
+# 將 document 中 id 為 "brython_div1" 的標註 
 # 設為與 brython_div 變數對應
-brython_div = doc["brython_div"]
-# 將 canvas 標註放入 brython_div 所在位置
-# 頁面中原本就已經放入 <div id="brython_div"></div> 標註
+brython_div = doc["brython_div1"]
+# 將 canvas 標註放入 brython_div1 所在位置
+# 頁面中原本就已經放入 <div id="brython_div1"></div> 標註
 brython_div <= canvas
 # 將頁面中 id 為 canvas 的 CANVAS 設為與 canvas 變數對應
 canvas = doc["canvas"]
