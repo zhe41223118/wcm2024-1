@@ -24,6 +24,10 @@ Author: kmol
 
 若將 Python3123 放入先前舊版的可攜 Python371 data 目錄中, 且配合建立 start_ipv6_py3123.bat, 則可以將 Python 3.7.1 版的可攜 Python 升級為 Python 3.12.3 版.
 
+以下影片說明如何從 Python 3.7.1 加入可攜的 Python 3.12.3 版:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/E-BmUqSA_YU?si=Ho-aEaO2NnODx_sr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 但是利用上述流程所建立的 Python 3.12.3 版可攜程式並沒有 pip, 必須啟動 start_ipv6_py3123.bat 後, 在命令列執行 python [get-pip.py](https://bootstrap.pypa.io/get-pip.py) 才能在可攜系統安裝 pip, 安裝 pip 後, 可以在命令列中以 pip list 查驗目前所安裝的 Python 模組.
 
 # Angry Bird 專案 {#angry_bird}
