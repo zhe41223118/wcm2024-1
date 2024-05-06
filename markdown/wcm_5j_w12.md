@@ -39,7 +39,7 @@ Replit 操作方式:
 
 <a href="./../downloads/usa_flag_in_brython.txt">USA Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/usa_flag_in_brython.py">執行畫 USA flag</a>
 
-<a href="./../downloads/draw_grid_in_brython.txt">畫格線</a> | <a href="https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/draw_grid_in_brython.py">執行畫格線</a>
+<a href="./../downloads/draw_grid_in_brython.txt">畫格線</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/draw_grid_in_brython.py">執行畫格線</a>
 
 <a href="./../downloads/single_snake_in_brython.txt">單節貪食蛇遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/single_snake_in_brython.py">執行單節貪食蛇遊戲</a>
 
