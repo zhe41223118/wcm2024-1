@@ -11,7 +11,7 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
-# Angry Bird 專案
+# Angry Bird 專案 {#angry_bird}
 
 專案程式: <https://github.com/mdecycu/angry-birds-python>
 
@@ -29,7 +29,7 @@ Replit 操作方式:
 3. 在 Shell 中以 pip install -r requirements.txt 安裝所需 Python 模組
 4. 按下 Run 執行畫面將出現在 Tools 工具中的 output 頁面.
 
-# Brython 程式
+# Brython 程式 {#brython}
 
 <a href="./../downloads/guess_in_brython.txt">猜數字遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/guess_in_brython.py">執行猜數字遊戲</a>
 
@@ -43,7 +43,7 @@ Replit 操作方式:
 
 <a href="./../downloads/single_snake_in_brython.txt">單節貪食蛇遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/single_snake_in_brython.py">執行單節貪食蛇遊戲</a>
 
-# 雲端 IDE
+# 雲端 IDE {#ide}
 
 <https://replit.com>, <https://github.com/codespaces> 與 <https://gitpod.io> 都是雲端 IDE, 建立帳號後, 可以用來開發各種單機與網路程式套件.
 
