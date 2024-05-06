@@ -34,6 +34,10 @@ Author: kmol
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/ShF1rXcTN50?si=e7E54RAMnULXBmAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+以下影片說明如何利用 ShareX 製作影片放入 Youtube 之後, 再嵌入自己的課程網誌後, 將網誌連結回報到[指定討論區](https://github.com/mdecycu/wcm2024/discussions/10):
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/Hw_uu-ykL38?si=igR4A1WFLl_vrTer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 近端操作方式:
 
 1. 啟動可攜程式環境, 可以使用隨身碟中的可攜環境或 C:\ 中的可攜環境
