@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-06T11:00:00+08:00</updated><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-06T08:01:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-06T11:00:00+08:00</updated><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-06T08:20:39+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 
 
@@ -15,6 +15,9 @@
 &lt;p&gt;但是利用上述流程所建立的 Python 3.12.3 版可攜程式並沒有 pip, 必須啟動 start_ipv6_py3123.bat 後, 在命令列執行 python &lt;a href="https://bootstrap.pypa.io/get-pip.py"&gt;get-pip.py&lt;/a&gt; 才能在可攜系統安裝 pip, 安裝 pip 後, 可以在命令列中以 pip list 查驗目前所安裝的 Python 模組.&lt;/p&gt;
 &lt;h1 id="angry_bird"&gt;Angry Bird 專案&lt;/h1&gt;
 &lt;p&gt;專案程式: &lt;a href="https://github.com/mdecycu/angry-birds-python"&gt;https://github.com/mdecycu/angry-birds-python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;操作影片:&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/ShF1rXcTN50?si=e7E54RAMnULXBmAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;近端操作方式:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;啟動可攜程式環境, 可以使用隨身碟中的可攜環境或 C:\ 中的可攜環境&lt;/li&gt;

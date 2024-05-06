@@ -30,6 +30,10 @@ Author: kmol
 
 專案程式: <https://github.com/mdecycu/angry-birds-python>
 
+操作影片:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/ShF1rXcTN50?si=e7E54RAMnULXBmAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 近端操作方式:
 
 1. 啟動可攜程式環境, 可以使用隨身碟中的可攜環境或 C:\ 中的可攜環境
