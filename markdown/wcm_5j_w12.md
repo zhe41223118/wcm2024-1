@@ -11,6 +11,19 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# Python 可攜系統
+
+請下載 Python 3.7.1 <http://229.cycu.org/wcm2024_5j.7z> (需要輸入帳號密碼), 解開壓縮後, 放入 C:\tmp 或 USB 隨身碟.
+
+使用方法: 
+
+1. 雙點擊 start_ipv6_py371.bat 啟動可攜程式環境
+2. 雙點擊 stop.bat 關閉可攜程式環境
+
+利用 [gen_py3123_portable.py](https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/69dfca6b6ee26b3b5cb8e0a1e2a37be6dc0556ca/gen_py3123_portable.py) 在上列舊版的 Python 可攜環境執行, 可在 C:\tmp 建立最基本的可攜 Python3123 程式目錄.
+
+若將 Python3123 放入先前舊版的可攜 Python371 data 目錄中, 且配合建立 start_ipv6_py3123.bat, 則可以將 Python 3.7.1 版的可攜 Python 升級為 Python 3.12.3 版.
+
 # Angry Bird 專案 {#angry_bird}
 
 專案程式: <https://github.com/mdecycu/angry-birds-python>
