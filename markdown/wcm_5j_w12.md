@@ -31,13 +31,13 @@ Replit 操作方式:
 
 # Brython 程式
 
-<a href="./../downloads/guess_in_brython.txt">猜數字遊戲</a> | <a href=https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/guess_in_brython.py">執行猜數字遊戲</a>
+<a href="./../downloads/guess_in_brython.txt">猜數字遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/guess_in_brython.py">執行猜數字遊戲</a>
 
-<a href="./../downloads/roc_flag_in_brython.txt">ROC Flag</a> | <a href=https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/roc_flag_in_brython.py">執行畫 ROC flag</a>
+<a href="./../downloads/roc_flag_in_brython.txt">ROC Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/roc_flag_in_brython.py">執行畫 ROC flag</a>
 
-<a href="./../downloads/proc_flag_in_brython.txt">PROC Flag</a> | <a href=https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/proc_flag_in_brython.py">執行畫 PROC flag</a>
+<a href="./../downloads/proc_flag_in_brython.txt">PROC Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/proc_flag_in_brython.py">執行畫 PROC flag</a>
 
-<a href="./../downloads/usa_flag_in_brython.txt">USA Flag</a> | <a href=https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/usa_flag_in_brython.py">執行畫 USA flag</a>
+<a href="./../downloads/usa_flag_in_brython.txt">USA Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/usa_flag_in_brython.py">執行畫 USA flag</a>
 
 <a href="./../downloads/draw_grid_in_brython.txt">畫格線</a> | <a href="https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/draw_grid_in_brython.py">執行畫格線</a>
 
