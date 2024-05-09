@@ -1,0 +1,64 @@
+C:\tmp\wcm2024_project\nfulist>python wsgi.py
+ * Serving Flask app 'wsgi'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on https://127.0.0.1:9447
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 139-786-903
+<html><head><script type="text/javascript">
+$(function(){
+        $("#print_tab").on("click",function(e){
+                e.preventDefault();
+                window.print();
+        });
+        $("#copy_tab").on("click",function(e){
+                e.preventDefault();
+                var el=document.getElementById('copyall');
+                var body = document.body, range, sel;
+                if (document.createRange && window.getSelection) {
+        range = document.createRange();
+        sel = window.getSelection();
+        sel.removeAllRanges();
+                        try {
+                                range.selectNodeContents(el);
+                                sel.addRange(range);
+                        } catch (e) {
+                                range.selectNode(el);
+                                sel.addRange(range);
+                        }
+                } else if (body.createTextRange) {
+                        range = body.createTextRange();
+                        range.moveToElementText(el);
+                        range.select();
+                }
+        });
+        //對話框的基本設定
+        var dialOpt={
+                autoOpen: false, //是否一進入就自動開啟
+                width: '800', //初始寬度
+                resize: false, //是否允許縮放對話框大小
+                modal: true, //型態，是否使用顏色反差  =>控制的Css在/* Overlays */這邊
+                show: 'fold', //指定顯示對話框時的特效
+                hide: 'fold', //指定關閉對話框時的特效
+                beforeclose : function (event) //關閉對話框前的確認動作
+                {
+                                if (!confirm ("是否關閉此對話框 ?")) return false;
+                }
+        };
+
+        $(".open").on("click",function(e){
+                e.preventDefault();
+                var timeStr = $(this).prop("id").split("-");
+                $("#open-"+$(this).prop("id"))
+                        .dialog(dialOpt)   //載入對話框基本設定
+                        .dialog("option","title","查閱星期"+timeStr[1]+"第"+timeStr[0]+"節課程內容")   //設定對話框標題
+                        .dialog("open");
+        });
+});
+</script>
+</head><body><div style="float:right;"><a class="noprint" href="#" id="copy_tab"><img border="0" src="./pic/selall.png"/> 全選</a> <a class="noprint" href="#" id="print_tab"><img border="0" src="./pic/printer.png"/> 列印</a></div>
+<div id="copyall"><table class="tbcls" style="width:1000px; margin-bottom:30px;"><tr><td colspan="8"><center>國立虎尾科 技大學  112 學年度第 1 學期  42311班級排課表</center></td></tr><tr><th width="9%"> <p align="center">   </p></th><th width="13%"> <p align="center"> 一 </p></th><th width="13%"> <p align="center"> 二 </p></th><th width="13%"> <p align="center"> 三 </p></th><th width="13%"> <p align="center"> 四 </p></th><th width="13%"> <p align="center"> 五 </p></th><th width="13%"> <p align="center"> 六 </p></th><th width="13%"> <p align="center"> 日 </p></th></tr><tr><td>第一節</td><td><font color="blue">體育(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=徐武雄&amp;dept=">徐武雄</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=CPB0101">CPB0101<br/>體育館前（A、B）</a></font></td><td> </td><td> </td><td> </td><td><font color="red">社會責任實踐教育(三)</font></td><td> </td><td> </td></tr><tr><td>第二節</td><td><font color="blue">體育(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=徐武雄&amp;dept=">徐武雄</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=CPB0101">CPB0101<br/>體育館前（A、B）</a></font></td><td><font color="blue">物理(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=羅煜聘&amp;dept=">羅煜聘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0302">ATB0302<br/>普通教室</a></font></td><td><font color="blue">機械製圖(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=王培郁&amp;dept=">王培郁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0830">BGA0830<br/>電腦輔助繪圖室</a></font></td><td> </td><td><font color="red">社會責任實踐教育(三)</font></td><td> </td><td> </td></tr><tr><td>第三節</td><td><font color="blue">國文(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=宋孟貞&amp;dept=">宋孟貞</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0503">ATB0503<br/>普通教室</a></font></td><td><font color="red">英文(一)</font></td><td><font color="blue">機械製圖(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=王培郁&amp;dept=">王培郁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0830">BGA0830<br/>電腦輔助繪圖室</a></font></td><td><font color="blue">機械製造<br/><a href="./jteacher.php?selyr=1121&amp;teacher=黃金龍&amp;dept=">黃金龍</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0901">BGA0901<br/>國際會議廳</a></font></td><td><font color="blue">微積分(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=蘇貴芳&amp;dept=">蘇貴芳</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0503">ATB0503<br/>普通教室</a></font></td><td> </td><td> </td></tr><tr><td>第四節</td><td><font color="blue">國文(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=宋孟貞&amp;dept=">宋孟貞</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0503">ATB0503<br/>普通教室</a></font></td><td><font color="red">英文(一)</font></td><td><font color="blue">機械製圖(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=王培郁&amp;dept=">王培郁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0830">BGA0830<br/>電 腦輔助繪圖室</a></font></td><td><font color="blue">機械製造<br/><a href="./jteacher.php?selyr=1121&amp;teacher=黃金龍&amp;dept=">黃金龍</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0901">BGA0901<br/>國際會議廳</a></font></td><td><font color="blue">微積分(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=蘇貴芳&amp;dept=">蘇貴芳</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0503">ATB0503<br/>普通教室</a></font></td><td> </td><td> </td></tr><tr><td>第五節</td><td><font color="blue">物理(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=羅煜聘&amp;dept=">羅煜聘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0102">ATB0102<br/>普通教室</a></font></td><td><font color="blue">計算機程式<br/><a href="./jteacher.php?selyr=1121&amp;teacher=嚴家銘&amp;dept=">嚴家銘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0810">BGA0810<br/>電腦輔助設計室</a></font></td><td> </td><td><font color="blue">C++程式語言基礎與實作<br/><a href="./jteacher.php?selyr=1121&amp;teacher=毛彥傑&amp;dept=">毛彥傑</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AIA0201">AIA0201<br/>普通教室(10301起工程學院電腦教室)</a></font></td><td><font color="blue">微積分(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=蘇貴芳&amp;dept=">蘇貴芳</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0503">ATB0503<br/>普通教室</a></font></td><td> </td><td> </td></tr><tr><td>第六節</td><td><font color="blue">物理(一)<br/><a href="./jteacher.php?selyr=1121&amp;teacher=羅煜聘&amp;dept=">羅煜聘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=ATB0102">ATB0102<br/>普通教室</a></font></td><td><font color="blue">計算機程式<br/><a href="./jteacher.php?selyr=1121&amp;teacher=嚴家銘&amp;dept=">嚴家銘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0810">BGA0810<br/>電腦輔助設計室</a></font></td><td> </td><td><font color="blue">C++程式語言基礎與實作<br/><a href="./jteacher.php?selyr=1121&amp;teacher=毛彥傑&amp;dept=">毛彥傑</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AIA0201">AIA0201<br/>普通教室(10301起工程學院電腦教室)</a></font></td><td><font color="blue">工廠實習(一)綜合加工實習<br/><a href="./jteacher.php?selyr=1121&amp;teacher=林啓仁&amp;dept=">林 啓仁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AME0107">AME0107<br/>綜合工廠</a></font></td><td> </td><td> </td></tr><tr><td>第七節</td><td> </td><td><font color="blue">計算機程式<br/><a href="./jteacher.php?selyr=1121&amp;teacher=嚴家銘&amp;dept=">嚴家銘</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=BGA0810">BGA0810<br/>電 腦輔助設計室</a></font></td><td><font color="red">社會責任實踐教育(一)</font></td><td><font color="blue">C++程式語言基礎與實作<br/><a href="./jteacher.php?selyr=1121&amp;teacher=毛彥傑&amp;dept=">毛彥傑</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AIA0201">AIA0201<br/>普通教室(10301起工程學院電腦教室)</a></font></td><td><font color="blue">工 廠實習(一)綜合加工實習<br/><a href="./jteacher.php?selyr=1121&amp;teacher=林啓仁&amp;dept=">林啓仁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AME0107">AME0107<br/>綜合工廠</a></font></td><td> </td><td> </td></tr><tr><td>第八節</td><td> </td><td> </td><td><font color="red">社會責任實踐教育(一)</font></td><td> </td><td><font color="blue">工廠實習(一)綜合加工實習<br/><a href="./jteacher.php?selyr=1121&amp;teacher=林啓仁&amp;dept=">林啓仁</a><br/><a href="./jclassroom.php?selyr=1121&amp;selclssroom=AME0107">AME0107<br/>綜合工廠</a></font></td><td> </td><td> </td></tr><tr><td>第九節</td><td> </td><td> </td><td><font color="red">班週會</font></td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十一節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十二節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十三節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十四節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十五節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>第十六節</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr></table>== 查詢時間：2024-05-09 12:19:46 ==<br/><br/></div></body></html>
+127.0.0.1 - - [09/May/2024 12:19:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:19:55] "GET /favicon.ico HTTP/1.1" 404 -

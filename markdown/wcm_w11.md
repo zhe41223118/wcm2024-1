@@ -291,3 +291,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <!-- editor2 結束 --><hr/>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
+
+# 從教務主機直接擷取資料
+
+利用 <a href="./../downloads/wsgi_v1_py.txt">wsgi_v1.py</a> 可以取得結果: <a href="./../downloads/wsgi_v1_output.txt">wsgi_v1_output.txt</a> 表示可以利用 Flask 建置網站程式取下教務主機中的相關資料.

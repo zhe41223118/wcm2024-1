@@ -1,0 +1,87 @@
+from flask import Flask, request 
+from flask_cors import CORS
+
+import requests
+import bs4
+
+'''
+semester=1091
+
+courseno=0762
+
+cp
+
+1a 1091/0762
+
+1b 1091/0776
+
+cad
+
+2a 1091/0788
+
+2b 1091/0801
+
+https://nfulist.herokuapp.com/?semester=1082&courseno=0767
+cd
+2a 1082/0767
+2b 1082/0780
+
+2a 1072/0777
+2b 1072/0790
+2a 1062/0788
+2a 1062/0802
+
+wcm
+1082/0744
+
+1072/0754
+1062/0765
+
+wcmj
+1082/2418
+'''
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/studlist')
+@app.route('/')
+def studlist():
+    semester = request.args.get('semester')
+    classid = request.args.get('classid')
+    column = request.args.get('column')
+
+    if semester == None:
+        semester = '1121'
+    if classid == None:
+        #設一甲
+        classid = '42311'
+
+    headers = {'X-Requested-With': 'XMLHttpRequest'}
+
+    url = 'https://qry.nfu.edu.tw/jclass_ajax.php'
+    post_var = {'pselyr': semester, 'pselclss': classid}
+
+    result = requests.post(url, data = post_var, headers = headers)
+    soup = bs4.BeautifulSoup(result.content, 'lxml')
+    print(str(soup))
+    table = soup.find('table', {'class': 'tbcls'})
+    data = []
+    rows = table.find_all('tr')
+    for row in rows:
+        cols = row.find_all('td')
+        cols = [ele.text.strip() for ele in cols]
+        data.append([ele for ele in cols if ele]) # Get rid of empty values
+    output = ""
+    for i in data[2:]:
+        #print(i[0])
+        if column == "True":
+            output +=i[0] + "</br>"
+        else:
+            output +=i[0] + "\n"
+
+    return output
+    #return  str(pselyr) + " + " +str(pseqno)
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")
