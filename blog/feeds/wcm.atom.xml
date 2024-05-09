@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - WCM</title><link href="./" rel="alternate"></link><link href="./feeds/wcm.atom.xml" rel="self"></link><id>./</id><updated>2024-05-02T11:00:00+08:00</updated><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-02T05:04:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - WCM</title><link href="./" rel="alternate"></link><link href="./feeds/wcm.atom.xml" rel="self"></link><id>./</id><updated>2024-05-09T01:49:16+08:00</updated><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-09T01:49:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 
 
 &lt;h1&gt;1a 評分倉儲&lt;/h1&gt;
 &lt;p&gt;倉儲: &lt;a href="https://github.com/mdewcm2024/1astud-site"&gt;https://github.com/mdewcm2024/1astud-site&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;網站: &lt;a href="https://mdewcm2024.github.io/1astud-site"&gt;https://mdewcm2024.github.io/1astud-site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有關 git pull 評分倉儲之後的處理要點:&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/INs2QE2_A6s?si=-4hwUy5l1FA0bw36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;h1&gt;5j 評分倉儲&lt;/h1&gt;
 &lt;p&gt;倉儲: &lt;a href="https://github.com/mdewcm2024/5jstud-5jsite"&gt;https://github.com/mdewcm2024/5jstud-5jsite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;網站: &lt;a href="https://mdewcm2024.github.io/5jstud-5jsite/"&gt;https://mdewcm2024.github.io/5jstud-5jsite/&lt;/a&gt;&lt;/p&gt;

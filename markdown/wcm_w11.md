@@ -17,6 +17,10 @@ Author: kmol
 
 網站: <https://mdewcm2024.github.io/1astud-site>
 
+有關 git pull 評分倉儲之後的處理要點:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/INs2QE2_A6s?si=-4hwUy5l1FA0bw36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # 5j 評分倉儲
 
 倉儲: <https://github.com/mdewcm2024/5jstud-5jsite>
