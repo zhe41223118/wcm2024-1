@@ -1,0 +1,100 @@
+from flask import Flask, request 
+from flask_cors import CORS
+
+import requests
+import bs4
+
+'''
+機械設計系各班 classid:
+42310: 42310四設計一訓
+
+42311: 42311四設計一甲
+42312: 42312四設計一乙
+
+42319: 42319四設計系一攜
+42320: 42320四設計二訓
+
+42321: 42321四設計二甲
+42322: 42322四設計二乙
+
+42329: 42329四設計系二攜
+42330: 42330四設計三訓
+
+42331: 42331四設計三甲
+42332: 42332四設計三乙
+
+42339: 42339四設計系三攜
+42340: 42340四設計四訓
+
+42341: 42341四設計四甲
+42342: 42342四設計四乙
+
+42349: 42349四設計系四攜
+
+第 112 學年第 2 學期, 查詢設一甲的班級課表
+
+https://localhost:9447/?semester=1122&classid=設一甲
+'''
+# 將班級中文縮寫與代號存入 mde dict
+
+mde ={
+"設一訓": "42310",
+"設一甲": "42311",
+"設一乙": "42312",
+"設一攜": "42319",
+"設二訓": "42320",
+"設二甲": "42321",
+"設二乙": "42322",
+"設二攜": "42329",
+"設三訓": "42330",
+"設三甲": "42331",
+"設三乙": "42332",
+"設三攜": "42339",
+"設四訓": "42340",
+"設四甲": "42341",
+"設四乙": "42342",
+"設四攜": "42349"
+}
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/studlist')
+@app.route('/')
+def studlist():
+    semester = request.args.get('semester')
+    classid = request.args.get('classid')
+    column = request.args.get('column')
+
+    if semester == None:
+        semester = '1121'
+    if classid == None:
+        #設一甲
+        classid = '設一甲'
+    # 透過 mde dict 將班級中文縮寫轉為代號
+    try:
+        selclss = mde[classid]
+    except:
+        return "查無資料"
+
+    headers = {'X-Requested-With': 'XMLHttpRequest'}
+
+    url = 'https://qry.nfu.edu.tw/jclass_ajax.php'
+    #post_var = {'pselyr': semester, 'pselclss': classid}
+    post_var = {'pselyr': semester, 'pselclss': selclss}
+
+    result = requests.post(url, data = post_var, headers = headers)
+    #soup = bs4.BeautifulSoup(result.content, 'lxml')
+    soup = bs4.BeautifulSoup(result.content, 'lxml', from_encoding='utf-8')
+    # 列出 soup 物件的字元
+    #print(str(soup))
+    table = soup.find('table', {'class': 'tbcls'})
+    # 添加border屬性
+    table['border'] = "1"
+    # 返回帶有border屬性的table HTML
+    table_html = table.prettify()
+    return table_html
+    #return  str(pselyr) + " + " +str(pseqno)
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=9447, debug=True, ssl_context="adhoc")
