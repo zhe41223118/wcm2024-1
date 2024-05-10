@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - WCM</title><link href="./" rel="alternate"></link><link href="./feeds/wcm.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T04:31:44+08:00</updated><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-10T04:31:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - WCM</title><link href="./" rel="alternate"></link><link href="./feeds/wcm.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T05:11:13+08:00</updated><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-10T05:11:13+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 
 
@@ -15,6 +15,10 @@
 &lt;h1&gt;5j 評分倉儲&lt;/h1&gt;
 &lt;p&gt;倉儲: &lt;a href="https://github.com/mdewcm2024/5jstud-5jsite"&gt;https://github.com/mdewcm2024/5jstud-5jsite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;網站: &lt;a href="https://mdewcm2024.github.io/5jstud-5jsite/"&gt;https://mdewcm2024.github.io/5jstud-5jsite/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="nfulist"&gt;從教務主機直接擷取資料&lt;/h1&gt;
+&lt;p&gt;利用 &lt;a href="./../downloads/wsgi_v1_py.txt"&gt;wsgi_v1.py&lt;/a&gt; 可以取得結果: &lt;a href="./../downloads/wsgi_v1_output.txt"&gt;wsgi_v1_output.txt&lt;/a&gt; 表示可以利用 Flask 建置網站程式取下教務主機中的相關資料.&lt;/p&gt;
+&lt;p&gt;利用 &lt;a href="./../downloads/wsgi_v2_py.txt"&gt;wsgi_v2.py&lt;/a&gt; 可以取得以下結果:&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../images/wsgi_v2_output.png" width="551" height="647" /&gt;&lt;/p&gt;
 &lt;h1&gt;Brython 程式環境&lt;/h1&gt;
 &lt;p&gt;將 &lt;a href="/downloads/brython_w_editor_html.txt"&gt;brython_w_editor_html.txt&lt;/a&gt; 超文件內容放入網誌中, 即可得到下列內容.&lt;/p&gt;
 &lt;p&gt;若要放入動態網站, 則必須注意各引用頁面是由 cmsimde 目錄中啟動, 必須使用 &lt;a href="/downloads/brython_on_editor.txt"&gt;brython_on_editor.txt&lt;/a&gt; 超文件格式.&lt;/p&gt;
@@ -276,15 +280,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;div id="brython_div2"&gt;&lt;/div&gt;
 &lt;!-- editor2 結束 --&gt;
 &lt;hr/&gt;&lt;p&gt;
-&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;
-
-# 從教務主機直接擷取資料 {#nfulist}
-
-利用 &lt;a href="./../downloads/wsgi_v1_py.txt"&gt;wsgi_v1.py&lt;/a&gt; 可以取得結果: &lt;a href="./../downloads/wsgi_v1_output.txt"&gt;wsgi_v1_output.txt&lt;/a&gt; 表示可以利用 Flask 建置網站程式取下教務主機中的相關資料.
-
-利用 &lt;a href="./../downloads/wsgi_v2_py.txt"&gt;wsgi_v2.py&lt;/a&gt; 可以取得以下結果:
-
-&lt;img src="./../images/wsgi_v2_output.png" width="551" height="647" /&gt;</content><category term="WCM"></category><category term="Brython"></category><category term="w11"></category></entry><entry><title>WCM 課程期中整理</title><link href="./wcm-midterm.html" rel="alternate"></link><published>2024-04-14T11:00:00+08:00</published><updated>2024-04-15T14:23:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-14:./wcm-midterm.html</id><summary type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
+&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;</content><category term="WCM"></category><category term="Brython"></category><category term="w11"></category></entry><entry><title>WCM 課程期中整理</title><link href="./wcm-midterm.html" rel="alternate"></link><published>2024-04-14T11:00:00+08:00</published><updated>2024-04-15T14:23:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-14:./wcm-midterm.html</id><summary type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程的英文名稱為 Web-based Content Management, 課程目標是讓學員得以運用網頁來管理與個人或專業領域應用相關的內容. 當然, 我們還想啟發學員對於網頁與內容管理發展趨勢的思考, 並且針對學員選課, 評定出一個合理的修課成績!&lt;/p&gt;
 
 
