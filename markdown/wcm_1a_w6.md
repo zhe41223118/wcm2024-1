@@ -115,7 +115,7 @@ ChatGPT 回答:
 
 因此，使用 NXOpen Python 程式存檔並結合 Git 分散式版本管理系統可以更有效地管理和控制零組件的設計過程，提高團隊的協同效率和設計品質。
 
-# 從 git init 到 git push
+# 從 git init 到 git push {#gogs}
 
 啟動近端可攜程式系統
 

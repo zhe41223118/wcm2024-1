@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-04-15T08:37:17+08:00</updated><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-15T08:37:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理 - 四技</title><link href="./" rel="alternate"></link><link href="./feeds/si-ji.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T04:36:44+08:00</updated><entry><title>WCM 四技第八週課程</title><link href="./wcm-1a-w8.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-15T08:37:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-11:./wcm-1a-w8.html</id><summary type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第八週課程, 從教育的本質看網際內容管理課程的內容要點.&lt;/p&gt;
 
 
@@ -28,7 +28,7 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T10:15:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="四技"></category><category term="git"></category><category term="w8"></category><category term="教育的本質"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-05-10T04:36:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -136,7 +136,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;因此，使用 NXOpen Python 程式存檔並結合 Git 分散式版本管理系統可以更有效地管理和控制零組件的設計過程，提高團隊的協同效率和設計品質。&lt;/p&gt;
-&lt;h1&gt;從 git init 到 git push&lt;/h1&gt;
+&lt;h1 id="gogs"&gt;從 git init 到 git push&lt;/h1&gt;
 &lt;p&gt;啟動近端可攜程式系統&lt;/p&gt;
 &lt;p&gt;更換目錄至 y:\tmp 分別建立 gitproject\repository 與 gitserver\repository 目錄&lt;/p&gt;
 &lt;p&gt;利用以下指令, 設定之後的 git init 將採用 main 作為內定主分支&lt;/p&gt;

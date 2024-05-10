@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-09T11:39:30+08:00</updated><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-06T08:53:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T04:36:44+08:00</updated><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-06T08:53:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 
 
@@ -99,7 +99,7 @@
 &lt;p&gt;儘管如此，Python 並沒有將所有功能都構建到其核心中，而是設計為可透過模組高度擴展。這種緊湊的模組化使其在為現有應用程式添加可程式設計介面方面特別受歡迎。Van Rossum 對於小型核心語言、大型標準庫和易於擴展的直譯器的願景源於他對 ABC 的失望，ABC 主張相反的方法。&lt;/p&gt;
 &lt;p&gt;Python 聲稱致力於更簡單、更簡潔的語法和語法，同時讓開發人員可以選擇自己的編碼方法。與 Perl 的「做一件事有很多方法」的座右銘相比，Python 擁抱「做一件事應該有一種——最好只有一種——顯而易見的方法」的哲學。然而，在實踐中，Python 提供了許多方法來完成相同的任務。例如，至少有三種格式化字串文字的方法，但沒有哪一種是程式設計師應該使用的。Python 軟體基金會的研究員兼 Python 書籍作者 Alex Martelli 寫道：「在 Python 文化中，將某事描述為『聰明』不被認為是一種讚美。」&lt;/p&gt;
 &lt;p&gt;Python 的開發人員通常努力避免過早優化，并拒絕對 CPython 參考實作的非關鍵部分進行修補，因為這些修補會以犧牲清晰度為代價來略微提高速度。可以通過將速度關鍵函數移至以 C 等語言編寫的擴展模組，或使用 PyPy 等即時編譯器來提高執行速度。也可以跨編譯成其他語言，但由於 Python 是一種非常動態的語言，它要么不能提供預期的全部加速，要么編譯的是 Python 的受限子集，并且可能會稍微更改語義。&lt;/p&gt;
-&lt;p&gt;Python 的開發人員的目標是讓它使用起來很有趣。這體現在它的名字中——向英國喜劇團體 Monty Python 致敬——以及偶爾在教程和參考材料中使用的俏皮方法，例如在示例中使用術語「spam」和「eggs」（Monty Python 小品的參考），而不是常用的「foo」和「bar」。Python 社群中的一個常見新詞是 pythonic，它具有與程式風格相關的各種含義。「Pythonic」程式碼可能很好地使用了 Python 的習慣用法，很自然或顯示出對該語言的流利程度，或者符合 Python 的極簡主義哲學和對可讀性的重視。難以理解或讀起來像從另一種程式語言粗略轉錄的程式碼被稱為「unpythonic」。&lt;/p&gt;</content><category term="5j"></category><category term="Python"></category><category term="w12"></category><category term="angry bird"></category></entry><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-09T11:39:30+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
+&lt;p&gt;Python 的開發人員的目標是讓它使用起來很有趣。這體現在它的名字中——向英國喜劇團體 Monty Python 致敬——以及偶爾在教程和參考材料中使用的俏皮方法，例如在示例中使用術語「spam」和「eggs」（Monty Python 小品的參考），而不是常用的「foo」和「bar」。Python 社群中的一個常見新詞是 pythonic，它具有與程式風格相關的各種含義。「Pythonic」程式碼可能很好地使用了 Python 的習慣用法，很自然或顯示出對該語言的流利程度，或者符合 Python 的極簡主義哲學和對可讀性的重視。難以理解或讀起來像從另一種程式語言粗略轉錄的程式碼被稱為「unpythonic」。&lt;/p&gt;</content><category term="5j"></category><category term="Python"></category><category term="w12"></category><category term="angry bird"></category></entry><entry><title>WCM 第 11 週課程內容</title><link href="./wcm-w11-Brython.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-10T04:31:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./wcm-w11-Brython.html</id><summary type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理第 11 週課程, 說明如何在網頁中加入 Brython 程式應用&lt;/p&gt;
 
 
@@ -378,7 +378,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;hr/&gt;&lt;p&gt;
 &lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;
 
-# 從教務主機直接擷取資料
+# 從教務主機直接擷取資料 {#nfulist}
 
 利用 &lt;a href="./../downloads/wsgi_v1_py.txt"&gt;wsgi_v1.py&lt;/a&gt; 可以取得結果: &lt;a href="./../downloads/wsgi_v1_output.txt"&gt;wsgi_v1_output.txt&lt;/a&gt; 表示可以利用 Flask 建置網站程式取下教務主機中的相關資料.
 
@@ -962,7 +962,7 @@ id4 &lt;= "平均次數: " + str(平均猜測次數)
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T10:15:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="五專"></category><category term="Brython"></category><category term="w7"></category></entry><entry><title>WCM 四技第六週課程</title><link href="./wcm-1a-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-05-10T04:36:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./wcm-1a-w6.html</id><summary type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;四技 WCM 第六週課程, 說明如何透過與 ChatGPT 的對話, 了解有關 git 在不同專業領域的應用方法.&lt;/p&gt;
 
 
@@ -1070,7 +1070,7 @@ id4 &lt;= "平均次數: " + str(平均猜測次數)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;因此，使用 NXOpen Python 程式存檔並結合 Git 分散式版本管理系統可以更有效地管理和控制零組件的設計過程，提高團隊的協同效率和設計品質。&lt;/p&gt;
-&lt;h1&gt;從 git init 到 git push&lt;/h1&gt;
+&lt;h1 id="gogs"&gt;從 git init 到 git push&lt;/h1&gt;
 &lt;p&gt;啟動近端可攜程式系統&lt;/p&gt;
 &lt;p&gt;更換目錄至 y:\tmp 分別建立 gitproject\repository 與 gitserver\repository 目錄&lt;/p&gt;
 &lt;p&gt;利用以下指令, 設定之後的 git init 將採用 main 作為內定主分支&lt;/p&gt;
