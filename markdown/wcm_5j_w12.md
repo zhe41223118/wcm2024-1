@@ -62,6 +62,8 @@ Replit 操作方式:
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/LjEFtaPMk0k?si=STgSE8Am5NbY6gkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[從教務主機取出班級課表程式](https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/4dc447c1114bb35a3c5ee02ffc0d6ce97f555688/nfulist_2024_v2.py)
+
 <a href="./../downloads/guess_in_brython.txt">猜數字遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/guess_in_brython.py">執行猜數字遊戲</a>
 
 <a href="./../downloads/roc_flag_in_brython.txt">ROC Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/roc_flag_in_brython.py">執行畫 ROC flag</a>
