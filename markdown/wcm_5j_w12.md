@@ -66,6 +66,8 @@ Replit 操作方式:
 
 <a href="./../downloads/guess_in_brython.txt">猜數字遊戲</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/guess_in_brython.py">執行猜數字遊戲</a>
 
+延伸單一用戶猜數字遊戲至[可多人競賽的遊戲程式](./../downloads/guess_game_server_wcm2024.7z)
+
 <a href="./../downloads/roc_flag_in_brython.txt">ROC Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/roc_flag_in_brython.py">執行畫 ROC flag</a>
 
 <a href="./../downloads/proc_flag_in_brython.txt">PROC Flag</a> | <a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/4a3e639fa0a7282fb3a3c8b6668e9e95/raw/3214565e419e00b1607344e173a0280fc3418e90/proc_flag_in_brython.py">執行畫 PROC flag</a>
