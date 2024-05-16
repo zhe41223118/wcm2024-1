@@ -35,6 +35,10 @@ Author: kmol
 
 利用 <a href="./../downloads/wsgi_v1_py.txt">wsgi_v1.py</a> 可以取得結果: <a href="./../downloads/wsgi_v1_output.txt">wsgi_v1_output.txt</a> 表示可以利用 Flask 建置網站程式取下教務主機中的相關資料.
 
+以下影片說明如何利用 wsgi_v2.py 擷取各學期班級課表:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/Seg9jHuh72I?si=KKgo5loKzQY_7wZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 利用 <a href="./../downloads/wsgi_v2_py.txt">wsgi_v2.py</a> 可以取得以下結果:
 
 <img src="./../images/wsgi_v2_output.png" width="551" height="647" />
