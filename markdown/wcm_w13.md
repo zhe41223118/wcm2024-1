@@ -22,7 +22,7 @@ https_proxy="http://your_proxy_server:port"
 
 # 猜猜看遊戲
 
-<a href="./../downloads/guess_game_server_wcm2024.7z">guess_game.7z</a> 是在 AI 輔助下, 將簡單的單人 [Brython 線上猜數字遊戲](https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/cfce17938843e1f9a9be75d0cf2c2dee7c702291/guess_game.py) 轉化為可以多人同場比賽猜數字的線上遊戲.
+<a href="./../downloads/guess_game.7z">guess_game.7z</a> 是在 AI 輔助下, 將簡單的單人 [Brython 線上猜數字遊戲](https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/cfce17938843e1f9a9be75d0cf2c2dee7c702291/guess_game.py) 轉化為可以多人同場比賽猜數字的線上遊戲.
 
 <http://229.cycu.org:88>
 
