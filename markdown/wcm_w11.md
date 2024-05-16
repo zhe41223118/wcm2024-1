@@ -39,6 +39,12 @@ Author: kmol
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/Seg9jHuh72I?si=KKgo5loKzQY_7wZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+說明如何將 Python 程式配置為 Windows 操作系統中的服務:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/UgXZcpfSYXU?si=vNYGReZXxRsk32Kt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+經由上述影片將程式配置在伺服器後, 可以從[229 主機取下設一甲 90 學年度第一學期的課表](http://229.cycu.org:9447/?semester=901&classid=設一甲)
+
 利用 <a href="./../downloads/wsgi_v2_py.txt">wsgi_v2.py</a> 可以取得以下結果:
 
 <img src="./../images/wsgi_v2_output.png" width="551" height="647" />
