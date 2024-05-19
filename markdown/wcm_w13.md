@@ -37,3 +37,12 @@ https_proxy="http://your_proxy_server:port"
 最後, 延伸以上的多人網際程式架構, 是不是就可以開發一個網際協同產品開發網站?
 
 在現今 AI 系統的輔助下, 上列程式開發有沒有變得比較簡單?
+
+後續猜數字遊戲的開發倉儲: <https://github.com/mdecycu/guess_game>
+
+值得加入的功能:
+
+1. 具有管理者模式, 可以重新啟動伺服器.
+2. 可讓參賽者經由 Github、Gmail 或其他支援 [Oauth2](https://developers.google.com/identity/protocols/oauth2) 登入協定的帳號登入.
+3. 加入資料庫, 儲存參賽者的得分資料、歷史紀錄並提供排行榜等功能.
+4. 加入其他可多人線上參與競技或進行同步對話功能, 或納入其他專業相關的協同設計功能.

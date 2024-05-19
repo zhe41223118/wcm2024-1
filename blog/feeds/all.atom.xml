@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-16T11:00:00+08:00</updated><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-16T01:12:43+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-19T02:59:26+08:00</updated><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-19T02:59:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 
 
@@ -20,7 +20,15 @@ https_proxy="http://your_proxy_server:port"&lt;/p&gt;
 &lt;li&gt;一但部署成功, 該如何設置網站的符號名稱?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;最後, 延伸以上的多人網際程式架構, 是不是就可以開發一個網際協同產品開發網站?&lt;/p&gt;
-&lt;p&gt;在現今 AI 系統的輔助下, 上列程式開發有沒有變得比較簡單?&lt;/p&gt;</content><category term="wcm"></category><category term="w13"></category><category term="AI"></category><category term="Guessing"></category></entry><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-15T20:57:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
+&lt;p&gt;在現今 AI 系統的輔助下, 上列程式開發有沒有變得比較簡單?&lt;/p&gt;
+&lt;p&gt;後續猜數字遊戲的開發倉儲: &lt;a href="https://github.com/mdecycu/guess_game"&gt;https://github.com/mdecycu/guess_game&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得加入的功能:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;具有管理者模式, 可以重新啟動伺服器.&lt;/li&gt;
+&lt;li&gt;可讓參賽者經由 Github、Gmail 或其他支援 &lt;a href="https://developers.google.com/identity/protocols/oauth2"&gt;Oauth2&lt;/a&gt; 登入協定的帳號登入.&lt;/li&gt;
+&lt;li&gt;加入資料庫, 儲存參賽者的得分資料、歷史紀錄並提供排行榜等功能.&lt;/li&gt;
+&lt;li&gt;加入其他可多人線上參與競技或進行同步對話功能, 或納入其他專業相關的協同設計功能.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="wcm"></category><category term="w13"></category><category term="AI"></category><category term="Guessing"></category></entry><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-15T20:57:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 
 
