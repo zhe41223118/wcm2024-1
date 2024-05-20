@@ -46,3 +46,9 @@ https_proxy="http://your_proxy_server:port"
 2. 可讓參賽者經由 Github、Gmail 或其他支援 [Oauth2](https://developers.google.com/identity/protocols/oauth2) 登入協定的帳號登入.
 3. 加入資料庫, 儲存參賽者的得分資料、歷史紀錄並提供排行榜等功能.
 4. 加入其他可多人線上參與競技或進行同步對話功能, 或納入其他專業相關的協同設計功能.
+
+# w14 各組啟動並執行網際猜數字遊戲
+
+說明影片:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/nVAZJh5PzEM?si=tyhjvi1bqb4rT_dr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
