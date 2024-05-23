@@ -58,3 +58,7 @@ https_proxy="http://your_proxy_server:port"
 以下影片說明如何針對不同的 Python 版本修改啟動批次檔案, 並利用 AI 取得各指令的詳細說明:
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/83g9NFbtR_k?si=XhNGHvvilN3suuS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+以下影片說明如何在近端電腦執行猜數字遊戲伺服器程式:
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/fjheqtLYATg?si=NWsWxWPZHOQIUdpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
