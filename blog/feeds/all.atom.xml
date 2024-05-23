@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T02:56:34+08:00</updated><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-23T02:56:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T04:48:34+08:00</updated><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-23T04:48:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 
 
@@ -41,7 +41,88 @@ https_proxy="http://your_proxy_server:port"&lt;/p&gt;
 &lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/fjheqtLYATg?si=NWsWxWPZHOQIUdpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;以下影片說明如何配置一個 Flask + Socketio 建立一個非同步的網際內容管理程式:&lt;/p&gt;
-&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/bwcsnPzgLg8?si=-7_gDB_Y1mUyAK8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="wcm"></category><category term="w13"></category><category term="AI"></category><category term="Guessing"></category></entry><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-15T20:57:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/bwcsnPzgLg8?si=-7_gDB_Y1mUyAK8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;以下為 Python 參考程式:&lt;/p&gt;
+&lt;p&gt;將原先沒有 tab 符號介入兩行資料的原始檔案, 利用 Python 轉為 csv 檔案格式:&lt;/p&gt;
+&lt;p&gt;處理方式: 逐列透過空白分割, 若隨後沒有資料加入 tab 符號, 若有資料則將空白換為 tab 符號, 然後列印出 (也可以直接存檔)&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+import io
+
+def process_file(file_path):
+  """
+  讀取檔案，處理後回傳處理後的文字。
+
+  Args:
+    file_path: 檔案路徑。
+
+  Returns:
+    處理後的文字。
+  """
+
+  with open(file_path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+  processed_lines = [lines[0].strip()]  # 保留第一行標題
+
+  for line in lines[1:]:
+    parts = line.strip().split(" ", 1)  # 只分割一次，以保留後面的空白和中文字
+    if len(parts) == 1:
+      processed_lines.append(parts[0] + "\t")  # 若沒有後續資料，加tab
+    else:
+      processed_lines.append(parts[0] + "\t" + parts[1])  # 將空白換成tab
+
+  return "\n".join(processed_lines)
+
+# 測試
+file_path = '1a_w14.txt'  # 檔案路徑
+processed_text = process_file(file_path)
+print(processed_text)
+&lt;/pre&gt;
+
+&lt;p&gt;以下程式則可讀取 w14 點名 csv 檔案, 並從期中自評表 csv 檔案中剃除已經退選者的資料:&lt;/p&gt;
+&lt;p&gt;處理方式: 利用 csv 模組讀取各列資料, 以 w14 留下的學員學號為基準, 接著讀取期中期望資料時, 只能下仍在 w14 名單中的學員資料&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+import csv # 導入 csv 模組，用於處理 csv 檔案
+
+def filter_and_save_csv(rollcall_file, midterm_file, output_file):
+  """
+  讀取兩個 csv 檔案，篩選學號後儲存。
+
+  Args:
+    rollcall_file: 點名 csv 檔案路徑。
+    midterm_file: 期中成績 csv 檔案路徑。
+    output_file: 輸出 csv 檔案路徑。
+  """
+
+  # 讀取點名檔案中的學號
+  valid_student_ids = set() # 建立一個空的集合，用於儲存有效的學號
+  with open(rollcall_file, 'r', encoding='utf-8') as f: # 開啟點名 csv 檔案，使用 utf-8 編碼讀取
+    reader = csv.reader(f) # 建立 csv 讀取器
+    next(reader) # 跳過標題列
+    for row in reader: # 逐行讀取點名檔案
+      student_id = row[0].strip() # 取得學號，並去除前後空白
+      valid_student_ids.add(student_id) # 將學號加入到有效的學號集合中
+
+  # 讀取期中成績檔案，篩選學號並儲存
+  with open(midterm_file, 'r', encoding='utf-8') as f_in, open(output_file, 'w', encoding='utf-8', newline='') as f_out: 
+    # 同時開啟期中成績 csv 檔案（讀取模式）和輸出 csv 檔案（寫入模式），使用 utf-8 編碼，並設定 newline='' 以避免空行
+    reader = csv.reader(f_in) # 建立 csv 讀取器
+    writer = csv.writer(f_out) # 建立 csv 寫入器
+    writer.writerow(next(reader)) # 將期中成績 csv 檔案的第一行（標題列）寫入輸出檔案
+    for row in reader: # 逐行讀取期中成績檔案
+      student_id = row[0].strip() # 取得學號，並去除前後空白
+      if student_id in valid_student_ids: # 檢查學號是否存在於有效的學號集合中
+        writer.writerow(row) # 若存在，則將該學生的完整資料寫入輸出檔案
+
+# 設定檔案路徑
+rollcall_file = '1a_w14_rollcall.csv' # 點名 csv 檔案路徑
+midterm_file = '1a wcm2024 midterm - Sheet1.csv' # 期中成績 csv 檔案路徑
+output_file = '1a_wcm2024_midterm_wishful.csv' # 輸出 csv 檔案路徑
+
+# 執行篩選和儲存
+filter_and_save_csv(rollcall_file, midterm_file, output_file) # 呼叫函式，執行篩選和儲存操作
+&lt;/pre&gt;</content><category term="wcm"></category><category term="w13"></category><category term="AI"></category><category term="Guessing"></category></entry><entry><title>WCM 五專 w12 專案</title><link href="./wcm-w12-angry_bird.html" rel="alternate"></link><published>2024-05-06T11:00:00+08:00</published><updated>2024-05-15T20:57:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-06:./wcm-w12-angry_bird.html</id><summary type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;五專網際內容管理課程第十二週專案&lt;/p&gt;
 
 
