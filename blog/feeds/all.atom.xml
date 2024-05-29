@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T04:48:34+08:00</updated><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-23T04:48:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-29T22:06:00+08:00</updated><entry><title>WCM Markdown Generator</title><link href="./%E7%B6%B2%E8%AA%8C%E6%96%87%E7%AB%A0%E7%94%A2%E7%94%9F%E5%99%A8.html" rel="alternate"></link><published>2024-05-29T22:06:00+08:00</published><updated>2024-05-29T14:08:08+08:00</updated><author><name>KMOL</name></author><id>tag:None,2024-05-29:./網誌文章產生器.html</id><summary type="html">&lt;p&gt;利用 Python Flask 建立 web-based 網誌 .md 產生器&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;利用 Python Flask 建立 web-based 網誌 .md 產生器&lt;/p&gt;
+
+
+&lt;h1&gt;網誌文章產生器&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdecycu/pelican_md_generator"&gt;https://github.com/mdecycu/pelican_md_generator&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;將程式整合至 cmsimde&lt;/h1&gt;
+&lt;p&gt;可以直接填表後建立 markdown 目錄中的 .md 檔案&lt;/p&gt;</content><category term="WCM"></category><category term="Web-based"></category><category term="Programming"></category></entry><entry><title>WCM w13 內容</title><link href="./wcm-w13-ai-and-guessing-game.html" rel="alternate"></link><published>2024-05-16T11:00:00+08:00</published><updated>2024-05-23T04:48:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-16:./wcm-w13-ai-and-guessing-game.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 
 
