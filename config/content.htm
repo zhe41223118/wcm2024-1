@@ -33,7 +33,7 @@
 <p><a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"> 全頁檢視 </a></p>
 <p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p><h2>links</h2>
 <p><a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/d3826ae8126a0ca5cc897e15089c88b71e316253/5j_list_stud_site_and_repo.py">5j 學員課程網站與倉儲</a></p>
-<h2>cadlab</h2>
+<p><a href="https://mde.tw/wcm2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/d3826ae8126a0ca5cc897e15089c88b71e316253/1a_w11_step2.py">1a 學員課程網站與倉儲</a></p><h2>cadlab</h2>
 <p>網路設定</p>
 <p>移除 <a href="https://sun.aweray.com/tc/">https://sun.aweray.com/tc/</a> </p>
 <p>移除 AnyDesk: <a href="https://anydesk.com/en">https://anydesk.com/en</a> </p>
@@ -66,7 +66,8 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
 <p></p><h2>Teams</h2>
 <p>目前 2024.01 MS OneDrive 已終止給教育單位免費 5TB 的雲端空間, 目前每一個帳號只能存至多 100GB, 因此只能存之後的 Teams 影片與當學期課程相關檔案.</p>
 <p>而 scrum1 on GDrive 則擁有 30GB 儲存空間, 若希望針對下載設定擷取密碼, 可以參考<a href="https://www.multcloud.com/tutorials/google-drive-share-file-with-password.html">這裡</a>的說明. 基本原理是取得自由從 GDrive 下載檔案的連結後, 與 Google Form 的表單中提供需要密碼的檔案連結進行綁定即可.</p>
-<h1>Q&amp;A</h1>
+<h2>Leo Editor</h2>
+<p>啟動 leo 時必須在英文鍵盤輸入環境, 或者直接在 home 中新增 .leo 目錄, 新增一個名稱為 .leoID.txt 的檔案, 其中只要加入一個 leo 字串, Leo Editor 就可以開啟.</p><h1>Q&amp;A</h1>
 <p>各學員對於課程任何內容有問題者, 可以利用本頁面的 Disqus 留言系統發問及討論.</p>
 <p>假如使用 Firefox 瀏覽器, 必須在"瀏覽器隱私權" -"加強型追蹤保護", 透過自訂開啟內建為封鎖的"追蹤用內容"選項, 否則無法導入網頁的 Disqus 留言功能.</p>
 <div id="disqus_thread"></div>
@@ -87,8 +88,7 @@ taskkill /F /IM MDXMonitorService2023.exe</pre>
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<h1>Topics</h1>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><h1>Topics</h1>
 <p>課程目標:</p>
 <ol>
 <li>讓學員了解如何利用 <a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a> 建立網站.</li>
@@ -365,6 +365,12 @@ for i in py_list:
 <p>Python 的動態繪圖 (PyQt and Pysdl2):</p>
 <p style="padding-left: 30px;"><a href="https://pyslvs.github.io">https://pyslvs.github.io</a></p>
 <p style="padding-left: 30px;"><a href="https://github.com/py-sdl/py-sdl2">https://github.com/py-sdl/py-sdl2</a></p>
+<h2>Blog editor</h2>
+<p><a href="https://github.com/mdecycu/pelican_md_generator">https://github.com/mdecycu/pelican_md_generator</a> </p>
+<p>Pelican Markdown Generator 希望透過 web-based 編輯欄位的輸入, 能夠將所編輯的 .md 檔案進行存檔. 若能與 cmsimde 整合, 將可直接將 .md 檔案存入 markdown 目錄中.</p>
+<h2>Reveal generator</h2>
+<p><a href="https://github.com/mdecycu/reveal_generator">https://github.com/mdecycu/reveal_generator</a> </p>
+<p>Reveal.js 編輯器, 則希望透過 web-based 編輯器, 協助以 markdown 格式建立所需的線上簡報內容.</p>
 <h2>STL</h2>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">solid Cube
   facet normal 0 0 1
